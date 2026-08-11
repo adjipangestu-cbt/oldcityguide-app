@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -85,8 +86,8 @@ class _ConnectionIndicatorState extends State<ConnectionIndicator> {
         },
         padding: const EdgeInsets.all(8),
         child: Text(switch (_connectionStatus.first) {
-          ConnectivityResult.none => "Tidak ada koneksi internet!",
-          _ => "Anda kembali online!",
+          ConnectivityResult.none => 'connection_offline'.tr(),
+          _ => 'connection_online'.tr(),
         }),
       ),
     );

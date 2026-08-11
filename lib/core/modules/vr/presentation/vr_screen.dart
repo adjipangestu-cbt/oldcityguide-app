@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -38,7 +39,7 @@ class _VrScreenState extends State<VrScreen> {
         children: [
           // Title
           Text(
-            'Virtual Reality Tempat Bersejarah di Lasem',
+            'vr_title'.tr(),
             style: AppTypoghrapy.title,
             softWrap: true,
           ).pading(

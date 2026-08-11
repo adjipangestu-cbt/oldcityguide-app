@@ -1,0 +1,74 @@
+{
+  "app_title": "OldCityGuide App",
+  "welcome_greeting": "Siang, selamat\ndatang di aplikasi\n",
+  "welcome_app_name": "OldCityGuide ",
+  "welcome_app_suffix": "App",
+
+  "menu_digital_map": "Peta Digital",
+  "menu_geography": "Geografi",
+  "menu_destination": "Destinasi Wisata",
+  "menu_virtual_reality": "Virtual Reality",
+  "menu_cafe_culinary": "Kafe dan Kuliner",
+  "menu_history": "Sejarah",
+  "menu_video": "Video",
+  "menu_culture": "Silang Budaya",
+
+  "nav_home": "Beranda",
+  "nav_vacation": "Wisata",
+  "nav_vr": "VR",
+  "nav_video": "Video",
+  "nav_information": "Informasi",
+
+  "section_know_more": "Mengenal lebih lanjut kota bersejarah",
+  "card_history_title": "Sejarah",
+  "card_history_desc": "Pelajari sejarah dari kota-kota di sekitarmu",
+  "card_destination_title": "Destinasi Wisata",
+  "card_destination_desc": "Jelajahi macam-macam destinasi wisata",
+  "card_culinary_title": "Kuliner dan Kafe",
+  "card_culinary_desc": "Rehat sejenak dan nikmati saran tempat kuliner dan kafe",
+
+  "vr_immersive_title": "Immersive Experience",
+  "vr_immersive_desc": "Jelajahi tempat bersejarah dalam dunia virtual, untuk pengalaman tak terlupakan",
+  "vr_start_now": "Mulai sekarang",
+  "vr_title": "Virtual Reality Tempat Bersejarah di Lasem",
+
+  "geography_title": "Geografi",
+  "geography_appbar_title": "Geografi Lasem",
+  "geography_appbar_detail": "Geografi {}",
+
+  "language_toggle_tooltip": "Ganti Bahasa",
+
+  "about_us_title": "Tentang Kita",
+  "about_us_team": "Tim",
+
+  "culture_title": "Silang Budaya",
+  "culture_search_hint": "Cari budaya",
+  "culture_detail_default_title": "Title",
+
+  "digital_map_title": "Peta Digital",
+
+  "culinary_title": "Kuliner dan Kafe",
+  "culinary_search_hint": "Kuliner dan Kafe",
+  "culinary_image_failed": "Gambar gagal dimuat!",
+
+  "history_title": "Sejarah",
+  "history_search_hint": "Cari sejarah",
+  "history_detail_default_title": "Title",
+  "history_location_label": "Lokasi",
+
+  "vacation_search_hint": "Cari destinasi wisata",
+
+  "video_search_hint": "Cari video",
+
+  "info_menu_label": "Menu",
+  "info_about_us": "Tentang kita",
+
+  "destination_label": "Destinasi",
+
+  "no_data_message": "Tidak ada data yang ditemukan",
+
+  "error_retry": "Retry",
+
+  "connection_offline": "Tidak ada koneksi internet!",
+  "connection_online": "Anda kembali online!"
+}

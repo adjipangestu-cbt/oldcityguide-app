@@ -1,0 +1,74 @@
+{
+  "app_title": "OldCityGuide App",
+  "welcome_greeting": "Hello, welcome\nto the app\n",
+  "welcome_app_name": "OldCityGuide ",
+  "welcome_app_suffix": "App",
+
+  "menu_digital_map": "Digital Map",
+  "menu_geography": "Geography",
+  "menu_destination": "Tourist Destinations",
+  "menu_virtual_reality": "Virtual Reality",
+  "menu_cafe_culinary": "Cafe & Culinary",
+  "menu_history": "History",
+  "menu_video": "Video",
+  "menu_culture": "Cultural Exchange",
+
+  "nav_home": "Home",
+  "nav_vacation": "Vacation",
+  "nav_vr": "VR",
+  "nav_video": "Video",
+  "nav_information": "Information",
+
+  "section_know_more": "Discover more about this historic city",
+  "card_history_title": "History",
+  "card_history_desc": "Learn about the history of cities around you",
+  "card_destination_title": "Tourist Destinations",
+  "card_destination_desc": "Explore a variety of tourist destinations",
+  "card_culinary_title": "Culinary & Cafe",
+  "card_culinary_desc": "Take a break and enjoy culinary and cafe recommendations",
+
+  "vr_immersive_title": "Immersive Experience",
+  "vr_immersive_desc": "Explore historical places in the virtual world, for an unforgettable experience",
+  "vr_start_now": "Start now",
+  "vr_title": "Virtual Reality of Historical Places in Lasem",
+
+  "geography_title": "Geography",
+  "geography_appbar_title": "Lasem Geography",
+  "geography_appbar_detail": "Geography {}",
+
+  "language_toggle_tooltip": "Switch Language",
+
+  "about_us_title": "About Us",
+  "about_us_team": "Team",
+
+  "culture_title": "Cultural Exchange",
+  "culture_search_hint": "Search culture",
+  "culture_detail_default_title": "Title",
+
+  "digital_map_title": "Digital Map",
+
+  "culinary_title": "Culinary & Cafe",
+  "culinary_search_hint": "Culinary & Cafe",
+  "culinary_image_failed": "Image failed to load!",
+
+  "history_title": "History",
+  "history_search_hint": "Search history",
+  "history_detail_default_title": "Title",
+  "history_location_label": "Location",
+
+  "vacation_search_hint": "Search tourist destinations",
+
+  "video_search_hint": "Search video",
+
+  "info_menu_label": "Menu",
+  "info_about_us": "About us",
+
+  "destination_label": "Destination",
+
+  "no_data_message": "No data found",
+
+  "error_retry": "Retry",
+
+  "connection_offline": "No internet connection!",
+  "connection_online": "You are back online!"
+}

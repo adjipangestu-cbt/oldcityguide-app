@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/destination_dropdown.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/no_data.dart';
@@ -33,7 +34,7 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
     final state = context.watch<FoodCulinaryViewmodel>().state;
     final padding = const EdgeInsets.all(20);
     return TemplatePage(
-      title: "Kuliner dan Kafe",
+      title: 'culinary_title'.tr(),
       child: switch (state) {
         Loading<List<FoodCulinaryDto>>() => Center(
             child: CircularProgressIndicator(),
@@ -47,7 +48,7 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
                       onSearch: (keyword) {
                         viewModel.search(keyword);
                       },
-                      placeHolder: "Kuliner dan Kafe")
+                      placeHolder: 'culinary_search_hint'.tr())
                   .pading(
                 const EdgeInsets.symmetric(horizontal: 20),
               ),
@@ -86,7 +87,7 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
                                   color: Colors.grey),
                               child: Center(
                                 child: Text(
-                                  "Gambar gagal dimuat!",
+                                  'culinary_image_failed'.tr(),
                                   style: TextStyle(color: Colors.white),
                                 ),
                               ),

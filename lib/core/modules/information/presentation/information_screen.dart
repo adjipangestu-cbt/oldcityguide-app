@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -43,17 +44,11 @@ class _InformationScreenState extends State<InformationScreen> {
               spacing: 20,
               children: [
                 MenuInfoItem(
-                  label: "Menu",
-                  text: "Tentang kita",
+                  label: 'info_menu_label'.tr(),
+                  text: 'info_about_us'.tr(),
                   iconData: FaIcon(FontAwesomeIcons.circleInfo),
                   onTap: () => context.push('/about-us'),
                 ),
-                // MenuInfoItem(
-                //   label: "Preferensi",
-                //   text: "Bahasa",
-                //   iconData: FaIcon(FontAwesomeIcons.language),
-                //   onTap: () {},
-                // ),
               ],
             ),
           ],

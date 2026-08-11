@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/destination_dropdown.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/error_handler.dart';
@@ -46,7 +47,7 @@ class _VideoPageState extends State<VideoPage> {
               onSearch: (keyword) {
                 viewmodel.searchVideo(keyword);
               },
-              placeHolder: "Cari video",
+              placeHolder: 'video_search_hint'.tr(),
             ).pading(const EdgeInsets.symmetric(horizontal: 20)),
             SizedBox(height: 12),
             DestinationPicker(onSelect: (id) {

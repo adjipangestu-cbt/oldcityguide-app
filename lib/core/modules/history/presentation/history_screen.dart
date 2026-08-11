@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -33,7 +34,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
     final state = context.watch<HistoryViewmodel>().state;
     final padding = const EdgeInsets.symmetric(horizontal: 20);
     return TemplatePage(
-      title: "Sejarah",
+      title: 'history_title'.tr(),
       child: switch (state) {
         Loading<List<HistoryItemDto>>() =>
           Center(child: CircularProgressIndicator()),
@@ -49,7 +50,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                       onSearch: (keyword) {
                         viewModel.search(keyword);
                       },
-                      placeHolder: "Cari sejarah")
+                      placeHolder: 'history_search_hint'.tr())
                   .pading(padding),
               DestinationPicker(onSelect: (id) {
                 viewModel.filterByDestination(id);

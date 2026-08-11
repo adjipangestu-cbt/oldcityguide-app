@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:html/parser.dart';
@@ -37,13 +38,13 @@ class _HistoryDetailScreenState extends State<HistoryDetailScreen> {
     var document = parse(_item?.desc);
     final htmlData = document.outerHtml;
     return TemplatePage(
-        title: _item?.name ?? "Title",
+        title: _item?.name ?? 'history_detail_default_title'.tr(),
         child: SingleChildScrollView(
           child: Column(
             spacing: 12,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              if (_item?.location != null) Text("Lokasi").pading(padding),
+              if (_item?.location != null) Text('history_location_label'.tr()).pading(padding),
               if (_item?.location != null)
                 MapWidget(
                         latitude: _item!.location!.latitude,

@@ -1,7 +1,7 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:go_router/go_router.dart';
 import 'package:oldcityguideapp/core/common/domain/dto/destinations_dto.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/destination_viewmodel.dart';
 import 'package:oldcityguideapp/core/ui/button.dart';
@@ -38,7 +38,7 @@ class _DestinationPickerState extends State<DestinationPicker> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "Destinasi",
+          'destination_label'.tr(),
           style: TextStyle(color: AppColors.greyTerliary, fontSize: 12),
         ),
         ElevatedButton.icon(

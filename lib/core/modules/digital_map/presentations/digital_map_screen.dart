@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -34,7 +35,7 @@ class _DigitalMapScreenState extends State<DigitalMapScreen> {
     final state = context.watch<DigitalMapViewmodel>().allDigitalMapState;
     final padding = const EdgeInsets.symmetric(horizontal: 20);
     return TemplatePage(
-      title: "Peta Digital",
+      title: 'digital_map_title'.tr(),
       child: switch (state) {
         Loading<List<DigitalMapDto>>() =>
           Center(child: CircularProgressIndicator()),

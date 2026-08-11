@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -32,7 +33,7 @@ class _GeographyScreenState extends State<GeographyScreen> {
 
     return Scaffold(
       appBar:
-          AppBar(backgroundColor: Colors.white, title: Text("Geografi Lasem")),
+          AppBar(backgroundColor: Colors.white, title: Text('geography_appbar_title'.tr())),
       body: SafeArea(
         child: SingleChildScrollView(
             padding:

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/widgets.dart';
 import 'package:oldcityguideapp/core/ui/typoghrapy.dart';
 
@@ -12,7 +13,7 @@ class NoData extends StatelessWidget {
       children: [
         Image.asset('assets/images/no_data_image.png'),
         Text(
-          "Tidak ada data yang ditemukan",
+          'no_data_message'.tr(),
           style: AppTypoghrapy.subTitle,
         ),
       ],

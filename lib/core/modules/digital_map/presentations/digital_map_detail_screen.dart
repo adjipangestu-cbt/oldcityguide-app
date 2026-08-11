@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map_marker_popup/flutter_map_marker_popup.dart';
@@ -116,7 +117,7 @@ class _DigitalMapDetailScreenState extends State<DigitalMapDetailScreen> {
   Widget build(BuildContext context) {
     final state = context.watch<DigitalMapViewmodel>().detailPointsRouteState;
     return TemplatePage(
-      title: "Peta Digital",
+      title: 'digital_map_title'.tr(),
       child: switch (state) {
         Loading<DigitalMapRoutesDto>() =>
           const Center(child: CircularProgressIndicator()),

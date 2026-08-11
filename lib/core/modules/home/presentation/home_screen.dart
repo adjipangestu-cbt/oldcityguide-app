@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:oldcityguideapp/core/common/domain/dto/gegraphy_dto.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/error_handler.dart';
@@ -47,17 +48,17 @@ class _HomeScreenState extends State<HomeScreen> {
                   TextSpan(
                     children: [
                       TextSpan(
-                        text: 'Siang, selamat\ndatang di aplikasi\n',
+                        text: 'welcome_greeting'.tr(),
                       ),
                       TextSpan(
-                        text: 'OldCityGuide ',
+                        text: 'welcome_app_name'.tr(),
                         style: TextStyle(
                           color: AppColors.orangeAccentSecondary,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       TextSpan(
-                        text: 'App',
+                        text: 'welcome_app_suffix'.tr(),
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],
@@ -70,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 VrBanner(),
                 SizedBox(height: 60),
                 Text(
-                  "Geografi",
+                  'geography_title'.tr(),
                   style: AppTypoghrapy.title.copyWith(color: Colors.grey),
                 ).pading(padding),
                 SizedBox(height: 12),

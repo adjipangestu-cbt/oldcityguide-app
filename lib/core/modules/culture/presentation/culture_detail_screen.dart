@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/image_slider.dart';
@@ -33,7 +34,7 @@ class _CultureDetailScreenState extends State<CultureDetailScreen> {
   Widget build(BuildContext context) {
     final padding = const EdgeInsets.symmetric(horizontal: 20);
     return TemplatePage(
-      title: _item?.name ?? "Title",
+      title: _item?.name ?? 'culture_detail_default_title'.tr(),
       child: SingleChildScrollView(
         child: Column(
           spacing: 12,

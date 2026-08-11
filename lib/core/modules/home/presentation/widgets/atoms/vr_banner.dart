@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/bottom_navigation_viewmodel.dart';
@@ -33,12 +34,12 @@ class VrBanner extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
-                "Immersive Experience",
+                'vr_immersive_title'.tr(),
                 textAlign: TextAlign.center,
                 style: AppTypoghrapy.title.copyWith(color: Colors.white),
               ),
               Text(
-                "Jelajahi tempat bersejarah dalam dunia virtual, untuk pengalaman tak terlupakan",
+                'vr_immersive_desc'.tr(),
                 textAlign: TextAlign.center,
                 style: TextStyle(color: Colors.white),
               ),
@@ -50,7 +51,7 @@ class VrBanner extends StatelessWidget {
                   spacing: 8,
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text("Mulai sekarang"),
+                    Text('vr_start_now'.tr()),
                     FaIcon(
                       FontAwesomeIcons.vrCardboard,
                       color: Colors.white,

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/bottom_navigation_viewmodel.dart';
@@ -25,6 +26,16 @@ class _DashboardPageState extends State<DashboardPage> {
     VideoPage(),
     InformationScreen(),
   ];
+
+  void _toggleLanguage(BuildContext context) {
+    final currentLocale = context.locale;
+    if (currentLocale.languageCode == 'id') {
+      context.setLocale(const Locale('en'));
+    } else {
+      context.setLocale(const Locale('id'));
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final BottomNavigationViewmodel bottomNavigationViewmodel =
@@ -33,32 +44,58 @@ class _DashboardPageState extends State<DashboardPage> {
       context,
     ).selectedIndex;
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        actions: [
+          IconButton(
+            icon: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(Icons.language, color: AppColors.bluePrimary),
+                const SizedBox(width: 4),
+                Text(
+                  context.locale.languageCode.toUpperCase(),
+                  style: TextStyle(
+                    color: AppColors.bluePrimary,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 14,
+                  ),
+                ),
+              ],
+            ),
+            tooltip: 'language_toggle_tooltip'.tr(),
+            onPressed: () => _toggleLanguage(context),
+          ),
+        ],
+      ),
+      extendBodyBehindAppBar: true,
       body: _widgetOptions.elementAt(navigationState),
       bottomNavigationBar: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           ConnectionIndicator(),
           BottomNavigationBar(
-            items: const <BottomNavigationBarItem>[
+            items: <BottomNavigationBarItem>[
               BottomNavigationBarItem(
                 icon: FaIcon(FontAwesomeIcons.house),
-                label: 'Beranda',
+                label: 'nav_home'.tr(),
               ),
               BottomNavigationBarItem(
                 icon: FaIcon(FontAwesomeIcons.umbrellaBeach),
-                label: 'Wisata',
+                label: 'nav_vacation'.tr(),
               ),
               BottomNavigationBarItem(
                 icon: FaIcon(FontAwesomeIcons.vrCardboard),
-                label: 'VR',
+                label: 'nav_vr'.tr(),
               ),
               BottomNavigationBarItem(
                 icon: FaIcon(FontAwesomeIcons.photoFilm),
-                label: 'Video',
+                label: 'nav_video'.tr(),
               ),
               BottomNavigationBarItem(
                 icon: FaIcon(FontAwesomeIcons.circleInfo),
-                label: 'Informasi',
+                label: 'nav_information'.tr(),
               ),
             ],
             currentIndex: navigationState,

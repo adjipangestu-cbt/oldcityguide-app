@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/template_page.dart';
@@ -28,7 +29,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
     final state = context.watch<AboutUsViewmodel>().users;
 
     return TemplatePage(
-      title: "Tentang Kita",
+      title: 'about_us_title'.tr(),
       child: switch (state) {
         Loading<List<UserProfileDto>>() => CircularProgressIndicator(),
         Error<List<UserProfileDto>>(message: final error) => Text(error).pading(
@@ -41,7 +42,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                   ? Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Tim",
+                        Text('about_us_team'.tr(),
                                 style: TextStyle(fontWeight: FontWeight.bold))
                             .pading(const EdgeInsets.only(left: 20)),
                         SizedBox(

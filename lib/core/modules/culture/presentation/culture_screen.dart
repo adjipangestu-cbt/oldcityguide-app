@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -34,7 +35,7 @@ class _CultureScreenState extends State<CultureScreen> {
     final state = context.watch<CultureViewmodel>().state;
     final padding = const EdgeInsets.symmetric(horizontal: 20);
     return TemplatePage(
-        title: "Silang Budaya",
+        title: 'culture_title'.tr(),
         child: switch (state) {
           Loading<List<CultureItemDto>>() =>
             Center(child: CircularProgressIndicator()),
@@ -51,7 +52,7 @@ class _CultureScreenState extends State<CultureScreen> {
                         onSearch: (keyword) {
                           viewModel.search(keyword);
                         },
-                        placeHolder: "Cari budaya")
+                        placeHolder: 'culture_search_hint'.tr())
                     .pading(
                   padding.copyWith(top: 24),
                 ),
@@ -145,7 +146,7 @@ class _PersonItemState extends State<PersonItem> {
             child: Text(
               style: TextStyle(color: Colors.grey),
               softWrap: true,
-              "Staf Pengajar di Departemen Sejarah Fakultas Ilmu Sosial Universitas Negeri Malang (2014 - Sekarang). Dia mendapatkan gelar Sarjana Pendidikan Sejarah dari Universitas Negeri Malang pada 2011, Sarjana Sastra Inggris dari Universitas Brawijaya pada 2016, Magister Ilmu Sejarah (Master of Arts in History) dari The University of Sunderland, United Kingdom pada 2013; dan Doktor Ilmu Sejarah (Doutor em Historia) di Universidade do Porto, Portugal pada 2022. Selain menjabat sebagai Kepala Pusat Ekonomi, Humaniora, dan Pariwisata (PEHP) Lembaga Penelitian dan Pengabdian Kepada Masyarakat (LPPM) Universitas Negeri Malang (2024-Sekarang), juga aktif melakukan penelitian dalam bidang sejarah kolonial khususnya Ekspansi Portugis ke Nusantara. Menjadi peneliti tamu di Southeast Asian Research Center and Hub (SEARCH), De La Salle University, Manila.  Selain itu, beliau juga aktif dalam berbagai organisasi profesi seperti Ikatan Alumni Perhimpunan Pelajar Indonesia (IA-PPI), Perkumpulan Ahli Epigrafi Indonesia (PAEI), Masyarakat Sejarawan Indonesia (MSI), Perkumpulan Prodi Pendidikan Sejarah Se-Indonesia (P3SI), Perkumpulan Prodi Ilmu Sejarah Se-Indonesia (PPSI), Perkumpulan Periset Karavan Cendekia, dan Pakasa Pangeran Timur Madiun. Selain menulis berbagai historiografi, kini beliau aktif untuk mempopulerkan sejarah melalui film dokumenter, seperti: Sylvia Saartje: Lady Rocker Indonesia (2021-nomine film dokumenter terbaik pada FFI 2022), Soedjatmoko: Jejak Kultural Budaya (2021), Hula Keta: Bukan Maluku Tanpa Sagu (2023), Ran: Panglima Rasa Pesta Begawe (2023), Sendang Malang di Cekung Gunung (2023), Genti Malai: Kampung Melayu Portugis (2023). ",
+              "Staf Pengajar di Departemen Sejarah Fakultas Ilmu Sosial Universitas Negeri Malang (2014 - Sekarang). Dia mendapatkan gelar Sarjana Pendidikan Sejarah dari Universitas Negeri Malang pada 2011, Sarjana Sastra Inggris dari Universitas Brawijaya pada 2016, Magister Ilmu Sejarah (Master of Arts in History) dari The University of Sunderland, United Kingdom pada 2013; dan Doktor Ilmu Sejarah (Doutor em Historia) di Universidade do Porto, Portugal pada 2022. Selain menjabat sebagai Kepala Pusat Ekonomi, Humaniora, dan Pariwisata (PEHP) Lembaga Penelitian dan Pengabdian Kepada Masyarakat (LPPM) Universitas Negeri Malang (2024-Sekarang), juga aktif melakukan penelitian dalam bidang sejarah kolonial khususnya Ekspansi Portugis ke Nusantara. Menjadi peneliti tamu di Southeast Asian Research Center and Hub (SEARCH), De La Salle University, Manila.  Selain itu, beliau juga aktif dalam berbagai organisasi profesi seperti Ikatan Alumni Perhimpunan Pelajar Indonesia (IA-PPI), Perkumpulan Ahli Epigrafi Indonesia (PAEI), Masyarakat Sejarawan Indonesia (MSI), Perkumpulan Prodi Pendidikan Sejarah Se-Indonesia (P3SI), Perkumpulan Prodi Ilmu Sejarah Se-Indonesia (PPSI), Perkumpulan Periset Karavan Cendekia, dan Pakasa Pangeran Timur Madiun. Selain menulis berbagai historiografi, kini beliau aktif untuk mempopulerkan sejarah melalui film dokumenter, seperti: Sylvia Saartje: Lady Rocker Indonesia (2021-nomine film dokumenter terbaik pada FFI 2022), Soedjatmoko: Jejak Kultural Budaya (2021), Hula Keta: Bukan Maluku Tanpa Sagu (2023), Ran: Panglima Rasa Pesta Begawe (2023), Sendang Malang di Cekung Gunung (2023), Genti Malai: Kampung Melayu Portugis (2023). ",
             ).pading(const EdgeInsets.all(8)),
           ),
         ],

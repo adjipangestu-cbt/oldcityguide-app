@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/bottom_navigation_viewmodel.dart';
@@ -18,7 +19,7 @@ class LasemHistory extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "Mengenal lebih lanjut kota bersejarah",
+          'section_know_more'.tr(),
           style: TextStyle(
               fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey),
         ).pading(padding),
@@ -32,21 +33,20 @@ class LasemHistory extends StatelessWidget {
                   SizedBox(),
                   ItemCard(
                     imageUrl: 'assets/images/image.png',
-                    title: "Sejarah",
-                    desc: "Pelajari sejarah dari kota-kota di sekitarmu",
+                    title: 'card_history_title'.tr(),
+                    desc: 'card_history_desc'.tr(),
                     onTap: () => context.push('/history'),
                   ),
                   ItemCard(
                       imageUrl: 'assets/images/wisata.jpg',
-                      title: "Destinasi Wisata",
-                      desc: "Jelajahi macam-macam destinasi wisata",
+                      title: 'card_destination_title'.tr(),
+                      desc: 'card_destination_desc'.tr(),
                       onTap: () =>
                           bottomNavigationViewmodel.updateNavigationIndex(1)),
                   ItemCard(
                     imageUrl: 'assets/images/kuliner.jpg',
-                    title: "Kuliner dan Kafe",
-                    desc:
-                        "Rehat sejenak dan nikmati saran tempat kuliner dan kafe",
+                    title: 'card_culinary_title'.tr(),
+                    desc: 'card_culinary_desc'.tr(),
                     onTap: () => context.push('/culinary'),
                   ),
                 ],

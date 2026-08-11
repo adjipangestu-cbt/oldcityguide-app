@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/destination_dropdown.dart';
@@ -48,7 +49,7 @@ class _VacationScreenState extends State<VacationScreen> {
                       onSearch: (keyword) {
                         vacationViewmodel.search(keyword);
                       },
-                      placeHolder: "Cari destinasi wisata")
+                      placeHolder: 'vacation_search_hint'.tr())
                   .pading(const EdgeInsets.only(top: 24)),
               DestinationPicker(onSelect: (value) {
                 vacationViewmodel.filterByDestination(value);

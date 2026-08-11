@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:oldcityguideapp/core/common/data/destination_repository_impl.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/bottom_navigation_viewmodel.dart';
@@ -15,8 +16,18 @@ import 'package:oldcityguideapp/core/modules/vr/presentation/viewmodels/vr_videm
 import 'package:oldcityguideapp/core/router.dart';
 import 'package:provider/provider.dart';
 
-void main() {
-  runApp(const App());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await EasyLocalization.ensureInitialized();
+
+  runApp(
+    EasyLocalization(
+      supportedLocales: const [Locale('id'), Locale('en')],
+      path: 'assets/translations',
+      fallbackLocale: const Locale('id'),
+      child: const App(),
+    ),
+  );
 }
 
 class App extends StatelessWidget {
@@ -48,6 +59,9 @@ class App extends StatelessWidget {
       child: MaterialApp.router(
         routerConfig: router,
         debugShowCheckedModeBanner: false,
+        localizationsDelegates: context.localizationDelegates,
+        supportedLocales: context.supportedLocales,
+        locale: context.locale,
       ),
     );
   }

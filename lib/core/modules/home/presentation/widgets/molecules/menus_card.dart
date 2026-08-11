@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/bottom_navigation_viewmodel.dart';
@@ -18,49 +19,49 @@ class MenusCard extends StatelessWidget {
       MenuItem(
         backgroundColor: Color(0xFF85bbd7),
         icon: Icons.map, 
-        text: 'Peta Digital',
+        text: 'menu_digital_map'.tr(),
         onTap: () => context.pushNamed('/digital-map'),
       ),
       MenuItem(
         backgroundColor: Color(0xFF8e86d9),
         icon: Icons.pin_drop, 
-        text: 'Geografi',
+        text: 'menu_geography'.tr(),
         onTap: () => context.push('/geography'),
       ),
       MenuItem(
         backgroundColor: Color(0xFFd88786),
         icon: Icons.beach_access, 
-        text: 'Destinasi Wisata',
+        text: 'menu_destination'.tr(),
         onTap: () => bottomNavigationViewmodel.updateNavigationIndex(1),
       ),
       MenuItem(
         backgroundColor: Color(0xFF40a99b),
         icon: Icons.view_in_ar, 
-        text: 'Virtual Reality',
+        text: 'menu_virtual_reality'.tr(),
         onTap: () => bottomNavigationViewmodel.updateNavigationIndex(2),
       ),
       MenuItem(
         backgroundColor: Color(0xFFf2641a),
         icon: Icons.restaurant, 
-        text: 'Kafe dan Kuliner',
+        text: 'menu_cafe_culinary'.tr(),
         onTap: () => context.push('/culinary'),
       ),
       MenuItem(
         backgroundColor: Color(0xFFf4b028),
         icon: Icons.menu_book, 
-        text: 'Sejarah',
+        text: 'menu_history'.tr(),
         onTap: () => context.push('/history'),
       ),
       MenuItem(
         backgroundColor: Color(0xFF2f4758),
         icon: Icons.movie, 
-        text: 'Video',
+        text: 'menu_video'.tr(),
         onTap: () => bottomNavigationViewmodel.updateNavigationIndex(3),
       ),
       MenuItem(
         backgroundColor: Color(0xFFf4b028),
         icon: Icons.menu_book, 
-        text: 'Silang Budaya',
+        text: 'menu_culture'.tr(),
         onTap: () => context.push('/culture'),
       ),
     ];
