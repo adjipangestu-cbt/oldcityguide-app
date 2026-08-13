@@ -1,0 +1,76 @@
+{
+  "@@locale": "id",
+
+  "appTitle": "OldCityGuide App",
+  "welcomeGreeting": "Siang, selamat\ndatang di aplikasi\n",
+  "welcomeAppName": "OldCityGuide ",
+  "welcomeAppSuffix": "App",
+
+  "menuDigitalMap": "Peta Digital",
+  "menuGeography": "Geografi",
+  "menuDestination": "Destinasi Wisata",
+  "menuVirtualReality": "Virtual Reality",
+  "menuCafeCulinary": "Kafe dan Kuliner",
+  "menuHistory": "Sejarah",
+  "menuVideo": "Video",
+  "menuCulture": "Silang Budaya",
+
+  "navHome": "Beranda",
+  "navVacation": "Wisata",
+  "navVr": "VR",
+  "navVideo": "Video",
+  "navInformation": "Informasi",
+
+  "sectionKnowMore": "Mengenal lebih lanjut kota bersejarah",
+  "cardHistoryTitle": "Sejarah",
+  "cardHistoryDesc": "Pelajari sejarah dari kota-kota di sekitarmu",
+  "cardDestinationTitle": "Destinasi Wisata",
+  "cardDestinationDesc": "Jelajahi macam-macam destinasi wisata",
+  "cardCulinaryTitle": "Kuliner dan Kafe",
+  "cardCulinaryDesc": "Rehat sejenak dan nikmati saran tempat kuliner dan kafe",
+
+  "vrImmersiveTitle": "Immersive Experience",
+  "vrImmersiveDesc": "Jelajahi tempat bersejarah dalam dunia virtual, untuk pengalaman tak terlupakan",
+  "vrStartNow": "Mulai sekarang",
+  "vrTitle": "Virtual Reality Tempat Bersejarah di Lasem",
+
+  "geographyTitle": "Geografi",
+  "geographyAppbarTitle": "Geografi Lasem",
+  "geographyAppbarDetail": "Geografi {title}",
+
+  "languageToggleTooltip": "Ganti Bahasa",
+
+  "aboutUsTitle": "Tentang Kita",
+  "aboutUsTeam": "Tim",
+
+  "cultureTitle": "Silang Budaya",
+  "cultureSearchHint": "Cari budaya",
+  "cultureDetailDefaultTitle": "Judul",
+
+  "digitalMapTitle": "Peta Digital",
+
+  "culinaryTitle": "Kuliner dan Kafe",
+  "culinarySearchHint": "Kuliner dan Kafe",
+  "culinaryImageFailed": "Gambar gagal dimuat!",
+
+  "historyTitle": "Sejarah",
+  "historySearchHint": "Cari sejarah",
+  "historyDetailDefaultTitle": "Judul",
+  "historyLocationLabel": "Lokasi",
+
+  "vacationSearchHint": "Cari destinasi wisata",
+
+  "videoSearchHint": "Cari video",
+
+  "infoMenuLabel": "Menu",
+  "infoAboutUs": "Tentang kita",
+
+  "destinationLabel": "Destinasi",
+
+  "noDataMessage": "Tidak ada data yang ditemukan",
+
+  "errorRetry": "Coba Lagi",
+
+  "connectionOffline": "Tidak ada koneksi internet!",
+  "connectionOnline": "Anda kembali online!"
+}

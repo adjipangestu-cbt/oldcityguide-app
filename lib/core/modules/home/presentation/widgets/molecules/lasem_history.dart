@@ -1,5 +1,5 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:go_router/go_router.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/bottom_navigation_viewmodel.dart';
 import 'package:oldcityguideapp/core/extension/widget.dart';
@@ -13,13 +13,14 @@ class LasemHistory extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final BottomNavigationViewmodel bottomNavigationViewmodel =
         Provider.of<BottomNavigationViewmodel>(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'section_know_more'.tr(),
+          l10n.sectionKnowMore,
           style: TextStyle(
               fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey),
         ).pading(padding),
@@ -33,20 +34,20 @@ class LasemHistory extends StatelessWidget {
                   SizedBox(),
                   ItemCard(
                     imageUrl: 'assets/images/image.png',
-                    title: 'card_history_title'.tr(),
-                    desc: 'card_history_desc'.tr(),
+                    title: l10n.cardHistoryTitle,
+                    desc: l10n.cardHistoryDesc,
                     onTap: () => context.push('/history'),
                   ),
                   ItemCard(
                       imageUrl: 'assets/images/wisata.jpg',
-                      title: 'card_destination_title'.tr(),
-                      desc: 'card_destination_desc'.tr(),
+                      title: l10n.cardDestinationTitle,
+                      desc: l10n.cardDestinationDesc,
                       onTap: () =>
                           bottomNavigationViewmodel.updateNavigationIndex(1)),
                   ItemCard(
                     imageUrl: 'assets/images/kuliner.jpg',
-                    title: 'card_culinary_title'.tr(),
-                    desc: 'card_culinary_desc'.tr(),
+                    title: l10n.cardCulinaryTitle,
+                    desc: l10n.cardCulinaryDesc,
                     onTap: () => context.push('/culinary'),
                   ),
                 ],

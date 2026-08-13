@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -9,6 +9,7 @@ class ErrorHandler extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
@@ -20,7 +21,7 @@ class ErrorHandler extends StatelessWidget {
             onRetry();
           },
           icon: FaIcon(FontAwesomeIcons.arrowRotateRight),
-          label: Text('error_retry'.tr()),
+          label: Text(AppLocalizations.of(context)!.errorRetry),
         )
       ],
     );

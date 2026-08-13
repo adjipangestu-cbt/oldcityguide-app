@@ -15,11 +15,13 @@ class CultureViewmodel extends ChangeNotifier {
   int _currentDestinationId = 0;
   String _currentKeyword = "";
 
-  Future<void> fetchData() async {
+  // 1. Tambahkan parameter languageCode dengan bawaan 'id'
+  Future<void> fetchData({String languageCode = 'id'}) async {
     _state = Loading();
     notifyListeners();
     try {
-      final result = await _repository.getData();
+      // 2. Teruskan languageCode ke repository
+      final result = await _repository.getData(languageCode: languageCode);
       _data = result;
       _applyFilters();
     } catch (e) {

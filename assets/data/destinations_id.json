@@ -1,0 +1,1130 @@
+[
+    {
+        "id": 1,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Kelenteng Gie Yong Bio",
+        "description": "Kelenteng Gie Yong Bio merupakan Klenteng yang dibangun pada abad 18 oleh masyarakat Lasem. Dalam klenteng ini juga dibangun monumen patung kecil menggambarkan pribumi yang menjadi salah satu dari 3 pemimpin Perang Kuning Lasem. Bangunan ini menjadi bukti bahwa Perang Kuning di Lasem menjadi salah satu faktor pembentuk keserasian antara etnis jawa san tionghoa.",
+        "location": "Kelenteng Gie Yong Bio, Jalan Raya Rembang - Lasem, Babagan, Rembang, Central Java, Java, 59271, Indonesia",
+        "latitude": "-6.6957124",
+        "longitude": "111.4403781",
+        "created_at": "2025-07-06T17:53:23.000000Z",
+        "updated_at": "2025-08-05T06:55:26.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 6,
+                "tourist_destination_id": "1",
+                "image_url": "storage/tourist_destinations/62eb3733-adf8-4956-9cad-401f85283655.jpg",
+                "created_at": "2025-08-01T02:36:52.000000Z",
+                "updated_at": "2025-08-01T02:36:52.000000Z"
+            },
+            {
+                "id": 7,
+                "tourist_destination_id": "1",
+                "image_url": "storage/tourist_destinations/718df856-97a1-420d-97d8-75d7bd9e73d5.jpg",
+                "created_at": "2025-08-01T02:36:52.000000Z",
+                "updated_at": "2025-08-01T02:36:52.000000Z"
+            },
+            {
+                "id": 8,
+                "tourist_destination_id": "1",
+                "image_url": "storage/tourist_destinations/7f8c6f7e-d5e8-41db-ab41-a1fa3b6cfc44.jpg",
+                "created_at": "2025-08-01T02:36:52.000000Z",
+                "updated_at": "2025-08-01T02:36:52.000000Z"
+            },
+            {
+                "id": 9,
+                "tourist_destination_id": "1",
+                "image_url": "storage/tourist_destinations/bda91486-1d27-4f2b-bc2e-c1c34113171d.jpg",
+                "created_at": "2025-08-01T02:36:52.000000Z",
+                "updated_at": "2025-08-01T02:36:52.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Patung Panji Margono di Klenteng Gie Yong Bio",
+        "description": "Patung Raden Mas Panji Margono yang dibangun di dalam bangunan Klenteng Gie yong Bio dan disejajarkan dengan patung dewa menjadi bukti peran penting etnis jawa dalam Perang Kuning di Lasem dan bukti bahwa masyarakat Tionghoa di Lasem sangat menjunjung tinggi hubungan antara etnis Jawa dan Tionghoa di Lasem.",
+        "location": "Jl. Babagan No.7, Tawangsari, Babagan, Kec. Lasem, Kabupaten Rembang, Jawa Tengah 59271",
+        "latitude": "-6.6968066",
+        "longitude": "111.4411872",
+        "created_at": "2025-07-06T17:53:23.000000Z",
+        "updated_at": "2025-08-01T02:50:07.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 10,
+                "tourist_destination_id": "2",
+                "image_url": "storage/tourist_destinations/2890c7e1-ee1e-410f-93ee-47dc13601bf7.jpg",
+                "created_at": "2025-08-01T02:50:07.000000Z",
+                "updated_at": "2025-08-01T02:50:07.000000Z"
+            },
+            {
+                "id": 11,
+                "tourist_destination_id": "2",
+                "image_url": "storage/tourist_destinations/5329daff-b4fd-4347-8cbc-5e67e2232c97.jpg",
+                "created_at": "2025-08-01T02:50:07.000000Z",
+                "updated_at": "2025-08-01T02:50:07.000000Z"
+            },
+            {
+                "id": 12,
+                "tourist_destination_id": "2",
+                "image_url": "storage/tourist_destinations/5130997b-2efc-478f-b267-c4a196bf767c.jpg",
+                "created_at": "2025-08-01T02:50:07.000000Z",
+                "updated_at": "2025-08-01T02:50:07.000000Z"
+            },
+            {
+                "id": 13,
+                "tourist_destination_id": "2",
+                "image_url": "storage/tourist_destinations/c5a8d582-6de2-4c60-a52c-814ddc080a4a.jpg",
+                "created_at": "2025-08-01T02:50:07.000000Z",
+                "updated_at": "2025-08-01T02:50:07.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Rumah Han",
+        "description": "Keluarga Han memiliki peran penting dalam sejarah Indonesia terkhusus pada masa Kolonialisme Belanda di Lasem. Tinggalan bangunan Keluarga Han di Lasem adalah Rumah hunian yang hingga saat ini masih dapat dilihat. Hal ini menjadi bukti bahwa Lasem menjadi wilayah yang aman untuk dihuni oleh Etnis Tionghoa.",
+        "location": "Dusun Lasem, Lasem, Rembang Regency, Central Java, Indonesia.",
+        "latitude": null,
+        "longitude": null,
+        "created_at": "2025-07-07T07:58:42.000000Z",
+        "updated_at": "2025-08-01T03:00:41.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 14,
+                "tourist_destination_id": "3",
+                "image_url": "storage/tourist_destinations/30c5cae6-fe77-4717-9f29-20c57ba7f9b0.jpg",
+                "created_at": "2025-08-01T03:00:41.000000Z",
+                "updated_at": "2025-08-01T03:00:41.000000Z"
+            },
+            {
+                "id": 15,
+                "tourist_destination_id": "3",
+                "image_url": "storage/tourist_destinations/78851c6b-8fd2-4859-a7ae-341c1c78e421.jpg",
+                "created_at": "2025-08-01T03:00:41.000000Z",
+                "updated_at": "2025-08-01T03:00:41.000000Z"
+            },
+            {
+                "id": 16,
+                "tourist_destination_id": "3",
+                "image_url": "storage/tourist_destinations/2a57e7f7-db62-4442-a7c6-dece6aab3866.jpg",
+                "created_at": "2025-08-01T03:00:41.000000Z",
+                "updated_at": "2025-08-01T03:00:41.000000Z"
+            },
+            {
+                "id": 17,
+                "tourist_destination_id": "3",
+                "image_url": "storage/tourist_destinations/c1568251-96c8-4b2a-8fcb-c28d2c3ca3e5.jpg",
+                "created_at": "2025-08-01T03:00:41.000000Z",
+                "updated_at": "2025-08-01T03:00:41.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "destination_id": "1",
+        "category_id": "3",
+        "name": "Pabrik Tegel Lie Thiam Kwie",
+        "description": "Pabrik Tegel Lie Thiam Kwie merupakan pabrik tegel tertua yang ada di Lasem. Meskipun pabrik ini didirikan pada awal abad 20, bangunan ini menjadi bukti bahwa kebudayaan tionghoad di Lasem berkembang pesat pasca terjadinya Perang Kuning di Lasem.",
+        "location": "Jl. Untung Suropati No.84, Mahbong, Karangturi, Kec. Lasem, Kabupaten Rembang, Jawa Tengah 59271",
+        "latitude": "-6.6975708",
+        "longitude": "111.4459529",
+        "created_at": "2025-07-07T07:58:42.000000Z",
+        "updated_at": "2025-08-01T03:10:18.000000Z",
+        "category": {
+            "id": 3,
+            "name": "Taman",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-07-06T17:53:23.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 18,
+                "tourist_destination_id": "4",
+                "image_url": "storage/tourist_destinations/969d1dd1-b307-4a3d-bc31-7233d171aa74.jpg",
+                "created_at": "2025-08-01T03:10:18.000000Z",
+                "updated_at": "2025-08-01T03:10:18.000000Z"
+            },
+            {
+                "id": 19,
+                "tourist_destination_id": "4",
+                "image_url": "storage/tourist_destinations/f6c2e367-31b0-4f09-8023-5fd0a6098865.jpg",
+                "created_at": "2025-08-01T03:10:18.000000Z",
+                "updated_at": "2025-08-01T03:10:18.000000Z"
+            },
+            {
+                "id": 20,
+                "tourist_destination_id": "4",
+                "image_url": "storage/tourist_destinations/37f0c2f2-91d9-423e-a00c-4d452c13e2b3.jpg",
+                "created_at": "2025-08-01T03:10:18.000000Z",
+                "updated_at": "2025-08-01T03:10:18.000000Z"
+            },
+            {
+                "id": 21,
+                "tourist_destination_id": "4",
+                "image_url": "storage/tourist_destinations/2ce68aee-f80c-4350-8868-b769d68dc9ab.jpg",
+                "created_at": "2025-08-01T03:10:18.000000Z",
+                "updated_at": "2025-08-01T03:10:18.000000Z"
+            },
+            {
+                "id": 22,
+                "tourist_destination_id": "4",
+                "image_url": "storage/tourist_destinations/972a19d0-2b36-437e-a44c-9ee1d36ee49e.jpg",
+                "created_at": "2025-08-01T03:10:18.000000Z",
+                "updated_at": "2025-08-01T03:10:18.000000Z"
+            },
+            {
+                "id": 23,
+                "tourist_destination_id": "4",
+                "image_url": "storage/tourist_destinations/b5ee8561-0dbd-4710-bb1e-722a0332b4e8.jpg",
+                "created_at": "2025-08-01T03:10:18.000000Z",
+                "updated_at": "2025-08-01T03:10:18.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Jembatan Babagan",
+        "description": "Dilihat dari letaknya, Sungai Babagan terletak di sebelah barat pinggiran Lasem. Secara historis, fungsi sungai adalah sebagai benteng alam dari suatu wilayah. Sehingga, Jembatan dan Sungai Bagan ini digunakan oleh masyarakat tionghoa dan jawa sebagai benteng untuk menghadang pasukan Belanda dari arah Batavia pada masa Perang Kuning di Lasem.",
+        "location": "8C3V+664, Jl. Nasional 1, Tawangsari, Babagan, Kec. Lasem, Kabupaten Rembang, Jawa Tengah 59271",
+        "latitude": "-6.6969810",
+        "longitude": "111.4430902",
+        "created_at": "2025-07-07T07:58:42.000000Z",
+        "updated_at": "2025-08-01T03:12:49.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": []
+    },
+    {
+        "id": 6,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Kompleks Makam KH. Badlowi di Kompleks Masjid Jami' Lasem",
+        "description": "Letak Masjid Jami’ Lasem yang berada di sekitar pemukiman pecinan menjadi bukti bahwa masyarakat tionghoa dan jawa di Lasem menjalin keharmonisan dalam kebudayaan dan kehidupan sehari-hari. \r\n\r\nSelain buaya cina, kebudayaan islam di Lasem juga mengalami kemajuan. Hal ini dibuktikan dengan banyaknya sebaran makam-makam ulama Islam di Lasem salah satunya adalah Kompleks Makam K H Badlowi di Kompleks Masjid Jami’ Lasem.",
+        "location": "8C2W+PXG, Jalan Provinsi Lasem - Sale, Kauman, Mahbong, Karangturi, Kec. Lasem, Kabupaten Rembang, Jawa Tengah 59271",
+        "latitude": "-6.6981853",
+        "longitude": "111.4474458",
+        "created_at": "2025-07-07T07:58:42.000000Z",
+        "updated_at": "2025-08-01T03:17:44.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 24,
+                "tourist_destination_id": "6",
+                "image_url": "storage/tourist_destinations/501b6bab-9fd0-4e51-a1c3-a8edf12912b3.jpg",
+                "created_at": "2025-08-01T03:17:44.000000Z",
+                "updated_at": "2025-08-01T03:17:44.000000Z"
+            },
+            {
+                "id": 34,
+                "tourist_destination_id": "6",
+                "image_url": "storage/tourist_destinations/84347eed-87b0-4e0d-b903-3ccd81c3683d.png",
+                "created_at": "2025-08-01T03:28:11.000000Z",
+                "updated_at": "2025-08-01T03:28:11.000000Z"
+            },
+            {
+                "id": 35,
+                "tourist_destination_id": "6",
+                "image_url": "storage/tourist_destinations/70b346b2-3848-41da-b615-312f72f5be96.png",
+                "created_at": "2025-08-01T03:28:11.000000Z",
+                "updated_at": "2025-08-01T03:28:11.000000Z"
+            },
+            {
+                "id": 36,
+                "tourist_destination_id": "6",
+                "image_url": "storage/tourist_destinations/44aa3e3f-b8d3-44ab-93e9-02096f032887.png",
+                "created_at": "2025-08-01T03:28:11.000000Z",
+                "updated_at": "2025-08-01T03:28:11.000000Z"
+            },
+            {
+                "id": 37,
+                "tourist_destination_id": "6",
+                "image_url": "storage/tourist_destinations/e603730f-0cfc-446d-b54f-615c4e67ee89.png",
+                "created_at": "2025-08-01T03:28:11.000000Z",
+                "updated_at": "2025-08-01T03:28:11.000000Z"
+            },
+            {
+                "id": 38,
+                "tourist_destination_id": "6",
+                "image_url": "storage/tourist_destinations/9b9b2d52-7e85-42b0-906a-c822fba4407e.png",
+                "created_at": "2025-08-01T03:28:11.000000Z",
+                "updated_at": "2025-08-01T03:28:11.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "destination_id": "1",
+        "category_id": "4",
+        "name": "Klenteng Cu An Kiong",
+        "description": "Klenteng tertua di Lasem sebagai simbol akulturasi budaya.",
+        "location": "Jl. Dasun No.19, Pereng, Soditan, Kec. Lasem",
+        "latitude": "-6.6861110",
+        "longitude": "111.4488890",
+        "created_at": "2025-07-08T03:06:59.000000Z",
+        "updated_at": "2025-07-08T03:06:59.000000Z",
+        "category": {
+            "id": 4,
+            "name": "Religi",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-07-06T17:53:23.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": []
+    },
+    {
+        "id": 11,
+        "destination_id": "1",
+        "category_id": null,
+        "name": "Taman Pecinan",
+        "description": "Ruang publik bergaya Tionghoa di tengah kota Lasem.",
+        "location": null,
+        "latitude": "-6.6842000",
+        "longitude": "111.4507000",
+        "created_at": "2025-07-08T03:06:59.000000Z",
+        "updated_at": "2025-07-08T03:06:59.000000Z",
+        "category": null,
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": []
+    },
+    {
+        "id": 12,
+        "destination_id": "1",
+        "category_id": "4",
+        "name": "Masjid Jami Lasem",
+        "description": "Masjid peninggalan Wali Songo di pusat kota Lasem.",
+        "location": null,
+        "latitude": "-6.6830000",
+        "longitude": "111.4473000",
+        "created_at": "2025-07-08T03:06:59.000000Z",
+        "updated_at": "2025-08-19T06:24:39.000000Z",
+        "category": {
+            "id": 4,
+            "name": "Religi",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-07-06T17:53:23.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": []
+    },
+    {
+        "id": 17,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Makam Oei Ing Kyat",
+        "description": "Makam Oei Ing Kiat terletak di puncak Gunung pinggiran daerah Lasem. Oei Ing Kiat adalah seorang Muslim keturunan Tionghoa yang menjadi tokoh sentral dalam Perang Kuning (1741-1743). Dalam perang itu, ia mengorganiasasikan laskar Tionghoa, Jawa, dan para santri, untuk menyerang penjajah Belanda. Perjuangan melawan bangsa penjajah masih dilakukan Oei Ing Kiat hingga akhir hidupnya pada 1750.",
+        "location": "7FP5+WHP, Warugunung, Kec. Pancur, Kabupaten Rembang, Jawa Tengah 59262",
+        "latitude": "-6.7126520",
+        "longitude": "111.4589529",
+        "created_at": "2025-08-01T03:20:56.000000Z",
+        "updated_at": "2025-08-01T03:20:56.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 30,
+                "tourist_destination_id": "17",
+                "image_url": "storage/tourist_destinations/cd0eb85d-bdb2-4a08-aadb-e01e3e4bbecc.png",
+                "created_at": "2025-08-01T03:26:50.000000Z",
+                "updated_at": "2025-08-01T03:26:50.000000Z"
+            },
+            {
+                "id": 31,
+                "tourist_destination_id": "17",
+                "image_url": "storage/tourist_destinations/ba89bd1a-0658-4000-b192-0b1ec89df010.png",
+                "created_at": "2025-08-01T03:26:50.000000Z",
+                "updated_at": "2025-08-01T03:26:50.000000Z"
+            },
+            {
+                "id": 32,
+                "tourist_destination_id": "17",
+                "image_url": "storage/tourist_destinations/ccf7bba8-ddea-4604-86fe-5e81b66b1212.png",
+                "created_at": "2025-08-01T03:26:50.000000Z",
+                "updated_at": "2025-08-01T03:26:50.000000Z"
+            },
+            {
+                "id": 33,
+                "tourist_destination_id": "17",
+                "image_url": "storage/tourist_destinations/96ce4f1b-57c0-49b1-b07a-9f498fc08af3.png",
+                "created_at": "2025-08-01T03:26:50.000000Z",
+                "updated_at": "2025-08-01T03:26:50.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Makam Panji Margono",
+        "description": "Raden Mas Panji Margono (wafat: 1750 M) adalah seorang keturunan trah Panji Lasem dan merupakan salah satu dari Pahlawan Lasem dalam pertempuran melawan VOC yang biasa dikenal dengan Perang Kuning.",
+        "location": "8C4M+38J, Sambong, Dorokandang, Kec. Lasem, Kabupaten Rembang, Jawa Tengah 59271",
+        "latitude": "-6.6947767",
+        "longitude": "111.4332751",
+        "created_at": "2025-08-01T03:30:37.000000Z",
+        "updated_at": "2025-08-01T03:30:37.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 39,
+                "tourist_destination_id": "18",
+                "image_url": "storage/tourist_destinations/479e5a9b-5bbf-4ae1-860a-7c6aa08efef1.png",
+                "created_at": "2025-08-01T03:30:37.000000Z",
+                "updated_at": "2025-08-01T03:30:37.000000Z"
+            },
+            {
+                "id": 40,
+                "tourist_destination_id": "18",
+                "image_url": "storage/tourist_destinations/2b1211fa-e11b-471f-ad08-2427010d7870.png",
+                "created_at": "2025-08-01T03:30:37.000000Z",
+                "updated_at": "2025-08-01T03:30:37.000000Z"
+            },
+            {
+                "id": 41,
+                "tourist_destination_id": "18",
+                "image_url": "storage/tourist_destinations/7ce77a3c-ad6d-4d7f-9557-426b1642c972.png",
+                "created_at": "2025-08-01T03:30:37.000000Z",
+                "updated_at": "2025-08-01T03:30:37.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Makam Mbah Galio",
+        "description": "Mbah Galio atau biasa dikenal dengan Ki Galio adalah salah satu abdi setia dari RM Panji Margono yang berperan penting dalam peristiwa Perang Kuning di Lasem.",
+        "location": "8C6H+2HM, Tambak & Sawah, Gedongmulyo, Kec. Lasem, Kabupaten Rembang, Jawa Tengah 59271",
+        "latitude": "-6.6899100",
+        "longitude": "111.4289245",
+        "created_at": "2025-08-01T03:34:35.000000Z",
+        "updated_at": "2025-08-01T03:34:35.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 42,
+                "tourist_destination_id": "19",
+                "image_url": "storage/tourist_destinations/c82ac151-100d-4ec5-9dfa-04b8d707bb42.png",
+                "created_at": "2025-08-01T03:34:35.000000Z",
+                "updated_at": "2025-08-01T03:34:35.000000Z"
+            },
+            {
+                "id": 43,
+                "tourist_destination_id": "19",
+                "image_url": "storage/tourist_destinations/8749872c-d002-4744-8fa7-8dacd25d4162.png",
+                "created_at": "2025-08-01T03:34:35.000000Z",
+                "updated_at": "2025-08-01T03:34:35.000000Z"
+            },
+            {
+                "id": 44,
+                "tourist_destination_id": "19",
+                "image_url": "storage/tourist_destinations/b131cd58-b5c8-4d8d-85e4-0c97ceafd95f.png",
+                "created_at": "2025-08-01T03:34:35.000000Z",
+                "updated_at": "2025-08-01T03:34:35.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Makam Tan Sin Ko",
+        "description": "Makam Tan Sin Ko terletak di tengah-tengah persawahan di Lasem. Tan Sin Ko merupakan salah satu dari panglima Perang Kuning Lasem yang memiliki peran cukup vital.",
+        "location": "7CXG+JHM, Kebun, Dorokandang, Kec. Lasem, Kabupaten Rembang, Jawa Tengah 59271",
+        "latitude": "-6.7009025",
+        "longitude": "111.4264205",
+        "created_at": "2025-08-01T03:37:51.000000Z",
+        "updated_at": "2025-08-01T03:37:51.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 45,
+                "tourist_destination_id": "20",
+                "image_url": "storage/tourist_destinations/8ae70046-49f8-46a8-977b-cbeb1601b5ee.png",
+                "created_at": "2025-08-01T03:37:51.000000Z",
+                "updated_at": "2025-08-01T03:37:51.000000Z"
+            },
+            {
+                "id": 46,
+                "tourist_destination_id": "20",
+                "image_url": "storage/tourist_destinations/b850aed4-dc75-45b1-9e21-9dce2500007c.png",
+                "created_at": "2025-08-01T03:37:51.000000Z",
+                "updated_at": "2025-08-01T03:37:51.000000Z"
+            },
+            {
+                "id": 47,
+                "tourist_destination_id": "20",
+                "image_url": "storage/tourist_destinations/493d9458-20ba-4a12-8a5c-1ee861b1569c.png",
+                "created_at": "2025-08-01T03:37:51.000000Z",
+                "updated_at": "2025-08-01T03:37:51.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Diorama Perang Kuning Lasem",
+        "description": "- Diorama Perang Kuning Lasem di pelataran Klenteng Cu Ang Kiong Bangunan patung diorama Perang Kuning Lasem menjadi bukti bahwa perang ini sangat membekas bagi masyarakat lasem baik tionghoa maupun jawa. Meskipun klenteng ini dibangun baru-baru ini, aan tetapi diorama patung perang kuning lasem dibangun di pelataran klenteng ini. \r\n\r\n- Daerah sekitar Dukuh Ngluyur (dugaan lokasi Perang Kuning Lasem)  \r\n\r\nDaerah persawahan di sekitar Dukuh Ngluyur diduga menjadi wilayah puncak terjadinya perang kuning lasem.",
+        "location": "Jl. Dasun No.19, Pereng, Soditan, Kec. Lasem, Kabupaten Rembang, Jawa Tengah 59271",
+        "latitude": "-6.6943835",
+        "longitude": "111.4438628",
+        "created_at": "2025-08-01T03:40:43.000000Z",
+        "updated_at": "2025-08-01T03:40:43.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 49,
+                "tourist_destination_id": "21",
+                "image_url": "storage/tourist_destinations/548466be-f72b-4b73-9c15-61c704a57f52.jpg",
+                "created_at": "2025-08-01T03:40:43.000000Z",
+                "updated_at": "2025-08-01T03:40:43.000000Z"
+            },
+            {
+                "id": 50,
+                "tourist_destination_id": "21",
+                "image_url": "storage/tourist_destinations/b035d218-6f38-46cb-a41e-c4438d1a9a7c.jpg",
+                "created_at": "2025-08-01T03:40:43.000000Z",
+                "updated_at": "2025-08-01T03:40:43.000000Z"
+            },
+            {
+                "id": 51,
+                "tourist_destination_id": "21",
+                "image_url": "storage/tourist_destinations/702cb3f7-03d8-4953-b04e-cd111b348c2b.jpg",
+                "created_at": "2025-08-01T03:40:43.000000Z",
+                "updated_at": "2025-08-01T03:40:43.000000Z"
+            },
+            {
+                "id": 52,
+                "tourist_destination_id": "21",
+                "image_url": "storage/tourist_destinations/9b6a4a31-75c0-49d3-8a83-1e78b9282b4e.jpg",
+                "created_at": "2025-08-01T03:40:43.000000Z",
+                "updated_at": "2025-08-01T03:40:43.000000Z"
+            },
+            {
+                "id": 55,
+                "tourist_destination_id": "21",
+                "image_url": "storage/tourist_destinations/fd37ffd6-e568-42ff-8423-070c016584da.jpg",
+                "created_at": "2025-08-01T03:40:43.000000Z",
+                "updated_at": "2025-08-01T03:40:43.000000Z"
+            },
+            {
+                "id": 56,
+                "tourist_destination_id": "21",
+                "image_url": "storage/tourist_destinations/7b09fcee-3cd1-41d4-a994-a06fc90736ca.jpg",
+                "created_at": "2025-08-01T03:40:43.000000Z",
+                "updated_at": "2025-08-01T03:40:43.000000Z"
+            },
+            {
+                "id": 57,
+                "tourist_destination_id": "21",
+                "image_url": "storage/tourist_destinations/2753b01e-e1f3-413a-92cb-f806df7203b5.jpg",
+                "created_at": "2025-08-01T03:40:43.000000Z",
+                "updated_at": "2025-08-01T03:40:43.000000Z"
+            },
+            {
+                "id": 58,
+                "tourist_destination_id": "21",
+                "image_url": "storage/tourist_destinations/1d1e3380-84a8-49c8-8654-0c1b944492d2.jpg",
+                "created_at": "2025-08-01T03:40:43.000000Z",
+                "updated_at": "2025-08-01T03:40:43.000000Z"
+            },
+            {
+                "id": 60,
+                "tourist_destination_id": "21",
+                "image_url": "storage/tourist_destinations/dd7f77a1-2e8e-449a-8092-8cb4edfd0965.jpg",
+                "created_at": "2025-08-01T03:40:43.000000Z",
+                "updated_at": "2025-08-01T03:40:43.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Rumah Opa Jun",
+        "description": "Rumah Opa Jun merupakan salah satu tempat yang cukup dikenal di kalangan para pelancong. Bangunan ini pernah menjadi lokasi syuting untuk sebuah film layar lebar. Terletak di Desa Babagan, rumah ini menampilkan desain arsitektur khas Cina Hindia, dengan atap bergaya kolonial, struktur bangunan bercorak Tionghoa, serta teras yang mengusung elemen tradisional Jawa. Umumnya, lantai rumah-rumah dengan gaya Cina Hindia di daerah tersebut menggunakan material terakota. Pada zaman dulu, jenis terakota ini biasanya diimpor langsung dari Tiongkok. Saat ini, material serupa bisa diperoleh dari sejumlah produsen yang berlokasi di Yogyakarta. - Kesengsem Lasem",
+        "location": "Jl. Pantura No.35, Tawangsari, Babagan, Kec. Lasem, Kabupaten Rembang, Jawa Tengah 59271",
+        "latitude": "-6.6973200",
+        "longitude": "111.4403200",
+        "created_at": "2025-08-01T06:50:31.000000Z",
+        "updated_at": "2025-08-01T06:50:31.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 62,
+                "tourist_destination_id": "22",
+                "image_url": "storage/tourist_destinations/d24f5f5b-a3ce-46ee-9a7a-f6166aeeff18.jpg",
+                "created_at": "2025-08-01T06:50:34.000000Z",
+                "updated_at": "2025-08-01T06:50:34.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "destination_id": "1",
+        "category_id": "7",
+        "name": "Batik Sekar Kencana",
+        "description": "Sekar Kencana merupakan rumah batik milik Sigit Witjaksono yang juga tokoh Tionghoa. Di rumah ini, Sigit memiliki sekitar 20 pegawai. Mulai pembuat pola, membatik, sampai tenaga pendukung hingga kain batik siap jual. - Kompas.com",
+        "location": "Rumah Batik Sigit Wicaksono, Jalan Raya Rembang - Lasem, Babagan, Rembang, Central Java, Java, 59271, Indonesia",
+        "latitude": "-6.6973784",
+        "longitude": "111.4418659",
+        "created_at": "2025-08-01T06:55:29.000000Z",
+        "updated_at": "2025-08-05T06:57:32.000000Z",
+        "category": {
+            "id": 7,
+            "name": "Budaya",
+            "created_at": "2025-08-01T07:04:09.000000Z",
+            "updated_at": "2025-08-01T07:04:09.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 63,
+                "tourist_destination_id": "23",
+                "image_url": "storage/tourist_destinations/fcfaf56d-a1f4-4866-a859-e1ec68568d23.jpg",
+                "created_at": "2025-08-01T06:55:29.000000Z",
+                "updated_at": "2025-08-01T06:55:29.000000Z"
+            },
+            {
+                "id": 64,
+                "tourist_destination_id": "23",
+                "image_url": "storage/tourist_destinations/58d54531-f0d0-4046-8653-a0fc53cf15c1.jpg",
+                "created_at": "2025-08-01T06:55:42.000000Z",
+                "updated_at": "2025-08-01T06:55:42.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "destination_id": "1",
+        "category_id": "5",
+        "name": "Pabrik Kecap Tan Wie Siang",
+        "description": "Usaha kecap Cap Jempol berdiri sejak 1970 oleh generasi 1, yakni Tan Oei King di rumah kuno berarsitektur Cina. Saat ini dilanjutkan oleh Tan Kwat Hauw. Kecap Cap Jempol digunakan oleh beberapa warung makan legendaris di Lasem dan Rembang.",
+        "location": "Jl. Babagan No.11, Tawangsari, Babagan, Kec. Lasem, Kabupaten Rembang, Jawa Tengah 59271",
+        "latitude": "-6.6977800",
+        "longitude": "111.4412000",
+        "created_at": "2025-08-01T07:00:12.000000Z",
+        "updated_at": "2025-08-01T07:00:12.000000Z",
+        "category": {
+            "id": 5,
+            "name": "Kuliner",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-07-06T17:53:23.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 65,
+                "tourist_destination_id": "24",
+                "image_url": "storage/tourist_destinations/1f6a258d-740e-441c-b01f-9e02989bfa6f.jpg",
+                "created_at": "2025-08-01T07:00:12.000000Z",
+                "updated_at": "2025-08-01T07:00:12.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "destination_id": "1",
+        "category_id": "7",
+        "name": "Rumah Batik Kidang Mas",
+        "description": "Usaha batik di Rumah Batik Kidang Mas berdiri sekitar tahun 1890-an. Generasi ke I-IV menggunakan nama merk sesuai nama si pengusaha. Nama Kidang Mas mulai digunakan generasi ke V dan mendapat Hak Paten tahun 2016.",
+        "location": "Gg. 5, Tawangsari, Babagan, Kec. Lasem, Kabupaten Rembang, Jawa Tengah 59271",
+        "latitude": "-6.6984852",
+        "longitude": "111.4412288",
+        "created_at": "2025-08-01T07:03:21.000000Z",
+        "updated_at": "2025-08-01T07:04:44.000000Z",
+        "category": {
+            "id": 7,
+            "name": "Budaya",
+            "created_at": "2025-08-01T07:04:09.000000Z",
+            "updated_at": "2025-08-01T07:04:09.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 66,
+                "tourist_destination_id": "25",
+                "image_url": "storage/tourist_destinations/c86036a3-a813-4190-a7e2-50dcde1b4652.jpeg",
+                "created_at": "2025-08-01T07:03:21.000000Z",
+                "updated_at": "2025-08-01T07:03:21.000000Z"
+            },
+            {
+                "id": 67,
+                "tourist_destination_id": "25",
+                "image_url": "storage/tourist_destinations/87c04c17-f0d7-4dfe-aa17-42d24bf926e4.jpeg",
+                "created_at": "2025-08-01T07:03:21.000000Z",
+                "updated_at": "2025-08-01T07:03:21.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "destination_id": "1",
+        "category_id": "7",
+        "name": "Batik Katrins",
+        "description": "Rumah Batik Katrins Bee berawal pada tahun 1970-an oleh Bu Katrin sebagi pengrajinnya. Rumahnya berdiri lebih lama daripada usahanya, sekitar abad ke 17-18. Motif-motif pakem Lasem masih dipetahankan oleh beliau.",
+        "location": "jalan 5 no 4 Tawangsari, Tawangsari, Babagan, Lasem, Rembang Regency, Central Java 59271",
+        "latitude": "-6.6983548",
+        "longitude": "111.4414852",
+        "created_at": "2025-08-01T07:09:03.000000Z",
+        "updated_at": "2025-08-01T07:09:03.000000Z",
+        "category": {
+            "id": 7,
+            "name": "Budaya",
+            "created_at": "2025-08-01T07:04:09.000000Z",
+            "updated_at": "2025-08-01T07:04:09.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 68,
+                "tourist_destination_id": "26",
+                "image_url": "storage/tourist_destinations/21201452-d30a-42a9-8fb1-d95e573fdc06.jpg",
+                "created_at": "2025-08-01T07:09:03.000000Z",
+                "updated_at": "2025-08-01T07:09:03.000000Z"
+            },
+            {
+                "id": 69,
+                "tourist_destination_id": "26",
+                "image_url": "storage/tourist_destinations/45823794-19a0-4235-b5a0-17b4e4107591.jpg",
+                "created_at": "2025-08-01T07:09:03.000000Z",
+                "updated_at": "2025-08-01T07:09:03.000000Z"
+            },
+            {
+                "id": 70,
+                "tourist_destination_id": "26",
+                "image_url": "storage/tourist_destinations/12e58263-6ce1-4069-b8f1-355a196084dd.jpg",
+                "created_at": "2025-08-01T07:09:03.000000Z",
+                "updated_at": "2025-08-01T07:09:03.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "destination_id": "1",
+        "category_id": "4",
+        "name": "Pasujudan Sunan Bonang",
+        "description": "Batu Pasujudan Sunan Bonang bentuknya menyerupai lingkaran berdiameter hampir satu meter, tebalnya 10 sentimeter, dan berwarna cokelat kehitaman. Batu berada di ruangan khusus pada bangunan yang menghadap ke timur.",
+        "location": "8FR9+369 Ex.Kadipaten, Bumi Jl. Binangun, Kebun, Bonang, Kec. Lasem, Kabupaten Rembang, Jawa Tengah",
+        "latitude": "-6.6598318",
+        "longitude": "111.4681096",
+        "created_at": "2025-08-19T06:43:36.000000Z",
+        "updated_at": "2025-08-19T06:49:06.000000Z",
+        "category": {
+            "id": 4,
+            "name": "Religi",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-07-06T17:53:23.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 89,
+                "tourist_destination_id": "33",
+                "image_url": "storage/tourist_destinations/ca8a2b6d-2ea4-485a-95ec-05e84ef14c46.jpeg",
+                "created_at": "2025-08-19T06:43:36.000000Z",
+                "updated_at": "2025-08-19T06:43:36.000000Z"
+            },
+            {
+                "id": 90,
+                "tourist_destination_id": "33",
+                "image_url": "storage/tourist_destinations/b189b8f3-1191-4764-bbbe-cca2731a6c3d.jpg",
+                "created_at": "2025-08-19T06:43:36.000000Z",
+                "updated_at": "2025-08-19T06:43:36.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "destination_id": "1",
+        "category_id": "4",
+        "name": "Makam Putri Campa",
+        "description": "Putri Campa berasal dari Vietnam yang diperkirakan datang bersama dengan Laksamana Cheng Ho ketika mendarat di Lasem. Ia meninggal di Lasem dan dimakamkan di Bonang.",
+        "location": "Bonang, Rembang, Central Java, Java, Indonesia",
+        "latitude": "-6.6596870",
+        "longitude": "111.4680379",
+        "created_at": "2025-08-19T06:51:52.000000Z",
+        "updated_at": "2025-08-19T06:51:52.000000Z",
+        "category": {
+            "id": 4,
+            "name": "Religi",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-07-06T17:53:23.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 91,
+                "tourist_destination_id": "34",
+                "image_url": "storage/tourist_destinations/a1d1e5d2-4d69-41b9-b605-3f712d1263bb.jpg",
+                "created_at": "2025-08-19T06:51:52.000000Z",
+                "updated_at": "2025-08-19T06:51:52.000000Z"
+            },
+            {
+                "id": 92,
+                "tourist_destination_id": "34",
+                "image_url": "storage/tourist_destinations/30e3665d-a9a6-4629-8a73-0f025c024c8b.jpeg",
+                "created_at": "2025-08-19T06:51:52.000000Z",
+                "updated_at": "2025-08-19T06:51:52.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "destination_id": "1",
+        "category_id": "6",
+        "name": "Batu Catra & Dolmen",
+        "description": "Prasasti tanda kekuasaan daerah Majapahit, Bhre Lasem membuat jejak telapak kaki Raja Hayam Wuruk di lereng Gunung Kajar.",
+        "location": "Bonang, Rembang, Central Java, Java, Indonesia",
+        "latitude": "-6.6596200",
+        "longitude": "111.4707400",
+        "created_at": "2025-08-19T06:57:57.000000Z",
+        "updated_at": "2025-08-19T06:57:57.000000Z",
+        "category": {
+            "id": 6,
+            "name": "Sejarah",
+            "created_at": "2025-07-29T06:00:26.000000Z",
+            "updated_at": "2025-08-01T02:22:06.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 93,
+                "tourist_destination_id": "35",
+                "image_url": "storage/tourist_destinations/977810ba-a86d-4041-9cd9-a5a960cf705c.jpg",
+                "created_at": "2025-08-19T06:57:57.000000Z",
+                "updated_at": "2025-08-19T06:57:57.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "destination_id": "1",
+        "category_id": "4",
+        "name": "Makam Sunan Bonang",
+        "description": "Makam Sunan Bonang ada di dua tempat yakni Bonang, Lasem dan Kota Tuban. Sunan Bonang yang ada di peta ini terletak di Bonang, Lasem. Beliau datang ke Lasem karena diminta kakaknya (Nyai Ageng Maloko) untuk mengajarkan agama Islam di daerah Bonang.",
+        "location": "Bonang, Rembang, Central Java, Java, Indonesia",
+        "latitude": "-6.6634568",
+        "longitude": "111.4657614",
+        "created_at": "2025-08-19T07:01:25.000000Z",
+        "updated_at": "2025-08-19T07:01:25.000000Z",
+        "category": {
+            "id": 4,
+            "name": "Religi",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-07-06T17:53:23.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 94,
+                "tourist_destination_id": "36",
+                "image_url": "storage/tourist_destinations/8bd3f266-b318-4791-b648-85875723df19.jpeg",
+                "created_at": "2025-08-19T07:01:25.000000Z",
+                "updated_at": "2025-08-19T07:01:25.000000Z"
+            },
+            {
+                "id": 95,
+                "tourist_destination_id": "36",
+                "image_url": "storage/tourist_destinations/f604d39d-9e6e-41b6-afe8-ecd48497a267.jpeg",
+                "created_at": "2025-08-19T07:01:25.000000Z",
+                "updated_at": "2025-08-19T07:01:25.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "destination_id": "1",
+        "category_id": "4",
+        "name": "Makam Sultan Mahmud",
+        "description": "Sultan Mahmud, Raja Minang pemilik kitab yang tidak bisa beliau terjemahkan. Ia membawa kitabnya ke Mekah. Namun, kapalnya diterjang badai dan kitabnya hilang. Tiba-tiba Sunan Bonang mengembalikan kitabnya. Sehingga, ia bertekat belajar agama ke beliau.",
+        "location": "Sriombo, Rembang, Central Java, Java, Indonesia",
+        "latitude": "-6.6666861",
+        "longitude": "111.4717012",
+        "created_at": "2025-08-19T07:04:35.000000Z",
+        "updated_at": "2025-08-19T07:04:35.000000Z",
+        "category": {
+            "id": 4,
+            "name": "Religi",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-07-06T17:53:23.000000Z"
+        },
+        "destination": {
+            "id": 1,
+            "name": "Lasem",
+            "description": "Lasem adalah sebuah Kecamatan yang berada di Kabupaten Rembang, Provinsi Jawa Tengah. Lasem dikenal sebagai Tiongkok Kecil karena menjadi ruang hidup bagi komunitas Cina dari masa ke masa. Lasem memiliki warisan sejarah yang sangat kaya dan beragam. Oleh karena itu, Lasem dijuluki sebagai Kota Pusaka Lasem.",
+            "location": "Kabupaten Rembang, Jawa Tengah",
+            "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.41328419269!2d111.42390494644395!3d-6.682390787983978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77223b42a90cef%3A0xa94a343f67ca2cb9!2sLasem%2C%20Rembang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1753949042153!5m2!1sen!2sid",
+            "created_at": "2025-07-06T17:53:23.000000Z",
+            "updated_at": "2025-08-01T01:07:50.000000Z"
+        },
+        "images": [
+            {
+                "id": 96,
+                "tourist_destination_id": "37",
+                "image_url": "storage/tourist_destinations/3a5b3f0d-1840-497b-88c9-2c4dcaae1ef2.png",
+                "created_at": "2025-08-19T07:04:35.000000Z",
+                "updated_at": "2025-08-19T07:04:35.000000Z"
+            }
+        ]
+    }
+]

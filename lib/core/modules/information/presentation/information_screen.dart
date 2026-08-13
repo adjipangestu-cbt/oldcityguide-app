@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -15,6 +15,7 @@ class InformationScreen extends StatefulWidget {
 class _InformationScreenState extends State<InformationScreen> {
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return SafeArea(
       child: SizedBox(
         width: double.infinity,
@@ -44,8 +45,8 @@ class _InformationScreenState extends State<InformationScreen> {
               spacing: 20,
               children: [
                 MenuInfoItem(
-                  label: 'info_menu_label'.tr(),
-                  text: 'info_about_us'.tr(),
+                  label: AppLocalizations.of(context)!.infoMenuLabel,
+                  text: AppLocalizations.of(context)!.infoAboutUs,
                   iconData: FaIcon(FontAwesomeIcons.circleInfo),
                   onTap: () => context.push('/about-us'),
                 ),
@@ -73,6 +74,7 @@ class MenuInfoItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       spacing: 8,

@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -30,6 +30,7 @@ class _VrScreenState extends State<VrScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final state = context.watch<VrViewmodel>().state;
     final viewmodel = context.read<VrViewmodel>();
 
@@ -39,7 +40,7 @@ class _VrScreenState extends State<VrScreen> {
         children: [
           // Title
           Text(
-            'vr_title'.tr(),
+            AppLocalizations.of(context)!.vrTitle,
             style: AppTypoghrapy.title,
             softWrap: true,
           ).pading(

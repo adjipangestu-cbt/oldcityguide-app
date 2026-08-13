@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:link_text/link_text.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/map.dart';
@@ -35,7 +35,7 @@ class _GeographyDetailScreenState extends State<GeographyDetailScreen> {
     };
     return Scaffold(
       appBar:
-          AppBar(backgroundColor: Colors.white, title: Text('geography_appbar_detail'.tr(args: [title]))),
+          AppBar(backgroundColor: Colors.white, title: Text(AppLocalizations.of(context)!.geographyAppbarDetail(title))),
       body: SafeArea(
         child: SingleChildScrollView(
             padding:

@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/destination_dropdown.dart';
@@ -27,14 +27,19 @@ class _VacationScreenState extends State<VacationScreen> {
     super.initState();
     final vacationViewmodel = context.read<VacationViewmodel>();
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      // 1. Ambil kode bahasa dari context ('id' atau 'en')
+      final languageCode = Localizations.localeOf(context).languageCode;
+      
       Future.microtask(() async {
-        await vacationViewmodel.fetchData();
+        // 2. Teruskan kode bahasa ke dalam fungsi fetchData
+        await vacationViewmodel.fetchData(languageCode: languageCode);
       });
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final vacationViewmodel = Provider.of<VacationViewmodel>(context);
     final state = Provider.of<VacationViewmodel>(context).state;
     return SafeArea(
@@ -49,7 +54,7 @@ class _VacationScreenState extends State<VacationScreen> {
                       onSearch: (keyword) {
                         vacationViewmodel.search(keyword);
                       },
-                      placeHolder: 'vacation_search_hint'.tr())
+                      placeHolder: AppLocalizations.of(context)!.vacationSearchHint)
                   .pading(const EdgeInsets.only(top: 24)),
               DestinationPicker(onSelect: (value) {
                 vacationViewmodel.filterByDestination(value);
@@ -83,7 +88,11 @@ class _VacationScreenState extends State<VacationScreen> {
         Error<List<Map<String, Object>>>(message: final message) =>
           ErrorHandler(
                   message: message,
-                  onRetry: () => vacationViewmodel.fetchData())
+                  onRetry: () {
+                    // 3. Jangan lupa tambahkan languageCode juga di fungsi retry
+                    final languageCode = Localizations.localeOf(context).languageCode;
+                    vacationViewmodel.fetchData(languageCode: languageCode);
+                  })
               .pading(const EdgeInsets.all(20))
       },
     );
@@ -112,6 +121,7 @@ class _VacationItemState extends State<VacationItem> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final fullWidth = MediaQuery.of(context).size.width;
     return Column(
       spacing: 8,

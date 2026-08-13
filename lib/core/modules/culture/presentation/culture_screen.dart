@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -25,24 +25,31 @@ class _CultureScreenState extends State<CultureScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      context.read<CultureViewmodel>().fetchData();
+      // 1. Ambil kode bahasa dari context ('id' atau 'en')
+      final languageCode = Localizations.localeOf(context).languageCode;
+      
+      // 2. Teruskan kode bahasa ke dalam fungsi fetchData
+      context.read<CultureViewmodel>().fetchData(languageCode: languageCode);
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final viewModel = context.read<CultureViewmodel>();
     final state = context.watch<CultureViewmodel>().state;
     final padding = const EdgeInsets.symmetric(horizontal: 20);
     return TemplatePage(
-        title: 'culture_title'.tr(),
+        title: AppLocalizations.of(context)!.cultureTitle,
         child: switch (state) {
           Loading<List<CultureItemDto>>() =>
             Center(child: CircularProgressIndicator()),
           Error<List<CultureItemDto>>(message: final message) => ErrorHandler(
               message: message,
               onRetry: () {
-                viewModel.fetchData();
+                // 3. Jangan lupa tambahkan languageCode di fungsi retry
+                final languageCode = Localizations.localeOf(context).languageCode;
+                viewModel.fetchData(languageCode: languageCode);
               }),
           Success<List<CultureItemDto>>(data: final dto) => Column(
               spacing: 12,
@@ -52,7 +59,7 @@ class _CultureScreenState extends State<CultureScreen> {
                         onSearch: (keyword) {
                           viewModel.search(keyword);
                         },
-                        placeHolder: 'culture_search_hint'.tr())
+                        placeHolder: AppLocalizations.of(context)!.cultureSearchHint)
                     .pading(
                   padding.copyWith(top: 24),
                 ),
@@ -102,6 +109,7 @@ class _PersonItemState extends State<PersonItem> {
   bool isExpanded = false;
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Container(
       decoration: BoxDecoration(
         color: Color(0xFFefefef),

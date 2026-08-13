@@ -14,11 +14,13 @@ class VacationViewmodel extends ChangeNotifier {
   int _currentDestinationId = 0;
   String _currentKeyword = "";
 
-  Future<void> fetchData() async {
+  // 1. Tambahkan parameter languageCode dengan default 'id'
+  Future<void> fetchData({String languageCode = 'id'}) async {
     _state = Loading();
     notifyListeners();
     try {
-      final result = await _repository.getVacationsList();
+      
+      final result = await _repository.getVacationsList(languageCode: languageCode);
       _data = result;
       _applyFilters();
     } catch (e) {

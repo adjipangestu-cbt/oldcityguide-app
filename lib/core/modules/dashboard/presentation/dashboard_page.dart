@@ -1,7 +1,8 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/bottom_navigation_viewmodel.dart';
+import 'package:oldcityguideapp/core/common/viewmodels/locale_provider.dart';
 import 'package:oldcityguideapp/core/modules/dashboard/presentation/widget/atoms/connection_indicator.dart';
 import 'package:oldcityguideapp/core/modules/home/presentation/home_screen.dart';
 import 'package:oldcityguideapp/core/modules/information/presentation/information_screen.dart';
@@ -27,17 +28,10 @@ class _DashboardPageState extends State<DashboardPage> {
     InformationScreen(),
   ];
 
-  void _toggleLanguage(BuildContext context) {
-    final currentLocale = context.locale;
-    if (currentLocale.languageCode == 'id') {
-      context.setLocale(const Locale('en'));
-    } else {
-      context.setLocale(const Locale('id'));
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+    final localeProvider = context.read<LocaleProvider>();
     final BottomNavigationViewmodel bottomNavigationViewmodel =
         Provider.of<BottomNavigationViewmodel>(context);
     final int navigationState = Provider.of<BottomNavigationViewmodel>(
@@ -55,7 +49,7 @@ class _DashboardPageState extends State<DashboardPage> {
                 Icon(Icons.language, color: AppColors.bluePrimary),
                 const SizedBox(width: 4),
                 Text(
-                  context.locale.languageCode.toUpperCase(),
+                  localeProvider.locale.languageCode.toUpperCase(),
                   style: TextStyle(
                     color: AppColors.bluePrimary,
                     fontWeight: FontWeight.bold,
@@ -64,8 +58,8 @@ class _DashboardPageState extends State<DashboardPage> {
                 ),
               ],
             ),
-            tooltip: 'language_toggle_tooltip'.tr(),
-            onPressed: () => _toggleLanguage(context),
+            tooltip: l10n.languageToggleTooltip,
+            onPressed: () => localeProvider.toggleLocale(),
           ),
         ],
       ),
@@ -79,31 +73,31 @@ class _DashboardPageState extends State<DashboardPage> {
             items: <BottomNavigationBarItem>[
               BottomNavigationBarItem(
                 icon: FaIcon(FontAwesomeIcons.house),
-                label: 'nav_home'.tr(),
+                label: l10n.navHome,
               ),
               BottomNavigationBarItem(
                 icon: FaIcon(FontAwesomeIcons.umbrellaBeach),
-                label: 'nav_vacation'.tr(),
+                label: l10n.navVacation,
               ),
               BottomNavigationBarItem(
                 icon: FaIcon(FontAwesomeIcons.vrCardboard),
-                label: 'nav_vr'.tr(),
+                label: l10n.navVr,
               ),
               BottomNavigationBarItem(
                 icon: FaIcon(FontAwesomeIcons.photoFilm),
-                label: 'nav_video'.tr(),
+                label: l10n.navVideo,
               ),
               BottomNavigationBarItem(
                 icon: FaIcon(FontAwesomeIcons.circleInfo),
-                label: 'nav_information'.tr(),
+                label: l10n.navInformation,
               ),
             ],
             currentIndex: navigationState,
             selectedItemColor: AppColors.bluePrimary,
-            unselectedItemColor: Colors.grey, // color for
+            unselectedItemColor: Colors.grey,
             selectedFontSize: 12,
             unselectedFontSize: 12,
-            type: BottomNavigationBarType.fixed, // disables shifting animation
+            type: BottomNavigationBarType.fixed,
             onTap: (index) {
               bottomNavigationViewmodel.updateNavigationIndex(index);
             },

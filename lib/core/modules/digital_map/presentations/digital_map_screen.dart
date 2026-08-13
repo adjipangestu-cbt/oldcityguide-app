@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -32,10 +32,11 @@ class _DigitalMapScreenState extends State<DigitalMapScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final state = context.watch<DigitalMapViewmodel>().allDigitalMapState;
     final padding = const EdgeInsets.symmetric(horizontal: 20);
     return TemplatePage(
-      title: 'digital_map_title'.tr(),
+      title: AppLocalizations.of(context)!.digitalMapTitle,
       child: switch (state) {
         Loading<List<DigitalMapDto>>() =>
           Center(child: CircularProgressIndicator()),

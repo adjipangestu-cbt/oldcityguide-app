@@ -8,13 +8,17 @@ class DestinationViewmodel extends ChangeNotifier {
   List<DestinationsDto> get destinations => _destinations;
   DestinationViewmodel({required this.repository});
 
-  Future<void> getDestinations() async {
+  // 1. Tambahkan parameter languageCode (default: 'id')
+  Future<void> getDestinations({String languageCode = 'id'}) async {
     _destinations = [];
     notifyListeners();
     try {
-      final result = await repository.getDestinations();
+      // 2. Teruskan parameter languageCode ke repository
+      final result = await repository.getDestinations(languageCode: languageCode);
+      
+      // 3. Ambil opsi "Semua destinasi" sesuai dengan bahasa yang dipilih
       _destinations = [
-        DestinationUtils.defaultSelectAllDestinationDto,
+        DestinationUtils.getDefaultSelectAll(languageCode),
         ...result
       ];
       notifyListeners();
@@ -27,13 +31,17 @@ class DestinationViewmodel extends ChangeNotifier {
 }
 
 class DestinationUtils {
-  static final DestinationsDto defaultSelectAllDestinationDto = DestinationsDto(
+  // 4. Ubah variabel statis menjadi sebuah fungsi agar bisa mendeteksi bahasa
+  static DestinationsDto getDefaultSelectAll(String languageCode) {
+    return DestinationsDto(
       id: 0,
-      name: "Semua destinasi",
+      name: languageCode == 'en' ? "All destinations" : "Semua destinasi",
       description: "",
       location: "",
       mapEmbedUrl: "",
       createdAt: DateTime.now(),
       updatedAt: DateTime.now(),
-      images: []);
+      images: [],
+    );
+  }
 }

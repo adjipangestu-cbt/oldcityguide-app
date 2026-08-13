@@ -6,7 +6,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
-import 'app_localizations_et.dart';
+import 'app_localizations_id.dart';
 
 // ignore_for_file: type=lint
 
@@ -95,38 +95,332 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
-    Locale('et')
+    Locale('id')
   ];
 
-  /// No description provided for @appTitle.
+  /// Application title
   ///
   /// In en, this message translates to:
-  /// **'Old City Guide'**
+  /// **'OldCityGuide App'**
   String get appTitle;
 
-  /// No description provided for @welcomeMessage.
+  /// Welcome greeting on home screen
   ///
   /// In en, this message translates to:
-  /// **'Welcome to the Old City Guide'**
-  String get welcomeMessage;
+  /// **'Hello, welcome\nto the app\n'**
+  String get welcomeGreeting;
 
-  /// No description provided for @home.
+  /// App brand name in welcome message
+  ///
+  /// In en, this message translates to:
+  /// **'OldCityGuide '**
+  String get welcomeAppName;
+
+  /// Suffix after app name
+  ///
+  /// In en, this message translates to:
+  /// **'App'**
+  String get welcomeAppSuffix;
+
+  /// Digital map menu item
+  ///
+  /// In en, this message translates to:
+  /// **'Digital Map'**
+  String get menuDigitalMap;
+
+  /// Geography menu item
+  ///
+  /// In en, this message translates to:
+  /// **'Geography'**
+  String get menuGeography;
+
+  /// Tourist destinations menu item
+  ///
+  /// In en, this message translates to:
+  /// **'Tourist Destinations'**
+  String get menuDestination;
+
+  /// VR menu item
+  ///
+  /// In en, this message translates to:
+  /// **'Virtual Reality'**
+  String get menuVirtualReality;
+
+  /// Cafe and culinary menu item
+  ///
+  /// In en, this message translates to:
+  /// **'Cafe & Culinary'**
+  String get menuCafeCulinary;
+
+  /// History menu item
+  ///
+  /// In en, this message translates to:
+  /// **'History'**
+  String get menuHistory;
+
+  /// Video menu item
+  ///
+  /// In en, this message translates to:
+  /// **'Video'**
+  String get menuVideo;
+
+  /// Cultural exchange menu item
+  ///
+  /// In en, this message translates to:
+  /// **'Cultural Exchange'**
+  String get menuCulture;
+
+  /// Bottom nav home label
   ///
   /// In en, this message translates to:
   /// **'Home'**
-  String get home;
+  String get navHome;
 
-  /// No description provided for @settings.
+  /// Bottom nav vacation label
   ///
   /// In en, this message translates to:
-  /// **'Settings'**
-  String get settings;
+  /// **'Vacation'**
+  String get navVacation;
 
-  /// No description provided for @language.
+  /// Bottom nav VR label
   ///
   /// In en, this message translates to:
-  /// **'Language'**
-  String get language;
+  /// **'VR'**
+  String get navVr;
+
+  /// Bottom nav video label
+  ///
+  /// In en, this message translates to:
+  /// **'Video'**
+  String get navVideo;
+
+  /// Bottom nav information label
+  ///
+  /// In en, this message translates to:
+  /// **'Information'**
+  String get navInformation;
+
+  /// Section header on home screen
+  ///
+  /// In en, this message translates to:
+  /// **'Discover more about this historic city'**
+  String get sectionKnowMore;
+
+  /// History card title
+  ///
+  /// In en, this message translates to:
+  /// **'History'**
+  String get cardHistoryTitle;
+
+  /// History card description
+  ///
+  /// In en, this message translates to:
+  /// **'Learn about the history of cities around you'**
+  String get cardHistoryDesc;
+
+  /// Destination card title
+  ///
+  /// In en, this message translates to:
+  /// **'Tourist Destinations'**
+  String get cardDestinationTitle;
+
+  /// Destination card description
+  ///
+  /// In en, this message translates to:
+  /// **'Explore a variety of tourist destinations'**
+  String get cardDestinationDesc;
+
+  /// Culinary card title
+  ///
+  /// In en, this message translates to:
+  /// **'Culinary & Cafe'**
+  String get cardCulinaryTitle;
+
+  /// Culinary card description
+  ///
+  /// In en, this message translates to:
+  /// **'Take a break and enjoy culinary and cafe recommendations'**
+  String get cardCulinaryDesc;
+
+  /// VR banner title
+  ///
+  /// In en, this message translates to:
+  /// **'Immersive Experience'**
+  String get vrImmersiveTitle;
+
+  /// VR banner description
+  ///
+  /// In en, this message translates to:
+  /// **'Explore historical places in the virtual world, for an unforgettable experience'**
+  String get vrImmersiveDesc;
+
+  /// VR banner button text
+  ///
+  /// In en, this message translates to:
+  /// **'Start now'**
+  String get vrStartNow;
+
+  /// VR screen page title
+  ///
+  /// In en, this message translates to:
+  /// **'Virtual Reality of Historical Places in Lasem'**
+  String get vrTitle;
+
+  /// Geography section title
+  ///
+  /// In en, this message translates to:
+  /// **'Geography'**
+  String get geographyTitle;
+
+  /// Geography screen appbar
+  ///
+  /// In en, this message translates to:
+  /// **'Lasem Geography'**
+  String get geographyAppbarTitle;
+
+  /// Geography detail screen appbar with dynamic name
+  ///
+  /// In en, this message translates to:
+  /// **'Geography {title}'**
+  String geographyAppbarDetail(String title);
+
+  /// Language toggle button tooltip
+  ///
+  /// In en, this message translates to:
+  /// **'Switch Language'**
+  String get languageToggleTooltip;
+
+  /// About us screen title
+  ///
+  /// In en, this message translates to:
+  /// **'About Us'**
+  String get aboutUsTitle;
+
+  /// Team section label
+  ///
+  /// In en, this message translates to:
+  /// **'Team'**
+  String get aboutUsTeam;
+
+  /// Culture screen title
+  ///
+  /// In en, this message translates to:
+  /// **'Cultural Exchange'**
+  String get cultureTitle;
+
+  /// Culture search placeholder
+  ///
+  /// In en, this message translates to:
+  /// **'Search culture'**
+  String get cultureSearchHint;
+
+  /// Default title for culture detail
+  ///
+  /// In en, this message translates to:
+  /// **'Title'**
+  String get cultureDetailDefaultTitle;
+
+  /// Digital map screen title
+  ///
+  /// In en, this message translates to:
+  /// **'Digital Map'**
+  String get digitalMapTitle;
+
+  /// Culinary screen title
+  ///
+  /// In en, this message translates to:
+  /// **'Culinary & Cafe'**
+  String get culinaryTitle;
+
+  /// Culinary search placeholder
+  ///
+  /// In en, this message translates to:
+  /// **'Culinary & Cafe'**
+  String get culinarySearchHint;
+
+  /// Image loading error message
+  ///
+  /// In en, this message translates to:
+  /// **'Image failed to load!'**
+  String get culinaryImageFailed;
+
+  /// History screen title
+  ///
+  /// In en, this message translates to:
+  /// **'History'**
+  String get historyTitle;
+
+  /// History search placeholder
+  ///
+  /// In en, this message translates to:
+  /// **'Search history'**
+  String get historySearchHint;
+
+  /// Default title for history detail
+  ///
+  /// In en, this message translates to:
+  /// **'Title'**
+  String get historyDetailDefaultTitle;
+
+  /// Location label on history detail
+  ///
+  /// In en, this message translates to:
+  /// **'Location'**
+  String get historyLocationLabel;
+
+  /// Vacation search placeholder
+  ///
+  /// In en, this message translates to:
+  /// **'Search tourist destinations'**
+  String get vacationSearchHint;
+
+  /// Video search placeholder
+  ///
+  /// In en, this message translates to:
+  /// **'Search video'**
+  String get videoSearchHint;
+
+  /// Information screen menu label
+  ///
+  /// In en, this message translates to:
+  /// **'Menu'**
+  String get infoMenuLabel;
+
+  /// About us menu item text
+  ///
+  /// In en, this message translates to:
+  /// **'About us'**
+  String get infoAboutUs;
+
+  /// Destination picker label
+  ///
+  /// In en, this message translates to:
+  /// **'Destination'**
+  String get destinationLabel;
+
+  /// No data found message
+  ///
+  /// In en, this message translates to:
+  /// **'No data found'**
+  String get noDataMessage;
+
+  /// Retry button label
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get errorRetry;
+
+  /// Offline status message
+  ///
+  /// In en, this message translates to:
+  /// **'No internet connection!'**
+  String get connectionOffline;
+
+  /// Online status message
+  ///
+  /// In en, this message translates to:
+  /// **'You are back online!'**
+  String get connectionOnline;
 }
 
 class _AppLocalizationsDelegate
@@ -140,7 +434,7 @@ class _AppLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) =>
-      <String>['en', 'et'].contains(locale.languageCode);
+      <String>['en', 'id'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -151,8 +445,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
   switch (locale.languageCode) {
     case 'en':
       return AppLocalizationsEn();
-    case 'et':
-      return AppLocalizationsEt();
+    case 'id':
+      return AppLocalizationsId();
   }
 
   throw FlutterError(

@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/destination_dropdown.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/no_data.dart';
@@ -30,11 +30,12 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final viewModel = context.read<FoodCulinaryViewmodel>();
     final state = context.watch<FoodCulinaryViewmodel>().state;
     final padding = const EdgeInsets.all(20);
     return TemplatePage(
-      title: 'culinary_title'.tr(),
+      title: AppLocalizations.of(context)!.culinaryTitle,
       child: switch (state) {
         Loading<List<FoodCulinaryDto>>() => Center(
             child: CircularProgressIndicator(),
@@ -48,7 +49,7 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
                       onSearch: (keyword) {
                         viewModel.search(keyword);
                       },
-                      placeHolder: 'culinary_search_hint'.tr())
+                      placeHolder: AppLocalizations.of(context)!.culinarySearchHint)
                   .pading(
                 const EdgeInsets.symmetric(horizontal: 20),
               ),
@@ -87,7 +88,7 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
                                   color: Colors.grey),
                               child: Center(
                                 child: Text(
-                                  'culinary_image_failed'.tr(),
+                                  AppLocalizations.of(context)!.culinaryImageFailed,
                                   style: TextStyle(color: Colors.white),
                                 ),
                               ),

@@ -1,5 +1,5 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/bottom_navigation_viewmodel.dart';
 import 'package:oldcityguideapp/core/ui/button.dart';
@@ -11,6 +11,7 @@ class VrBanner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final BottomNavigationViewmodel bottomNavigationViewmodel =
         Provider.of<BottomNavigationViewmodel>(context);
 
@@ -34,12 +35,12 @@ class VrBanner extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
-                'vr_immersive_title'.tr(),
+                l10n.vrImmersiveTitle,
                 textAlign: TextAlign.center,
                 style: AppTypoghrapy.title.copyWith(color: Colors.white),
               ),
               Text(
-                'vr_immersive_desc'.tr(),
+                l10n.vrImmersiveDesc,
                 textAlign: TextAlign.center,
                 style: TextStyle(color: Colors.white),
               ),
@@ -51,7 +52,7 @@ class VrBanner extends StatelessWidget {
                   spacing: 8,
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text('vr_start_now'.tr()),
+                    Text(l10n.vrStartNow),
                     FaIcon(
                       FontAwesomeIcons.vrCardboard,
                       color: Colors.white,

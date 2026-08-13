@@ -1,5 +1,5 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:oldcityguideapp/core/common/domain/dto/gegraphy_dto.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/error_handler.dart';
 import 'package:oldcityguideapp/core/extension/widget.dart';
@@ -33,6 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final geographyState = context.watch<HomeViewmodel>().geographyState;
     final padding = const EdgeInsets.symmetric(horizontal: 20);
     return Stack(
@@ -48,17 +49,17 @@ class _HomeScreenState extends State<HomeScreen> {
                   TextSpan(
                     children: [
                       TextSpan(
-                        text: 'welcome_greeting'.tr(),
+                        text: l10n.welcomeGreeting,
                       ),
                       TextSpan(
-                        text: 'welcome_app_name'.tr(),
+                        text: l10n.welcomeAppName,
                         style: TextStyle(
                           color: AppColors.orangeAccentSecondary,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       TextSpan(
-                        text: 'welcome_app_suffix'.tr(),
+                        text: l10n.welcomeAppSuffix,
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],
@@ -71,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 VrBanner(),
                 SizedBox(height: 60),
                 Text(
-                  'geography_title'.tr(),
+                  l10n.geographyTitle,
                   style: AppTypoghrapy.title.copyWith(color: Colors.grey),
                 ).pading(padding),
                 SizedBox(height: 12),

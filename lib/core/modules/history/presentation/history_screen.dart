@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -9,6 +9,7 @@ import 'package:oldcityguideapp/core/common/presentation/widgets/template_page.d
 import 'package:oldcityguideapp/core/extension/widget.dart';
 import 'package:oldcityguideapp/core/modules/history/domain/dto/history_item_dto.dart';
 import 'package:oldcityguideapp/core/modules/history/presentation/viewmodels/history_viewmodel.dart';
+import 'package:oldcityguideapp/core/common/viewmodels/locale_provider.dart'; // [TAMBAHAN] Import LocaleProvider
 import 'package:oldcityguideapp/core/ui/ui_state.dart';
 import 'package:provider/provider.dart';
 
@@ -24,17 +25,20 @@ class _HistoryScreenState extends State<HistoryScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      context.read<HistoryViewmodel>().fetchData();
+      // [PERUBAHAN] Ambil kode bahasa dari LocaleProvider, lalu kirimkan ke fetchData
+      final currentLanguage = context.read<LocaleProvider>().locale.languageCode;
+      context.read<HistoryViewmodel>().fetchData(languageCode: currentLanguage);
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final viewModel = context.read<HistoryViewmodel>();
     final state = context.watch<HistoryViewmodel>().state;
     final padding = const EdgeInsets.symmetric(horizontal: 20);
     return TemplatePage(
-      title: 'history_title'.tr(),
+      title: AppLocalizations.of(context)!.historyTitle,
       child: switch (state) {
         Loading<List<HistoryItemDto>>() =>
           Center(child: CircularProgressIndicator()),
@@ -50,7 +54,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                       onSearch: (keyword) {
                         viewModel.search(keyword);
                       },
-                      placeHolder: 'history_search_hint'.tr())
+                      placeHolder: AppLocalizations.of(context)!.historySearchHint)
                   .pading(padding),
               DestinationPicker(onSelect: (id) {
                 viewModel.filterByDestination(id);

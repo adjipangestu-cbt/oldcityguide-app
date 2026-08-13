@@ -1,0 +1,324 @@
+[
+    {
+        "id": 1,
+        "destination_id": "1",
+        "title": "Sejarah Lasem",
+        "content": "<div style=\"text-align: justify;\">Lasem adalah sebuah kota kuno yang terletak di pesisir utara Jawa bagian tengah. Secara geografis, letak Lasem di pesisir pantai utara menjadikan wilayah ini sangat strategis. Hal itu memungkinkan Lasem untuk berkembang sebagai pusat perekonomian serta menjadi panggung keragaman budaya. Melalui lensa etno-histori, kita dapat memperdalam pemahaman tentang kehidupan masyarakatnya yang beragam, serta warisan budaya yang telah diwariskan dari generasi ke generasi.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: center;\"></div><div style=\"text-align: center;\"></div><div style=\"text-align: justify;\"> </div><div style=\"text-align: justify;\">\r\n\r\nLasem dikenal sebagai kota dengan sejarah panjang yang melibatkan interaksi antara budaya Jawa dan Tionghoa, serta pengaruh budaya global. Pada masa itu, kehidupan sosial di Lasem ditandai dengan keberadaan komunitas Tionghoa yang telah menetap selama beberapa generasi, berbaur dengan masyarakat Jawa setempat. Hubungan antara kedua komunitas ini bersifat dinamis dan saling mempengaruhi, terlihat dari aktivitas di ruang publik seperti pasar dan acara-acara komunitas yang mencerminkan toleransi dan kerjasama yang tinggi.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nLasem juga menjadi pusat interaksi budaya yang unik, di mana budaya Jawa dan Tionghoa saling mempengaruhi dalam berbagai aspek kehidupan sehari-hari. Arsitektur rumah, pakaian, dan seni di Lasem sering kali mencerminkan perpaduan antara kedua budaya tersebut. Misalnya, motif batik Lasem menggabungkan elemen tradisional Jawa dengan simbol-simbol Tionghoa seperti naga dan burung phoenix, sementara upacara-upacara adat menunjukkan pengaruh ganda dari kedua budaya dalam perayaan tertentu.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\"> </div><div style=\"text-align: justify;\">\r\n\r\nInteraksi budaya antara Jawa dan Tionghoa di Lasem terlihat pula dalam aspek sosial seperti perkawinan campuran dan penggunaan bahasa. Perkawinan campuran antara masyarakat Jawa dan Tionghoa tidak hanya mengikat dua keluarga, tetapi juga menggabungkan tradisi dan adat istiadat kedua budaya, memperkaya budaya lokal secara keseluruhan. Bahasa yang digunakan di Lasem mencerminkan interaksi ini, dengan banyak orang berbicara dalam dialek campuran yang menunjukkan keterbukaan masyarakat terhadap pengaruh budaya lain.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\"> </div><div style=\"text-align: justify;\">\r\n\r\nPada aspek ekonomi perdagangan, Lasem merupakan pusat perdagangan yang vital di pesisir utara Jawa. Keberadaan pelabuhan yang aktif memungkinkan Lasem menjadi titik pertemuan bagi para pedagang dari berbagai negara, membawa masuk komoditas seperti rempah-rempah, tekstil, keramik, dan hasil bumi yang diperdagangkan dengan barang-barang lokal. Pedagang Tionghoa memainkan peran penting dalam ekonomi Lasem, mengoperasikan toko-toko dan berpartisipasi dalam perdagangan internasional.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\"> </div><div style=\"text-align: justify;\">Industri batik juga merupakan bagian penting dari ekonomi lokal, dengan Lasem dikenal sebagai salah satu produsen batik berkualitas tinggi yang dijual di pasar lokal dan internasional. \r\n\r\nPengaruh perdagangan maritim sangat signifikan dalam perkembangan Lasem. Pelabuhan Lasem yang sibuk membawa berbagai komoditas dari dan ke luar negeri, dengan kapal-kapal dari Tiongkok, India, Arab, dan Eropa sering kali singgah di pelabuhan ini. Infrastruktur pelabuhan berkembang pesat untuk mendukung kegiatan perdagangan, menjadikan Lasem sebagai titik penting dalam jaringan perdagangan maritim internasional. Perdagangan ini tidak hanya memperkaya ekonomi lokal tetapi juga membawa masuk pengaruh budaya dan teknologi dari luar, membentuk karakter unik kota Lasem yang harmonis dan beragam.</div>",
+        "created_at": "2025-07-07T06:51:39.000000Z",
+        "updated_at": "2025-08-18T06:11:01.000000Z",
+        "images": [
+            {
+                "id": 2,
+                "history_id": "1",
+                "image_url": "storage/histories/ae3aec8c-231f-4ac3-b445-573125c1d1b1.jpg",
+                "created_at": "2025-07-31T15:57:58.000000Z",
+                "updated_at": "2025-07-31T15:57:58.000000Z"
+            },
+            {
+                "id": 3,
+                "history_id": "1",
+                "image_url": "storage/histories/02defe26-7214-4999-a0c1-02a8fdcdf6a1.jpg",
+                "created_at": "2025-08-01T01:20:20.000000Z",
+                "updated_at": "2025-08-01T01:20:20.000000Z"
+            },
+            {
+                "id": 4,
+                "history_id": "1",
+                "image_url": "storage/histories/2a1ba339-4446-4df2-984c-3521876da27d.jpg",
+                "created_at": "2025-08-01T01:27:19.000000Z",
+                "updated_at": "2025-08-01T01:27:19.000000Z"
+            },
+            {
+                "id": 5,
+                "history_id": "1",
+                "image_url": "storage/histories/0ffe0953-52fa-4ce2-a786-0e0e61d3cb4c.jpg",
+                "created_at": "2025-08-01T01:27:19.000000Z",
+                "updated_at": "2025-08-01T01:27:19.000000Z"
+            },
+            {
+                "id": 6,
+                "history_id": "1",
+                "image_url": "storage/histories/728f3e95-898a-49cb-9b07-58b6db19688d.jpg",
+                "created_at": "2025-08-01T01:27:19.000000Z",
+                "updated_at": "2025-08-01T01:27:19.000000Z"
+            },
+            {
+                "id": 7,
+                "history_id": "1",
+                "image_url": "storage/histories/e1ff5baf-f00b-4559-ae58-dad73fe971c5.jpg",
+                "created_at": "2025-08-01T01:27:33.000000Z",
+                "updated_at": "2025-08-01T01:27:33.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "destination_id": "1",
+        "title": "Sejarah Lasem Hingga Abad XV",
+        "content": "<div style=\"text-align: justify;\">Tidak banyak informasi yang dapat dikuak ketika berbicara tentang Lasem-Rembang sebelum periode kekuasaan Majapahit. Akan tetapi, penemuan perahu kuno di Desa Punjulharjo, yang diperkirakan berasal dari abad VII, menegaskan kembali adanya kehidupan maritim di wilayah itu (Purnawibawa, 2021). Daerah Lasem-Rembang mungkin telah menjelma sebagai pelabuhan yang ramai. Walaupun perahu kuno itu mungkin dibuat oleh orang lokal, tetapi dipergunakan oleh pedagang Indo-China (Champa). Perahu itu mungkin dipergunakan untuk melakukan perjalanan dari muara sungai ke daerah pedalaman, mengingat pusat kerajaan saat itu mungkin berada di daerah pedalaman. Berbagai komoditas yang tertinggal (patung dan peralatan keperluan hidup) di perahu itu juga menunjukkan adanya interaksi sosial-ekonomi antara orang Jawa dan Indo-China. Diperkirakan sejak abad XI, telah ada pemukiman pedagang Cina yang menetap dan kawin mawin dengan bumiputera di sekitar Sungai Lasem (Handinoto, 2015), bahkan dipercaya sebagian komunitas Cina saat ini yang berada di Lasem merupakan keturunan dari awak kapal dari ekspedisi Laksamana Cheng Ho di Abad XIV yang menetap di Lasem (Unjiya, 2014).</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nPada abad XIV, Majapahit mulai menancapkan hegemoni-nya ke Jawa. Lasem-Rembang menjadi vassal dari Majapahit di bawah pejabat dengan gelar Bhre Lasem (Purnawibawa, 2021). Pada periode ini, Lasem, sebagaimana digambarkan dalam Carita Sejarah Lasem, merupakan wilayah yang nyaman, damai dan indah. Dengan posisi yang sangat strategis, sangat mungkin Lasem (termasuk Rembang), bersama dengan Gresik (Sedayu dan Jaratan), merupakan wilayah penting bagi kekuatan maritim Majapahit (Purnawibawa, 2020). Diperkirakan galangan kapal pada masa ini berada di pelabuhan Kairingan (Kiringan). Sementara pusat perdagangan berada di kawasan Teluk Regol, yang diramaikan oleh aktivitas perdagangan antar pulau dan antar bangsa (Unjiya, 2014). Hingga Abad XV, lokasi utama pembuatan perahu berukuran besar di pesisir utara Jawa diperkirakan berada di Rembang dan Cirebon (Manguin, 1993). Hal ini semakin menguatkan pendapat bahwa masyarakat pesisir di Rembang telah memiliki kecakapan dalam teknologi pembuatan perahu.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nJika Lasem pada Abad XIV-XV merupakan bandar utama Majapahit di Jawa. Ada Kemungkinan Odorico do Pordenone, pelancong Italia, pernah berkunjung ke sekitar Lasem-Rembang. Odorico diperkirakan berada di Jawa ketika Majapahit berada di bawah pimpinan Raja Jayanegara. Odorico melihat dengan seksama keadaan ekonomi politik Majapahit. Birokrasi politik Majapahit dilihat sekilas olehnya. Dia merasa Raja Jawa memiliki tujuh raja lain di bawah kekuasaan utamanya (Rush, 2012:2). Jika kita perhatikan dengan seksama, mungkin yang dia maksud dengan tujuh raja bawahan dari raja Majapahit adalah Bathara Sapta Prabu. Selain itu, dewan penasehat itu juga disebut dengan nama lain seperti Sapta Raja, Mantri Agung, Kalawan Para Natha, Pohom Narendra, dan Saptangga Raja (Yamin, 1962:91). Bathara Sapta Prabu merupakan sebuah jabatan penasehat raja yang anggotanya ialah keluarga raja yang berkuasa (Yamin, 1962:87). Ketika Jayanegara berkuasa, belum diketahui siapa saja yang masuk pada lingkaran Bathara Sapta Prabu, yang dibentuk setelah Raden Wijaya mangkat (Yamin, 1962:90). Namun, ketika Hayam Wuruk berkuasa, informasi siapa saja Bathara Sapta Prabu dapat diketahui. Dalam Prasasti Singasari 1351, disebutkan Bathara Sapta Prabu dikepalai oleh Tribuana Tungga Dewi (Yamin, 1962:88). Pada awalnya, Sapta Prabu terdiri dari tujuh orang yakni Prabu Hayam Wuruk, kedua orang tua, bibi dan paman, serta kedua saudara putri. Namun, jumlah anggotanya kemungkinan bertambah pada tahun 1354. Walaupun jumlahnya berubah menjadi sembilan orang, tetapi namanya tetap Bathara Sapta Prabu (Yamin, 1962:89). Adapun Sembilan orang yang menjadi Bathara Sapta Prabu yakni Prabu Hayam Wuruk sebagai ketua dewan, Tribhuwana Tungga Dewi, Sri Kerta Wardhana, Dyah Wiyat Sri Raja Dewi, Sri Wijaya Rajasa, Bhre Lasem Duhitendu Dewi, Sri Rajasa Wardhana, Bhre Pajang, dan Singa Wardana (Unjiya, 2014:24).</div><div style=\"text-align: center;\"><br></div><div style=\"text-align: justify;\">\r\n</div><div style=\"text-align: justify;\">\r\nKesaksian lain dari Odorico ialah geografi dan komoditas di Jawa. Menurutnya, Pulau Jawa merupakan pulau terbesar di dunia dan sepenuhnya dihuni (Rush, 2012:2). Marco Polo juga menyerukan hal yang sama. Polo (2019:24 &amp; 250) berujar bahwa, menurut para pelaut veteran, Jawa merupakan pulau yang terbesar di dunia. Tentu informasi itu tidak terlalu akurat dan tidak bersesuaian dengan kenyataan yang ada. Terkait komoditas di Jawa, Odorico berujar bahwa bandar-bandar di Jawa memiliki cengkih, kemukus, dan buah pala serta segala macam rempah lain juga banyak jenis makanan lain dalam jumlah besar. Namun, di Jawa tidak memiliki anggur (Rush, 2012:2). Tidak berbeda jauh, Polo (2019: 250) menyampaikan bahwa Jawa merupakan pulau yang kaya akan komoditas. Mereka memiliki lada, pala, cengkih, serta berbagai jenis rempah yang dijumpai di dunia. Begitu banyak kapal dan pedagang yang berdagang di Jawa dan mendapatkan keuntungan dagang yang tinggi. Karya Ma Huan yang berjudul Ying-yai Sheng-lan juga menginformasikan komoditas yang ada di Jawa. Pelancong Cina itu mendapat berbagai produk pertanian seperti beras, wijen, dan kacang kedelai. Selain itu, Jawa juga menghasilkan kayu secang, intan, kayu cendana, lada, merica, baja, dan tempurung penyu (Groeneveldt, 2019:67). Ketersediaan komoditas di Jawa tentu didasarkan pada permintaan barang oleh para pedagang asing. Pedagang Cina misalnya begitu mencari lada hitam. Selain itu, pedagang manca negara lainnya juga mencari beras, kacang, adas, pewarna safflower, biji jamuju, biji ketumbar, pewarna wangkudu, garam, dan gula. Selain komoditas yang diekspor, ternyata terdapat beberapa komoditas yang dibawa ke Jawa seperti keramik, kain, kemenyan, pedang, logam, koin, dan budak (Christie, 1998:352; Nufus, 2018).</div><div style=\"text-align: center;\"><br></div><div style=\"text-align: justify;\">\r\n</div><div style=\"text-align: justify;\">\r\nSelain birokrasi politik dan komoditas perdagangan, Odorico juga menyebutkan ketakjubannya pada istana Jawa. Dia mengujarkan bahwa Raja Jawa memiliki sebuah istana besar dan mewah paling menakjubkan. Istana itu memiliki tangga lebar dan megah kea rah ruangan di bagian atas, semua anak tangga secara bergantian terbuat dari emas dan perak. Seluruh dinding bagian dalam dilapisi oleh lapisan emas, dimana gambar-gambar ksatria diukirkan pada lapisan ema situ. Gambar ksatria itu berhiaskan sebuah mahkota kecil yang dihias dengan beragam batu mulia. Atap istana itu terbuat dari emas murni dan seluruh ruangan di bagian bawah dilapisi dan berselingan dengan lempeng-lempeng berbentuk kotak yang terbuat dari emas dan perak (Rush, 2012:2). Istana Jawa yang dimaksud ada kemungkinan ialah ibukota Majapahit yakni di Trowulan. Sejauh kajian yang selama ini dilakukan para ahli masih menyepakati ibukota Majapahit berada disana (Munandar, 2008). Terkait gambaran istana Majapahit, informasi lain dapat kita telusuri berasal dari uraian Mpu Prapanca dalam Nagarakrtagama (Riana, 2009) dan Ma Huan dalam Ying-yai Sheng-lan (Groeneveldt, 2019:63-4). Menurut mereka, istana Majapahit dikelilingi dinding bata merah tinggi setinggi tiga changa tau tombak dan tebal. Di dekatnya ada pos di mana para prajurit berjaga. Penjagaan mereka sangat ketat dan berlapis. Gerbang utama menuju istana (kompleks istana) terletak di sisi utara tembok, dalam bentuk gerbang agung dengan pintu-pintu besar yang terbuat dari besi berukir. Di depan gerbang utara terdapat bangunan panjang tempat pertemuan tahunan pejabat negara, pasar, dan persimpangan yang disucikan. Memasuki kompleks melalui gerbang utara terdapat lapangan yang dikelilingi bangunan-bangunan suci agama. Di sisi barat lapangan ini terdapat paviliun yang dikelilingi oleh kanal dan kolam tempat orang-orang mandi. Di ujung selatan alun-alun terdapat berbagai rumah yang dibangun di teras dengan teras, rumah-rumah ini adalah tempat tinggal para pelayan istana. Gerbang lain mengarah ke lapangan ketiga yang penuh dengan bangunan dan aula besar. Gedung ini adalah ruang tunggu tamu yang akan menghadap raja. Kompleks istana raja terletak di sisi timur alun-alun ini, dalam bentuk beberapa paviliun atau paviliun yang dibangun di atas platform batu bata berukir, dengan tiang kayu besar diukir dengan sangat halus dan atap yang dihiasi dengan ornamen tanah liat.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n</div><div style=\"text-align: justify;\">\r\nTerakhir, Odorico juga memberikan informasi terkait keadaan geopolitik Asia. Kaisar Cina atau Khan yang Agung sering mengadakan peperangan dengan Raja Jawa. Akan tetapi, menurutnya serangan Cina selalu berhasil dipatahkan dan dipukul mundur (Rush, 2012:2). Polo (2019:8) juga memberikan informasi serupa ketika mendeskripsikan Jawa. Dia berujar pasukan Khan baru saja kalah di Jawa. Secara historis, Kaisar Cina memang pernah mengirim pasukan dua kali ke Jawa. Pertama, ketika dia meminta diplomatnya untuk mengharapkan pengakuan dari Prabu Kertanegara. Kedua, pasukan Cina datang lagi dengan maksud ingin menghukum Kertanegara yang tidak mau tunduk kepada Cina. Akan tetapi, pasukan Cina tidak lagi dapat menjumpai Kertanegara yang tewas terbunuh ketika Jayakatwang mengobrak-abrik istana Singasari. Raden Wijaya yang berhasil selamat dari serbuan Jayakatwang kemudian bernegosiasi dan bersepakat untuk menyerang Kediri bersama. Aliansi mereka berhasil menghabisi Jayakatwang dan para sekutunya. Terlena akan kemenangan yang mereka miliki, Pasukan Cina menggelar pesta kemenangan. Dalam keadaan mabuk berat, pasukan Cina tidak siap dengan serangan tiba-tiba Raden Wijaya. Raden Wijaya berhasil menghabisi dan mengusir pasukan Cina. Dengan berkedudukan di Tarik, Raden Wijaya kemudian mendirikan kerajaan Majapahit (Groeneveldt, 2019:40-48).</div>",
+        "created_at": null,
+        "updated_at": "2025-08-18T06:11:39.000000Z",
+        "images": [
+            {
+                "id": 8,
+                "history_id": "3",
+                "image_url": "storage/histories/79f43693-d7ab-4717-8ac4-45df4b4a3c35.jpg",
+                "created_at": "2025-08-01T01:31:07.000000Z",
+                "updated_at": "2025-08-01T01:31:07.000000Z"
+            },
+            {
+                "id": 9,
+                "history_id": "3",
+                "image_url": "storage/histories/896cd906-2fbc-4040-9fb8-3f2e279d390a.jpg",
+                "created_at": "2025-08-01T01:31:07.000000Z",
+                "updated_at": "2025-08-01T01:31:07.000000Z"
+            },
+            {
+                "id": 10,
+                "history_id": "3",
+                "image_url": "storage/histories/ea02afe2-d59b-443f-8cf2-8cc103b6ed65.jpg",
+                "created_at": "2025-08-01T01:31:07.000000Z",
+                "updated_at": "2025-08-01T01:31:07.000000Z"
+            },
+            {
+                "id": 11,
+                "history_id": "3",
+                "image_url": "storage/histories/1421e7b4-f65c-409c-a2da-16e0781f0fc8.jpg",
+                "created_at": "2025-08-01T01:31:07.000000Z",
+                "updated_at": "2025-08-01T01:31:07.000000Z"
+            },
+            {
+                "id": 12,
+                "history_id": "3",
+                "image_url": "storage/histories/3cc56bea-191e-4bf5-ac4e-cf60ba50951b.jpg",
+                "created_at": "2025-08-01T01:31:07.000000Z",
+                "updated_at": "2025-08-01T01:31:07.000000Z"
+            },
+            {
+                "id": 13,
+                "history_id": "3",
+                "image_url": "storage/histories/7f58b28d-25a8-4c45-aa61-0473b0f05744.png",
+                "created_at": "2025-08-01T01:31:07.000000Z",
+                "updated_at": "2025-08-01T01:31:07.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "destination_id": "1",
+        "title": "Sejarah Lasem Abad XVI",
+        "content": "<div style=\"text-align: justify;\">Melihat Lasem dari aspek geografisnya, tidak heran jika pada era modern awal Lasem menjadi wilayah penting pada sektor perdagangan maritim. Berada di sekitar kekuasaan Demak juga menjadi alasan mengapa wilayah Lasem menjadi pelabuhan penghubung menuju wilayah pedalaman bagi para pedagang asing. Untuk melihat mobilisasi komunikasi yang terjadi di Lasem pada abad XVI, perlu untuk melihat kedigdayaan pengaruh Demak pasca runtuhnya kekuasaan Majapahit. Demak yang berorientasi pada kekuatan maritim, mampu menjalin hubungan baik dengan Gresik, Tuban, dan Lasem (Unjiya, 2014). Hal ini dikarenakan pada masa akhir Majapahit, wilayah-wilayah tersebut adalah bagian penting bagi pertahanan dan perekonomian Majapahit. Pada abad XIV-XV, Lasem dipimpin oleh seorang Ratu yang diberi gelar Bhre Lasem. Dalam catatan Jawa, menyebutkan bahwa nama aslinya adalah Duhitendu Dewi salah satu anak dari Wijaya Rajasa yang menikah yang menikah dengan Dyah Wiyat saudara perempuan Tribhuana Tungga Dewi, ibu dari Hayam Wuruk. Dalam hal ini, berarti Bhre Lasem adalah sepupu dari Raja Hayam Wuruk. Ini menandakan bahwa Lasem memikili keudukan yang penting bagi Kerajaan Majapahit. Oleh karena itu, melihat sejarah kebesaran Lasem di masa Lampau, langkah politis Kerajaan Demak menguasai Lasem memiliki tujuan untuk mendapatkan kekuatan baik secara politik maupun geografis.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\"> \r\n\r\nKemudahan Demak memiliki hubungan dengan Lasem  juga disebabkan Islam yang masuk Lasem pada awal abad XV. Islam datang di Lasem awalnya dimulai oleh kedatangan saudagar bernama Bi Nang Un (Rangkuti, 1997). Bi Nang Un adalah salah satu anggota awak Kapal Laksamana Cheng Ho. Bi Nang Un ingin menetap di Lasem untuk menyebarkan agama Islam di antara orang-orang pribumi. Bi Nang Un berlabuh di Bonang membawa seorang Istri  bernama  Na Li Ni dan seorang  putri bernama Bi Nang Ti (Putri Campa) serta seorang putra bernama Bi Nang Na (Ayuningrum, 2017). Dikutip dari Carita Lasem, kedekatan Lasem dan Demak semakin erat ketika adanya jalinan pernikahan dari Pemimpin Kerajaan Demak (Raden Patah?) dengan putri dari Adipati Lasem Wira Negara dan Nyai Ageng Malokah. Memang tidak ada bukti pendukung yang kuat mengenai hal ini, namun dengan adanya catatan ini dapat menjadi kepingan kecil yang menghubungkan hubungan antara Demak dan Lasem.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\"> \r\n\r\nHubungan antara Kadipaten Lasem, Tuban, dan Kerajaan Demak merupakan hubungan kekerabatan sekaligus sebagai simpur sarana dakwah Islam di Pesisir Pantai Utara Jawa (Unjiya, 2014). Hingga berakhirnya kekuasaan Demak, Lasem tetap menjadi kadipaten yang berdiri sendiri, namun sangat dekat dengan Kerajaan Demak. Melalui perjalanan panjang antara Intrik dan konflik yang terjadi di Demak, Sultan Hadiwijaya (Jaka Tingkir) memindahkan kekuasaan Demak ke Pajang pada pertengahan abag XVI M (Graaf, 1986). Kedudukan Lasem pada masa Kerajaan Pajang sudah bukan merupakan kadipaten yang berdiri sendiri. Kawasan Pantai Utara Jawa seperti Lasem, Gresik dan Tuban sudah menjadi daerah di bawah kekuasaan Kerajaan Pajang. Namun, belum ada catatan sejarah yang pasti menyebutkan bagaimana proses penaklukan Kerajaan Pajang terhadap Lasem.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n</div><div style=\"text-align: justify;\">\r\nSatu tahun sebelum wafatnya Sultan Hadiwijaya (Jaka Tingkir), tepatnya pada tahun 1585, sultan sempat mengangkat Raden Teja Bagus Srimpet sebagai Adipati Lasem dengan gelar \"Tejakusuma\" (Unjiya, 2014). Pasalnya, pemilihan ini juga didasari adanya kedekatan hubungan Teja Bagus Srimpet dengan putri dari sultan. Rupanya hal ini digunakan sebagai usaha untuk pendekatan politik dalam rangka mempererat hubungan Lasem dan Pajang. Pasalnya, setelah kepergian sultan, Pajang belum memiliki kandidat penerus untuk meneruskan kekuasaannya dikarenakan usia Pangeran Benawa (Keturunan dari Hadiwijaya) masih belum mencukupi (Graaf,1986). Oleh karena itu, Pajang dipimpin oleh Arya Pangiri, seroang pemimpin dari Demak yang ditasbihkan oleh Sunan Kudus untuk memerintah Pajang. Hal ini membuat Pangeran Benawa tidak terima, kemudian menyerang Pajang dengan bantuan dari Sutawijaya dari Mataram (Unjiya, 2014). Pada tahun 1586, Pangeran Benawa menyerahkan kekuasaan Pajang kepada Mataram sebagai bentuk balas budinya. Seiring dengan perpindahan kekuasaan ini, Lasem juga menjadi wilayah di bawah kekuasaan Mataram. Perlu diketahui, hal inilah yang menjadikan Lasem memiliki tata letak kota yang mirip seperti wilayah-wilayah kekuasaan Mataram lainya. Memasuki abad XVII, Lasem mengalami pergolakan politik dikarenakan pada abad itu VOC mulai memperkeruh politik internal Mataram.</div>",
+        "created_at": null,
+        "updated_at": "2025-08-18T03:49:30.000000Z",
+        "images": [
+            {
+                "id": 14,
+                "history_id": "4",
+                "image_url": "storage/histories/21c5a1e2-8e6a-427e-9307-54a6d0e8299c.jpg",
+                "created_at": "2025-08-01T01:32:57.000000Z",
+                "updated_at": "2025-08-01T01:32:57.000000Z"
+            },
+            {
+                "id": 15,
+                "history_id": "4",
+                "image_url": "storage/histories/2be8dbbd-e570-404a-b7d9-d14ef818dcdc.jpg",
+                "created_at": "2025-08-01T01:32:57.000000Z",
+                "updated_at": "2025-08-01T01:32:57.000000Z"
+            },
+            {
+                "id": 16,
+                "history_id": "4",
+                "image_url": "storage/histories/c92909fb-71b1-4913-9326-bb8e5d05aef4.jpg",
+                "created_at": "2025-08-01T01:32:57.000000Z",
+                "updated_at": "2025-08-01T01:32:57.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "destination_id": "1",
+        "title": "Lasem dan Geopolitik Jawa Abad XVII-XVIII",
+        "content": "<div style=\"text-align: justify;\">Geopolitik secara teoritis mengandung dua konsep, yakni ruang (geografi) serta relasi kuasa (politik). Ruang secara geografis pada dasarnya statis. Ruang menjadi dinamis karena ia tidak kosong, didalamnya terkandung berbagai sumber daya alam dan manusia yang dapat menentukan kehidupan masyarakat, kesejahteraan, kejayaan dan nasib suatu bangsa (negara). Geopolitik adalah salah satu strategi untuk menguasai dan menaklukkan ruang sebagai upaya memenuhi kepentingan dan kebutuhan suatu bangsa (negara). Hasrat untuk menguasai dan menaklukkan ruang itu yang menyebabkan geopolitik menjadi penting bagi suatu negara. Perubahan ekonomi, teknologi, sosial dan budaya sebagai akibat meningkatnya kebutuhan untuk bertahan dan eksistensi suatu bangsa. Oleh karena itu, berbagai geostrategi diajukan untuk menguasai dan menaklukkan ruang (Damayanti, 2005).\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nDi Jawa, pola itu melandasi proses pemulihan tatanan geopolitik bercorak hirarkis-konsentris sesuai dengan primordialisme agraris yang telah diperkaya dengan tradisi India dan Islam. Secara geografis, kota-kota di Jawa dapat dibagi menjadi dua bagian, yaitu kota ‘Pesisir’ dan ‘Pedalaman’. Baik Kota Pesisir maupun pedalaman pada awal perkembangannya mempunyai struktur yang sama. Hanya dalam perkembangan sejarah selanjutnya kemudian kota Pesisir mempunyai struktur yang berbeda dengan kota Pedalaman. Hal ini disebabkan karena kota Pesisir nantinya lebih banyak berinteraksi dengan orang asing dari ‘seberang’ sebagai akibat kemajuan dalam bidang pelayaran dan perdagangan. Oleh karena itu, penduduk kota Pesisiran lebih heterogen jika dibandingkan dengan penduduk kota Pedalaman yang relatif lebih homogen. kota Jawa pada zaman prakolonial pada hakekatnya tidak mempunyai batas administratif yang tetap. Semuanya tergantung pada penguasanya. Seorang penguasa biasanya berkedudukan di ibukota kerajaan atau kabupaten. Itulah sebabnya begitu mudahnya kota-kota besar di masa lampau seperti Demak, Kota Gede, Kartasura, atau Pajang bisa runtuh bahkan hilang tanpa bekas (Damayanti, 2005).\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nKota Jawa pada zaman prakolonial pada dasarnya menganut pola kota Mandala, sebagai penerusan dari kebiasaan kota-kota pada zaman Hindu Jawa. Dalam pelaksanaannya kota Jawa dimasa lampau mempunyai pusat (inti) kota, yang berupa istana penguasa (Keraton atau Kabupaten) dengan alun-alun dan bangunan penting lain di sekitarnya. Kalau musuh ingin menghancurkan atau menaklukkan penguasa setempat, maka simbol kekuasaan fisik seperti istana atau keraton serta bangunan pendukungnya harus diratakan dengan tanah. Ibaratnya, lampunya harus dimatikan dulu sehingga kota itu kemudian jadi lemah atau bahkan mati. Ketika VOC mulai berdagang di Batavia, keberadaan mereka sangat menarik minat para imigran Cina untuk mengadu nasib di tanah Jawa, terutama di Batavia. Mereka dengan cepat menjadi mitra dagang. Dengan kata lain, kehadiran VOC semakin memperkuat motif ekonomi perdagangan Cina di tanah rantau. Orang-orang Tionghoa menggeluti perdagangan perantara dan aktivitas perdagangan lainnya (Jayusman, 2019). Hal ini dikarenakan VOC tidak mampu untuk masuk dan bekerja sama dengan masyarakat Jawa pada saat itu. Akan tetapi, seiring berjalanya waktu, VOC melakukan pengkhianatan kepada para saudagar kaya Cina. VOC merasa beberapa pedagang Cina tidak jujur dalam berbagi keuntungan pada VOC.\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nDengan kekacauan politik yang ada maka bisa dipastikan bahwa Jawa pada abad XVIII menempati posisi yang penting bagi para penguasa baik lokal maupun asing. Jika mampu menguasai jawa maka akan menguasai perekonomian di Nusantara. Sumber daya alam yang melimpah baik dari sektor pertanian maupun perkebunan menjadi kunci utama perekonomian pada saat itu. Terlebih dengan meningkatnya jalur niaga di Jawa ke seluruh penjuru dunia menjadikan Jawa ramai dan memiliki potensi besar. Kepentingan yang mengikat kolonial di Jawa adalah gudang beras, sumber kayu dan garam di sekitar Rembang. Untuk komoditas lain seperti tebu dan kopi dijaga agar tetap teratur suplainya. VOC jelas ingin menguasai Jawa. VOC tidak bersifat agresif dan menyerang penguasa lokal di Jawa. VOC pada faktanya tidak memiliki kekuatan dan keberanian untuk menyerang pada jantung kerajaan di Jawa. VOC berpura-pura menawarkan persekutuan dalam intrik-intrik politik yang terjadi di Mataram. VOC berafiliasi dengan raja yang sah dan menghukum setiap pemberontak yang berani melawan. Ketika VOC sudah mendapatkan kerjasama dengan raja yang berkuasa, mereka memberikan tawaran kekuatan militer yang sangat kuat dan sebagai gantinya raja akan memberikan upah berupa tanah koloni, yang mana tanah itu merupakan bagian dari kerajaan itu sendiri. Secara tidak langsung, VOC dapat memperlemah kekuasaan internal kerajaan  (Remmelink, 2001:7).\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nSelain berurusan dengan orang-orang Jawa, VOC juga mengawasi gerak-gerik para imigran Cina. Sebenarnya Belanda sejak semula sudah mempunyai rasa sentimen terhadap orang Cina. Akan tetapi, dalam politik dagang orang Cina ini diperlukan. Oleh karena itu, Belanda terombang-ambing antara dua hal yang bertentangan; pada satu pihak mereka membutuhkan pedagang Cina sebagai perantara terhadap kaum pribumi untuk barang-barang impor. Akan tetapi dilain pihak, mereka juga sering menyelundupkan hasil pertanian rakyat. Melihat pentingnya jaringan perdagangan antara VOC dengan Cina imigran, dan adanya manfaat dari sistem distribusi yang didirikan oleh orang-orang Cina itu, VOC kemudian menawarkan langkah-langkah perlindungan dari ancaman persoalan yang datang dari tuan besar Jawa atau yang lain. Misalnya, perlindungan untuk menciptakan kondisi yang dibutuhkan bagi orang-orang Cina agar dapat memperpanjang jaringan perdagangan (Jayusman, 2019).\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nPada tahun 1740, terjadi pengejaran dan pembantaian besar besaran masyarakat Cina di Batavia. Hal ini akibat kebijakan VOC yang menerapkan kuota bagi Imigran Cina. Bagi mereka yang datang secara ilegal, VOC menjadikan mereka sebagai objek pemerasan. Tahun 1740, etnis Cina berbondong-bondong melarikan diri ke Lasem dan, oleh rakyat Lasem, mereka disambut oleh raden Panji Margana dan Oey Ing Kiat. Para pengungsi ini kemudian bersatu dengan masyarakat Jawa di Lasem untuk menghimpun kekuatan dalam melakukan perlawanan pada VOC. Persekutuan itu menjadi awal serentetan perang yang terjadi antara Cina-Jawa melawan VOC dan sekutunya. Puncak pembantaian yang dilakukan terhadap etnis Cina ketika Gubernur Jendral Andrian Valckenir memerintahkan untuk membunuh 500 orang Cina dan memenggal kepalanya (Daradjadi, 2013:36).</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">Peristiwa pembantaian itu terdengar ke berbagai wilayah sehingga menyulut amarah para pemberontak dan mengakibatkan serangan besar-besaran kepada VOC oleh orang Cina yang tersisa dan berada di sekitar Batavia. Pertempuran itu setidaknya menewaskan 7000-1000 orang Cina. Pada akhirnya VOC mengusut dalang terjadinya pemberontakan dan menetapkan seorang Kapten Cina bernama Nie Hoe Kong sebagai pelaku dan orang yang menggerakkan massa untuk memberontak. Sedangkan, fakta lain berdasarkan perspektif Belanda, awal mula pembantaian etnis Cina terjadi pada saat terjadinya kekosongan Gubernur Jendral VOC dan akhirnya diputuskan Valcknier sebagai Gubernur Jenderal VOC yang baru. Pada masa ia menjabat, para pejabat komisaris Belanda memberlakukan kebijakan dan perilaku yang diskriminatif terhadap etnis Cina. Orang Cina wajib memiliki kartu tanda penduduk. Apabila tidak memiliki maka mereka akan ditahan. Selanjutnya, mereka disiksa hingga dirampas harta yang dipunya. Hal ini menimbulkan desas-desus di kalangan etnis Cina itu sendiri. VOC yang mengetahui hal itu melakukan tindakan  pencegahan pemberontakan yang membuat suasana semakin memanas.Perlawanan serupa juga muncul di Jawa dengan serangkaian peristiwa pemberontakan yang ada. Salah satunya adalah perlawanan yang dipimpin oleh Tan Sin Ko di sekitar Demak. Perlawanan ini tidak hanya muncul dari kalangan kaum Cina akan tetapi juga dari masyarakat Jawa. Pada tahun 1741, terjadi beberapa perlawanan oleh rakyat pada VOC. Mereka beberapa kali mampu mengusir mundur VOC, salah satunya pada  tanggal 27 Juli 1741 dan menduduki daerah Rembang serta mengusir pasukan VOC (Daradjadi, 2013:36).</div>",
+        "created_at": null,
+        "updated_at": "2025-08-18T04:11:21.000000Z",
+        "images": [
+            {
+                "id": 17,
+                "history_id": "5",
+                "image_url": "storage/histories/5c423baf-7519-4da6-8b2b-cd755d74efde.jpg",
+                "created_at": "2025-08-01T01:34:02.000000Z",
+                "updated_at": "2025-08-01T01:34:02.000000Z"
+            },
+            {
+                "id": 18,
+                "history_id": "5",
+                "image_url": "storage/histories/b3eb0008-876a-4634-964a-22edc5716dae.jpg",
+                "created_at": "2025-08-01T01:46:32.000000Z",
+                "updated_at": "2025-08-01T01:46:32.000000Z"
+            },
+            {
+                "id": 19,
+                "history_id": "5",
+                "image_url": "storage/histories/998f6c14-cb66-4c92-be8c-8b576f51f788.jpg",
+                "created_at": "2025-08-01T01:46:32.000000Z",
+                "updated_at": "2025-08-01T01:46:32.000000Z"
+            },
+            {
+                "id": 20,
+                "history_id": "5",
+                "image_url": "storage/histories/fdc9d67a-4303-4acd-8cb4-534312eaa7da.jpg",
+                "created_at": "2025-08-01T01:46:32.000000Z",
+                "updated_at": "2025-08-01T01:46:32.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "destination_id": "1",
+        "title": "Perang Kuning di Lasem Abad XVIII",
+        "content": "<div style=\"text-align: justify;\">Pada tahun 1679, Lasem merupakan bagian dari Kerajaan Mataram dengan bantuan Amangkurat II. Kongsi Dagang Hindia Timur Belanda atau Vereenigde Oost-Indische Compagnie (VOC) menyerang wilayah Lasem dengan tujuan untuk mendapatkan monopoli perdagangan di pesisir pantai utara Jawa. Melalui perang yang cukup lama akhirnya Lasem dapat ditaklukkan. Namun, hal itu, menimbulkan kebencian rakyat Lasem pada Belanda dan penguasa Mataram yang dianggap sebagai boneka VOC. Pada tahun 1714, Sultan Pakubuwono I mengangkat Pangeran Tejakusuma V (Raden Panji Sasongko) menjadi Adipati Lasem. Meskipun begitu, Pangeran Tejakusuma V tidak menyukai Sultan Pakubuwono I hingga penggantinya Sunan Amangkurat IV. Secara diam-diam Tejakusuma membantu Arya Mataram dan Pangeran Purbaya dalam melawan VOC dan Sunan Amangkurat IV. Setelah para pemberontak Mataram semakin surut pada tahun 1721, Tejakusuma mengundurkan diri sebagai adipati karena tidak setuju terhadap hubungan dekat antara sunan dengan Belanda dengan alasan kesehatan telinga yang mulai tuli. Setahun setelah kemunduran Raden Sasongko Tejakusuma V sebagai Adipati Lasem, Raja Pakubuuwono II mengangkat seorang keturunan Tionghoa bernama Oei Ing Kiat yang bergelar “Tumenggung Widyaningrat” pada tahun 1727. Sebelumnya Oei Ing Kiat merupakan dampo awang (syahbandar) di Pelabuhan Lasem yang terkenal loyal terhadap Tejakusuma V. Sama seperti pendahulunya, Oei Ing Kiat menaruh kebencian terhadap Belanda karena adanya monopoli perdagangan dan intervensi politik yang dilakukan oleh VOC di Mataram (Unjiya, 2014:169).</div>",
+        "created_at": null,
+        "updated_at": "2025-08-18T06:12:39.000000Z",
+        "images": [
+            {
+                "id": 21,
+                "history_id": "6",
+                "image_url": "storage/histories/1c1e2c98-c1e3-4ac8-9fd2-c0a797e8d393.jpg",
+                "created_at": "2025-08-01T02:00:14.000000Z",
+                "updated_at": "2025-08-01T02:00:14.000000Z"
+            },
+            {
+                "id": 22,
+                "history_id": "6",
+                "image_url": "storage/histories/1f5a686e-6b62-4f28-8d28-f4e64b445e42.jpg",
+                "created_at": "2025-08-01T02:00:14.000000Z",
+                "updated_at": "2025-08-01T02:00:14.000000Z"
+            },
+            {
+                "id": 23,
+                "history_id": "6",
+                "image_url": "storage/histories/1af97800-e818-4c20-a678-2e6faaccb395.jpg",
+                "created_at": "2025-08-01T02:00:14.000000Z",
+                "updated_at": "2025-08-01T02:00:14.000000Z"
+            },
+            {
+                "id": 24,
+                "history_id": "6",
+                "image_url": "storage/histories/9b66f60f-7c9b-47b8-8015-908ccb501a58.jpg",
+                "created_at": "2025-08-01T02:00:14.000000Z",
+                "updated_at": "2025-08-01T02:00:14.000000Z"
+            },
+            {
+                "id": 25,
+                "history_id": "6",
+                "image_url": "storage/histories/ed8ba90a-29fa-4ebf-93dc-4e3f69ea2715.jpg",
+                "created_at": "2025-08-01T02:00:14.000000Z",
+                "updated_at": "2025-08-01T02:00:14.000000Z"
+            },
+            {
+                "id": 26,
+                "history_id": "6",
+                "image_url": "storage/histories/c7fb00b3-4322-450e-90d9-93c361797872.jpg",
+                "created_at": "2025-08-01T02:00:14.000000Z",
+                "updated_at": "2025-08-01T02:00:14.000000Z"
+            },
+            {
+                "id": 27,
+                "history_id": "6",
+                "image_url": "storage/histories/52d7d64b-f8c2-462e-95de-bf9c4e63a4dd.jpg",
+                "created_at": "2025-08-01T02:00:14.000000Z",
+                "updated_at": "2025-08-01T02:00:14.000000Z"
+            },
+            {
+                "id": 28,
+                "history_id": "6",
+                "image_url": "storage/histories/52def13c-f478-443d-ad2b-bf59473fe9f6.jpg",
+                "created_at": "2025-08-01T02:00:14.000000Z",
+                "updated_at": "2025-08-01T02:00:14.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "destination_id": "1",
+        "title": "Pembantaian Angke 1740",
+        "content": "<div style=\"text-align: justify;\">Pada tahun 1740, perlawanan besar-besaran terhadap VOC dilakukan oleh masyarakat Tionghoa di Batavia, yang dikenal dengan peristiwa Angke, yang merenggut ribuan nyawa. Akibatnya, sekitar 1.000 orang Tionghoa dari Batavia melarikan diri dan mencari perlindungan ke timur dan beberapa dari mereka tiba di Lasem. Kedatangan orang Tionghoa disambut oleh Adipati Lasem Oei Ing Kiat, yang mengizinkan mereka mendirikan beberapa pemukiman baru di daerah Sambong dan Narukan sebelah barat Kota Lasem. Pada umumnya orang Tionghoa Batavia berprofesi sebagai pedagang, pegawai pelabuhan, dan buruh pekerja yang memiliki karakter pekerja keras. Akibatnya, banyak tenaga kerja baru yang bekerja di Lasem baik berprofesi sebagai kuli pelabuhan, buruh tani, dan buruh tambah milik penduduk. Oei Ing Kiat juga mempekerjakan mereka dalam proyek normalisasi sungai. Hal tersebut karena adanya proyek pengerukan dan penebingan Sungai Babagan yang mengalami pendangkalan akibat pelarian Cina-Batavia. Selain itu mereka juga melakukan pengerjaan pelebaran Kanal atau Sungai Kamandung dari Banjar Mlati, Karanggan hingga jalur pintu Sungai Babagan agar kapal-kapal dagang bisa masuk ke tengah-tengah kota. Maka dari itu Dasun menjadi pelabuhan yang ramai dan menjadi pusat niaga (Unjiya, 2014:170). </div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nNamun perubahan di Lasem tidak berlangsung lama. Pergolakan kembali terjadi karena VOC yang secara politik semakin kuat mengincar Rembang. Daerah tersebut sangat strategis yaitu terletak di tengah-tengah Jawa bagian barat dan timur, serta sebagai kawasan perdagangan yang ditunjang dengan hasil hutan berupa kayu jati melimpah. Selain itu Rembang juga dianggap sebagai teritorial penting bagi pemerintahan VOC. Kemudian VOC berhasil mendirikan pemerintahan regency dan kantor dagang di Rembang dan Jepara. Tindakan VOC tersebut dianggap sebagai ancaman serius dan telah mengikis teritorial Kadipaten Lasem. Selain itu Pakubuwono II juga menyerukan perang melawan kolonial Belanda pada tahun 1741. Benteng Belanda di Kartosuro berhasil dibakar dan dihancurkan, lalu Sultan Pakubuwono II menginstruksikan seluruh bupati di wilayah Mataram untuk melakukan perlawanan terhadap Belanda. Sehingga Oei Ing Kiat bersama dengan Tan Ke Wie dan Panji Margono membangun kekuatan milisi bersama dengan rakyat Lasem dengan tujuan untuk merencanakan penyerbuan ke barak VOC di Rembang, Juwana, dan Jepara (Atabik, 2016a).\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nPasukan pemberontak tersebut dikenal sebagai \"Laskar Dampo Awang Lasem\". Strategi peperangan yang dipilih yaitu dengan menguasai pantai atau pelabuhan kemudian masuk ke pusat kekuasaan lawan di pusat kota. Strategi ini dipandang cocok bagi wilayah pantai utara yang sudah mereka kenali. Kegiatan para milisi Lasem dilakukan secara rahasia dengan menggunakan sandi-sandi. Para milisi juga melakukan penyamaran dengan berpakaian seperti orang Cina yang bekerja sebagai buruh. Oei Ing Kiat juga merekrut kekuatan dari milisi Arya Mataram dan Raden Purbaya yang berada di hutan-hutan Blora, Purwodadi, dan Sukolilo-Pati. Setelah menentukan waktu dan melakukan persiapan yang matang untuk melakukan penyerangan, Laskar Dampo Awang berangkat menuju Rembang dan menyisiri pantai menggunakan jung-jung kapal. Penyerangan secara sporadis dan tak terduga membuat legion VOC Rembang bercerai-berai dan dapat dikalahkan dengan mudah (Unjiya, 2014:173).</div>",
+        "created_at": null,
+        "updated_at": "2025-08-18T06:13:37.000000Z",
+        "images": [
+            {
+                "id": 29,
+                "history_id": "7",
+                "image_url": "storage/histories/e5233285-8c11-4f0f-ad2b-d1b97d91a6d8.jpg",
+                "created_at": "2025-08-01T02:02:51.000000Z",
+                "updated_at": "2025-08-01T02:02:51.000000Z"
+            },
+            {
+                "id": 30,
+                "history_id": "7",
+                "image_url": "storage/histories/f85f6705-8826-46d1-96c6-b4dc9be58138.jpg",
+                "created_at": "2025-08-01T02:02:51.000000Z",
+                "updated_at": "2025-08-01T02:02:51.000000Z"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "destination_id": "1",
+        "title": "Lokasi Peperangan",
+        "content": "<div style=\"text-align: justify;\">Setelah dapat mengalahkan legion VOC di Rembang dengan mudah, Laskar Dampo Awang menuju ke markas VOC di Pelabuhan Juwana dan Jepara. Pasukan tersebut dibagi menjadi dua, pasukan pertama  dipimpin oleh Oei Ing Kiat dan Panji Margono menuju Juwana, sedangkan pasukan kedua dipimpin oleh Tan Kie Wie menuju Jepara. Penyerangan kedua daerah tersebut dilakukan secara bersamaan agar dapat memecah konsentrasi pengiriman bantuan legion VOC dari Semarang. Dalam waktu yang singkat, serdadu-serdadu di Pelabuhan Juwana dapat dipatahkan dan sisanya mundur ke kota. Juwana saat itu telah dikepung dari dua arah, dari arah utara Laskar Dampo Awang telah menduduki dermaga dan dari selatan milisi Purwodadi, Blora, serta Jaken telah siap menyerang kota. Kemudian perang meletus di dekat Alun-Alun Juwana yang menyebabkan serdadu VOC tak lagi leluasa melakukan penyerangan menggunakan senapan dan meriamnya, sehingga mereka hanya bisa bertahan dan menunggu bantuan dari legion VOC Semarang. Sehari kemudian, bantuan tersebut tiba dari arah utara dan menghujani kota yang telah diduduki oleh Laskar Dampo Awang. Ditambah dengan bantuan pasukan Tumenggung Cakraningrat IV yang membawa pasukan dari Tuban membuat korban berjatuhan di mana-mana. Laskar Dampo Awang akhirnya mundur dan kembali ke laut dengan membawa rampasan senjata api (Unjiya, 2014:174; Purnawibawa, 2020:41).\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nSementara laskar milisi yang dipimpin oleh Tan Ke Wie yang melakukan penyerangan di Jepara mengalami kesulitan. Tampaknya VOC telah menduga penyerangan tersebut sehingga penjagaan di pelabuhan diperketat. Selain itu dengan adanya benteng VOC di pantai Jepara menjadikan daerah ini memiliki pertahanan yang sangat kuat. Kapal-kapal VOC telah siaga di perairan Jepara dan siap menghadang serangan dari laut. Hal tersebut menjadikan penyerangan hanya berlangsung di perairan sekitar Jepara saja. Banyak kapal milisi Dampo Awang yang rusak dan hancur, sedangkan sisa pasukannya hanya bisa memutar ke arah timur Pulau Mandalika untuk terhindar dari serangan kapal VOC. Akibat serangan dari legion VOC, pemimpin laskar Tan Ke Wie gugur. Kemudian serangan Laskar Dampo Awang juga tidak sampai menyentuh pelabuhan Jepara. Sisa pasukan baik dari Juwana ataupun Jepara akhirnya ditarik mundur oleh Oei Ing Kiat menuju Lasem dan membubarkan Laskar Dampo Awang. Oei Ing Kiat menyuruh mereka untuk menyembunyikan seluruh persenjataan dan atribut perang, serta segera kembali ke keluarga masing-masing dengan menjalankan kehidupan seperti biasa layaknya tidak terjadi apa-apa. Hal ini dilakukan Oei Ing Kiat untuk menghilangkan jejak (Unjiya, 2014: 176).\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nSetelah melakukan penyerangan, Oei Ing Kiat mengabadikan peristiwa tersebut dalam sebuah prasasti yang bertuliskan nama-nama para korban yang meninggal dalam aksara Cina dan disembunyikan di Tambak Batok Mimi, Gedongmulyo, bertarikh 1742. Hal itu dilakukan sebagai bentuk memoriam bagi para pahlawan Lasem yang gugur dalam pertempuran melawan VOC sekaligus sebagai peringatan perlawanan rakyat Lasem.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nSetelahnya, Oei Ing Kiat segera berangkat ke Mataram dan melaporkan peristiwa penyerangan Rembang, Juwana, dan Jepara dan menjelaskan bahwa rakyat Lasem tidak tahu-menahu mengenai peristiwa penyerangan tersebut (Atabik, 2016a). Penyerangan itu dilakukan oleh kelompok orang-orang Cina dari berbagai daerah yang berkumpul di Lasem tanpa sepengetahuannya. Namun sepertinya Pakubuwono II tidak mempercayainya. Akibat peristiwa penyerangan itu, Kota Lasem diduduki VOC pada tahun 1743 M. Kekuasaan Lasem telah diambil alih dan Oei Ing Kiat dipecat dari Adipati menjadi Tumenggung Mayor Titular. Oei Ing Kiat dan Panji Margono terus diawasi, sementara orang-orang Cina yang tinggal di desa-desa dipaksa pindah ke daerah kota yang berada dibawah pengawasan khusus dan terisolasi. Orang Jawa bumiputera dibiarkan seperti semula dengan tetap di bawah pengawasan (Unjiya, 2014:176).\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nUntuk menjalankan pemerintahan baru di Lasem, pada tahun 1745 Gubernur Jenderal VOC, Van Imhof mengangkat Suro Adimenggolo III menjadi pejabat boneka dari regency Lasem yang berkedudukan di Tulis, Selopuro serta mendirikan barak militer di atas Bukit Gebang, Warugunung. Imhof juga membekukan regency Rembang dan memecat Bupati Rembang Hangabei Hanggojoyo karena dianggap terlibat dalam penyerangan yang dilakukan oleh milisi Lasem. Namun pemerintahan regency Lasem tidak berlangsung sesuai harapan VOC. Kebencian dan sikap menolak rakyat Lasem terhadap keberadaan regency buatan VOC di Kadipaten Lasem berujung pada tidak kondusifnya keadaan. Gerakan-gerakan bawah tanah yang selama itu berada di Hutan dan pegunungan melakukan serangan di regency Tulis dan barak Gebang. Ditambah dengan kemarahan rakyat Lasem terhadap Suro Adimenggolo III yang berdalih mengatasnamakan agama dengan memerintahkan pemusnahan situs-situs bersejarah, penghancuran candi-candi, dan pengumpulan paksa peninggalan seperti prasasti dan pusaka.  Adipati Suro Adimenggolo III bahkan mengeluarkan maklumat yang berisi:\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: center;\">\r\n“Barangsiapa yang terbukti membantu para perusuh yang menyerang regency dan barak VOC akan dihukum mati; Barangsiapa menyimpan benda-benda pusaka ataupun pustaka peninggalan leluhur harus diserahkan ke kadipaten. Bila kedepatan menyembunyikan, akan dihukum cambuk sebanyak 25 kali di alun-alun; candi yang ada di Lasem supaya dirubuhkan dan arca-arca disirnakan”</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\n\r\n\r\n\r\n\r\n\r\nTindakan yang arogan tersebut tidak membuat rakyat Lasem menjadi takut, justru sering terjadi serangan di regency Tulis dan barak Gebang (Unjiya, 2014:178). Akibat penyerangan yang sering terjadi Bupati kemudian meminta VOC untuk memindahkan regency Tulis Lasem ke Magersari Rembang. Pemindahan tersebut terjadi pada tahun 1748 dan berdampak pada longgarnya pengawasan terhadap pemimpin dan rakyat (Purnawibawa, 2020). </div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nMilisi yang sebelumnya berkubu dan berpindah-pindah dari hutan dan gunung-gunung akhirnya keluar dan mendapat simpati dari rakyat Lasem. Oei Ing Kiat dan Panji Margono juga kembali mendapatkan kekuasaanya. Semangat perlawanan melawan VOC kembali menggema di mana-mana. Sampai pada sebuah peristiwa di hari Jum’at, kala Kyai Ali Baidhawi menyampaikan Khutbah Jumat di masjid kota dengan menyerukan bahwa perang melawan kezaliman Belanda adalah jihad fi sabilillah. Sehingga setelah fatwa tersebut, jumlah relawan yang berhubung dalam laskar perjuangan berlipat ganda. Seluruh lapisan masyarakat baik penari, nelayan, pedagang, ningrat, dan kaum santri bersatu menjadi satu kesatuan. Para Demang yang memangku wilayah-wilayah yang jauh dari Lasem seperti Pamotan, Sedan, Gada, Kasrema, Badeg, dan Ngadem dengan suka rela mengirimkan para pemuda untuk bergabung dalam laskar perjuangan. Pada bulan Agustus tahun 1750 perang mulai pecah. Kemungkinan, sebelumnya Belanda sudah mengetahui adanya Gerakan besar-besaran di Lasem sehingga bantuan dari legion terdekat seperti Juwana, Pati, Blora, Jepara, dan Tuban segera dikerahkan menuju Rembang.\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nNurhajarini dkk, (2015) menyebutkan kesiapan pihak Belanda tersebut akibat adanya pembocoran informasi oleh Pakubuwono II yang berpihak kepada Belanda. Perang tersebut diawali di Pantai Bonang hingga Pelabuhan Dasun oleh para santri dan orang-orang Cina di bawah komando Oei Ing Kiat melawan serdadu Tuban yang dibawa oleh Cakraningrat IV. Sementara itu di Pantai Caruban dan Gada, Laskar Lasem di bawah pimpinan Panji Margono melawan serdadu legion Rembang. Perang ini terjadi selama tiga bulan berturut-turut. Perlawanan terhadap Belanda membuat desa-desa dan kademangan di sekitar Lasem serta Rembang menjadi terpanggil untuk ikut serta dalam melakukan perlawanan tersebut. Di antara perbatasan Lasem dan Rembang terjadi pertempuran antara laskar dari Gada, Tireman, Badeg, dan Ngadem yang dipimpin oleh Demang Mlayakusuma melawan legion Belanda dari Blora. Sedangkan di bagian barat Rembang, rakyat Demang Waru, Pengkol, dan Babadan ikut menyerbu legion Belanda bantuan dari Juwana dan Pati yang berada di Dresi, Kaliori.\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nPertempuran selama tiga bulan tersebut tentunya merenggut korban ribuan nyawa dari kedua belah pihak. Kekuatan legion militer VOC dari kota-kota pesisir utara dikerahkan semuanya dalam peperangan tersebut. Rakyat Lasem pun melawan hingga titik darah penghabisan hingga mereka benar-benar tidak mampu melakukan perlawanan lagi. Dengan berbagai persenjataan legion VOC yang lebih unggul, mampu mematahkan perlawanan rakyat Lasem. Oei Ing Kiat dan Panji Margono pun gugur dalam pertempuran ini. Pada awal tahun 1751, perlawanan dari Rakyat Lasem benar-benar telah pupus. Kota Lasem kemudian dikuasai kembali oleh Belanda. VOC melakukan pembersihan besar-besaran hingga ke pelosok-pelosok desa. Bagi rakyat yang tercatat pernah melakukan perlawanan dihukum penjara atau dibuang ke pulau seberang. Sehingga suasana kota menjadi mati karena baru saja ditinggalkan oleh penduduk yang mengungsi. Serangkaian peristiwa perlawanan rakyat Lasem tersebut kemudian disebut dengan “Perang Kuning” (Unjiya, 2014:181).\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nWalaupun pada akhirnya perlawanan rakyat Lasem berakhir dengan kekalahan, namun semangat berapi-api masyarakat Lasem yang bersatu dalam kemajemukan melawan hegemoni VOC saat itu menjadi titik balik di mana berbagai ras, suku, bangsa, dan suku bangsa saling bersinggungan. bersatu untuk mengusir penjajah. Sepeninggal Oei Ing Kiat, perlawanan di Lasem benar-benar padam. Lasem kembali dikuasai Belanda, dan rumah Oei Ing Kiat ditempati keponakannya yang diangkat sebagai Kapten Tituler Lasem, sementara semua kapal dan perahunya disita. Kediaman Tejakusuman milik Raden Panji Margono diduduki oleh Mr. Happen, seorang kontrolir Belanda, pada tahun 1751. Wilayah Lasem secara de facto terpisah dari Rembang. Rembang dipimpin oleh Hangabei Honggojoyo, sedangkan Lasem dipimpin oleh Tumenggung Citrasoma IV. Suro Adimenggolo III dikembalikan ke Semarang karena dianggap tidak berhasil mencegah pemberontakan masyarakat Lasem. Pada tahun 1780, setelah situasi di Lasem mereda, penduduk Tionghoa di Babagan, Lasem, mendirikan Klenteng Gie Yong Bio untuk mengenang jasa tiga tokoh pemberontak Lasem, yaitu Tan Kee Wie, Oei Ing Kiat, dan Raden Panji Margono.\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nSementara laskar milisi yang dipimpin oleh Tan Ke Wie yang melakukan penyerangan di Jepara mengalami kesulitan. Tampaknya VOC telah menduga penyerangan tersebut sehingga penjagaan di pelabuhan diperketat. Selain itu dengan adanya benteng VOC di pantai Jepara menjadikan daerah ini memiliki pertahanan yang sangat kuat. Kapal-kapal VOC telah siaga di perairan Jepara dan siap menghadang serangan dari laut. Hal tersebut menjadikan penyerangan hanya berlangsung di perairan sekitar Jepara saja. Banyak kapal milisi Dampo Awang yang rusak dan hancur, sedangkan sisa pasukannya hanya bisa memutar ke arah timur Pulau Mandalika untuk terhindar dari serangan kapal VOC. Akibat serangan dari legion VOC, pemimpin laskar Tan Ke Wie gugur. Kemudian serangan Laskar Dampo Awang juga tidak sampai menyentuh pelabuhan Jepara. Sisa pasukan baik dari Juwana ataupun Jepara akhirnya ditarik mundur oleh Oei Ing Kiat menuju Lasem dan membubarkan Laskar Dampo Awang. Oei Ing Kiat menyuruh mereka untuk menyembunyikan seluruh persenjataan dan atribut perang, serta segera kembali ke keluarga masing-masing dengan menjalankan kehidupan seperti biasa layaknya tidak terjadi apa-apa. Hal ini dilakukan Oei Ing Kiat untuk menghilangkan jejak (Unjiya: 176).\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\nPerang Kuning di Lasem merupakan salah satu peristiwa bersejarah yang terjadi di wilayah Lasem, Jawa Tengah, Indonesia, pada abad XVIII. Konflik ini merupakan bagian dari persaingan antara dua kelompok Tionghoa, yaitu Kapitan Cina dan orang-orang kaya di Lasem. Perang ini terjadi antara tahun 1731 hingga 1757 dan telah meninggalkan banyak memori kelam bagi penduduk setempat. Pada akhirnya, Perang Kuning di Lasem berdampak sangat merugikan masyarakat setempat. Bukan hanya merusak infrastruktur dan mengakibatkan kerugian materi, tetapi juga mengakibatkan banyak korban jiwa di antara penduduk sipil yang tidak terlibat dalam konflik ini. Konflik seperti ini telah mengajarkan kita pentingnya menyelesaikan perselisihan dengan cara yang damai dan membangun hubungan yang saling menguntungkan bagi semua pihak. Sebagai sebuah peristiwa bersejarah, Perang Kuning di Lasem menjadi pelajaran penting untuk menjaga perdamaian dan kerukunan antar etnis dan budaya. </div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nLasem kemudian dikenal dengan keragaman agama yang dianut meliputi Islam, Kristen, Konghucu, Buddha, dan Taoisme, serta keharmonisan antarumat beragama yang cukup terjaga. Arsitektur Lasem pada masa itu dipengaruhi oleh gaya Tionghoa dan Jawa, dengan rumah-rumah besar berornamen khas Tionghoa yang mencerminkan kemakmuran dan pengaruh budaya Tionghoa. Selain itu, Kebudayaan Lasem berkembang dengan adanya batik Lasem yang mulai dikenal, dengan motif dan warna yang dipengaruhi oleh budaya Tionghoa. Warisan sejarah Lasem abad XVII meninggalkan kekayaan budaya hingga kini.</div>",
+        "created_at": null,
+        "updated_at": "2025-08-18T06:17:58.000000Z",
+        "images": [
+            {
+                "id": 31,
+                "history_id": "8",
+                "image_url": "storage/histories/63328546-f506-45f3-a266-ce645e2d2527.jpg",
+                "created_at": "2025-08-01T02:06:08.000000Z",
+                "updated_at": "2025-08-01T02:06:08.000000Z"
+            },
+            {
+                "id": 32,
+                "history_id": "8",
+                "image_url": "storage/histories/bbaaaf66-fb22-4fda-ba95-165a1704ac0e.jpg",
+                "created_at": "2025-08-01T02:06:08.000000Z",
+                "updated_at": "2025-08-01T02:06:08.000000Z"
+            },
+            {
+                "id": 33,
+                "history_id": "8",
+                "image_url": "storage/histories/cde2df0f-0483-4582-83c9-cb43d0fa0b0a.jpg",
+                "created_at": "2025-08-01T02:06:08.000000Z",
+                "updated_at": "2025-08-01T02:06:08.000000Z"
+            },
+            {
+                "id": 34,
+                "history_id": "8",
+                "image_url": "storage/histories/56c60d8b-aa32-4e24-a739-4a2d99d7655d.jpg",
+                "created_at": "2025-08-01T02:06:08.000000Z",
+                "updated_at": "2025-08-01T02:06:08.000000Z"
+            },
+            {
+                "id": 35,
+                "history_id": "8",
+                "image_url": "storage/histories/600720c1-6b44-47c3-93d0-51c145a89031.jpg",
+                "created_at": "2025-08-01T02:06:08.000000Z",
+                "updated_at": "2025-08-01T02:06:08.000000Z"
+            },
+            {
+                "id": 36,
+                "history_id": "8",
+                "image_url": "storage/histories/4fe56264-a3d0-41cd-8a21-d6ed979da63c.jpg",
+                "created_at": "2025-08-01T02:06:08.000000Z",
+                "updated_at": "2025-08-01T02:06:08.000000Z"
+            },
+            {
+                "id": 37,
+                "history_id": "8",
+                "image_url": "storage/histories/0818eec6-fd35-47f5-bc47-c7dd00778fac.jpg",
+                "created_at": "2025-08-01T02:06:08.000000Z",
+                "updated_at": "2025-08-01T02:06:08.000000Z"
+            }
+        ]
+    }
+]

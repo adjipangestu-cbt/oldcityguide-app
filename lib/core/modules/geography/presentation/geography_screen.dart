@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -29,11 +29,12 @@ class _GeographyScreenState extends State<GeographyScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final state = context.watch<GeographyViewmodel>().allDestinations;
 
     return Scaffold(
       appBar:
-          AppBar(backgroundColor: Colors.white, title: Text('geography_appbar_title'.tr())),
+          AppBar(backgroundColor: Colors.white, title: Text(AppLocalizations.of(context)!.geographyAppbarTitle)),
       body: SafeArea(
         child: SingleChildScrollView(
             padding:
@@ -80,6 +81,7 @@ class TranportationRouteGuideItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Theme(
       data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
       child: ExpansionTile(

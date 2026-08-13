@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -19,7 +19,7 @@ class DestinationPicker extends StatefulWidget {
 
 class _DestinationPickerState extends State<DestinationPicker> {
   DestinationsDto selectedDestination =
-      DestinationUtils.defaultSelectAllDestinationDto;
+      DestinationUtils.getDefaultSelectAll('id');
   final Debounce _debounce = Debounce(milliseconds: 200);
 
   @override
@@ -32,13 +32,14 @@ class _DestinationPickerState extends State<DestinationPicker> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final destinations = context.watch<DestinationViewmodel>().destinations;
     return Column(
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'destination_label'.tr(),
+          AppLocalizations.of(context)!.destinationLabel,
           style: TextStyle(color: AppColors.greyTerliary, fontSize: 12),
         ),
         ElevatedButton.icon(
@@ -51,7 +52,10 @@ class _DestinationPickerState extends State<DestinationPicker> {
                 useMagnifier: true,
                 itemExtent: 32,
                 scrollController: FixedExtentScrollController(
-                    initialItem: destinations.indexOf(selectedDestination)),
+                    initialItem: () {
+                      final idx = destinations.indexWhere((d) => d.id == selectedDestination.id);
+                      return idx >= 0 ? idx : 0;
+                    }()),
                 onSelectedItemChanged: (int selectedItemIndex) {
                   setState(() {
                     selectedDestination = destinations[selectedItemIndex];

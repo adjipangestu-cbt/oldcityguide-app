@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/template_page.dart';
@@ -26,10 +26,11 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final state = context.watch<AboutUsViewmodel>().users;
 
     return TemplatePage(
-      title: 'about_us_title'.tr(),
+      title: AppLocalizations.of(context)!.aboutUsTitle,
       child: switch (state) {
         Loading<List<UserProfileDto>>() => CircularProgressIndicator(),
         Error<List<UserProfileDto>>(message: final error) => Text(error).pading(
@@ -42,7 +43,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                   ? Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('about_us_team'.tr(),
+                        Text(AppLocalizations.of(context)!.aboutUsTeam,
                                 style: TextStyle(fontWeight: FontWeight.bold))
                             .pading(const EdgeInsets.only(left: 20)),
                         SizedBox(
@@ -90,6 +91,7 @@ class _PersonItemState extends State<PersonItem> {
   bool isExpanded = false;
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Container(
       clipBehavior: Clip.hardEdge,
       decoration: BoxDecoration(

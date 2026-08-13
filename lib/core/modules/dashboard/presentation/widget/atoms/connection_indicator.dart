@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -75,6 +75,7 @@ class _ConnectionIndicatorState extends State<ConnectionIndicator> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Visibility(
       visible: _shouldShow,
       replacement: SizedBox.shrink(),
@@ -86,8 +87,8 @@ class _ConnectionIndicatorState extends State<ConnectionIndicator> {
         },
         padding: const EdgeInsets.all(8),
         child: Text(switch (_connectionStatus.first) {
-          ConnectivityResult.none => 'connection_offline'.tr(),
-          _ => 'connection_online'.tr(),
+          ConnectivityResult.none => AppLocalizations.of(context)!.connectionOffline,
+          _ => AppLocalizations.of(context)!.connectionOnline,
         }),
       ),
     );

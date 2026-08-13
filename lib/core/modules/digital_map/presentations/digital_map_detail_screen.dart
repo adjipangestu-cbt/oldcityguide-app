@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map_marker_popup/flutter_map_marker_popup.dart';
@@ -115,9 +115,10 @@ class _DigitalMapDetailScreenState extends State<DigitalMapDetailScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final state = context.watch<DigitalMapViewmodel>().detailPointsRouteState;
     return TemplatePage(
-      title: 'digital_map_title'.tr(),
+      title: AppLocalizations.of(context)!.digitalMapTitle,
       child: switch (state) {
         Loading<DigitalMapRoutesDto>() =>
           const Center(child: CircularProgressIndicator()),
@@ -241,6 +242,7 @@ class PopUpWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return SizedBox(
       height: 300,
       width: 240,

@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/destination_dropdown.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/error_handler.dart';
@@ -29,6 +29,7 @@ class _VideoPageState extends State<VideoPage> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final state = context.watch<VideoViewmodel>().state;
     final viewmodel = context.read<VideoViewmodel>();
     return switch (state) {
@@ -47,7 +48,7 @@ class _VideoPageState extends State<VideoPage> {
               onSearch: (keyword) {
                 viewmodel.searchVideo(keyword);
               },
-              placeHolder: 'video_search_hint'.tr(),
+              placeHolder: AppLocalizations.of(context)!.videoSearchHint,
             ).pading(const EdgeInsets.symmetric(horizontal: 20)),
             SizedBox(height: 12),
             DestinationPicker(onSelect: (id) {

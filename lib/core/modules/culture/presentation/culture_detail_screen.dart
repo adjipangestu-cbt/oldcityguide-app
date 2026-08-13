@@ -1,4 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/image_slider.dart';
@@ -32,9 +32,10 @@ class _CultureDetailScreenState extends State<CultureDetailScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final padding = const EdgeInsets.symmetric(horizontal: 20);
     return TemplatePage(
-      title: _item?.name ?? 'culture_detail_default_title'.tr(),
+      title: _item?.name ?? AppLocalizations.of(context)!.cultureDetailDefaultTitle,
       child: SingleChildScrollView(
         child: Column(
           spacing: 12,

@@ -1,7 +1,136 @@
 {
-  "appTitle": "Old City Guide",
-  "welcomeMessage": "Welcome to the Old City Guide",
-  "home": "Home",
-  "settings": "Settings",
-  "language": "Language"
+  "@@locale": "en",
+
+  "appTitle": "OldCityGuide App",
+  "@appTitle": { "description": "Application title" },
+
+  "welcomeGreeting": "Hello, welcome\nto the app\n",
+  "@welcomeGreeting": { "description": "Welcome greeting on home screen" },
+  "welcomeAppName": "OldCityGuide ",
+  "@welcomeAppName": { "description": "App brand name in welcome message" },
+  "welcomeAppSuffix": "App",
+  "@welcomeAppSuffix": { "description": "Suffix after app name" },
+
+  "menuDigitalMap": "Digital Map",
+  "@menuDigitalMap": { "description": "Digital map menu item" },
+  "menuGeography": "Geography",
+  "@menuGeography": { "description": "Geography menu item" },
+  "menuDestination": "Tourist Destinations",
+  "@menuDestination": { "description": "Tourist destinations menu item" },
+  "menuVirtualReality": "Virtual Reality",
+  "@menuVirtualReality": { "description": "VR menu item" },
+  "menuCafeCulinary": "Cafe & Culinary",
+  "@menuCafeCulinary": { "description": "Cafe and culinary menu item" },
+  "menuHistory": "History",
+  "@menuHistory": { "description": "History menu item" },
+  "menuVideo": "Video",
+  "@menuVideo": { "description": "Video menu item" },
+  "menuCulture": "Cultural Exchange",
+  "@menuCulture": { "description": "Cultural exchange menu item" },
+
+  "navHome": "Home",
+  "@navHome": { "description": "Bottom nav home label" },
+  "navVacation": "Vacation",
+  "@navVacation": { "description": "Bottom nav vacation label" },
+  "navVr": "VR",
+  "@navVr": { "description": "Bottom nav VR label" },
+  "navVideo": "Video",
+  "@navVideo": { "description": "Bottom nav video label" },
+  "navInformation": "Information",
+  "@navInformation": { "description": "Bottom nav information label" },
+
+  "sectionKnowMore": "Discover more about this historic city",
+  "@sectionKnowMore": { "description": "Section header on home screen" },
+  "cardHistoryTitle": "History",
+  "@cardHistoryTitle": { "description": "History card title" },
+  "cardHistoryDesc": "Learn about the history of cities around you",
+  "@cardHistoryDesc": { "description": "History card description" },
+  "cardDestinationTitle": "Tourist Destinations",
+  "@cardDestinationTitle": { "description": "Destination card title" },
+  "cardDestinationDesc": "Explore a variety of tourist destinations",
+  "@cardDestinationDesc": { "description": "Destination card description" },
+  "cardCulinaryTitle": "Culinary & Cafe",
+  "@cardCulinaryTitle": { "description": "Culinary card title" },
+  "cardCulinaryDesc": "Take a break and enjoy culinary and cafe recommendations",
+  "@cardCulinaryDesc": { "description": "Culinary card description" },
+
+  "vrImmersiveTitle": "Immersive Experience",
+  "@vrImmersiveTitle": { "description": "VR banner title" },
+  "vrImmersiveDesc": "Explore historical places in the virtual world, for an unforgettable experience",
+  "@vrImmersiveDesc": { "description": "VR banner description" },
+  "vrStartNow": "Start now",
+  "@vrStartNow": { "description": "VR banner button text" },
+  "vrTitle": "Virtual Reality of Historical Places in Lasem",
+  "@vrTitle": { "description": "VR screen page title" },
+
+  "geographyTitle": "Geography",
+  "@geographyTitle": { "description": "Geography section title" },
+  "geographyAppbarTitle": "Lasem Geography",
+  "@geographyAppbarTitle": { "description": "Geography screen appbar" },
+  "geographyAppbarDetail": "Geography {title}",
+  "@geographyAppbarDetail": {
+    "description": "Geography detail screen appbar with dynamic name",
+    "placeholders": {
+      "title": { "type": "String", "example": "Lasem" }
+    }
+  },
+
+  "languageToggleTooltip": "Switch Language",
+  "@languageToggleTooltip": { "description": "Language toggle button tooltip" },
+
+  "aboutUsTitle": "About Us",
+  "@aboutUsTitle": { "description": "About us screen title" },
+  "aboutUsTeam": "Team",
+  "@aboutUsTeam": { "description": "Team section label" },
+
+  "cultureTitle": "Cultural Exchange",
+  "@cultureTitle": { "description": "Culture screen title" },
+  "cultureSearchHint": "Search culture",
+  "@cultureSearchHint": { "description": "Culture search placeholder" },
+  "cultureDetailDefaultTitle": "Title",
+  "@cultureDetailDefaultTitle": { "description": "Default title for culture detail" },
+
+  "digitalMapTitle": "Digital Map",
+  "@digitalMapTitle": { "description": "Digital map screen title" },
+
+  "culinaryTitle": "Culinary & Cafe",
+  "@culinaryTitle": { "description": "Culinary screen title" },
+  "culinarySearchHint": "Culinary & Cafe",
+  "@culinarySearchHint": { "description": "Culinary search placeholder" },
+  "culinaryImageFailed": "Image failed to load!",
+  "@culinaryImageFailed": { "description": "Image loading error message" },
+
+  "historyTitle": "History",
+  "@historyTitle": { "description": "History screen title" },
+  "historySearchHint": "Search history",
+  "@historySearchHint": { "description": "History search placeholder" },
+  "historyDetailDefaultTitle": "Title",
+  "@historyDetailDefaultTitle": { "description": "Default title for history detail" },
+  "historyLocationLabel": "Location",
+  "@historyLocationLabel": { "description": "Location label on history detail" },
+
+  "vacationSearchHint": "Search tourist destinations",
+  "@vacationSearchHint": { "description": "Vacation search placeholder" },
+
+  "videoSearchHint": "Search video",
+  "@videoSearchHint": { "description": "Video search placeholder" },
+
+  "infoMenuLabel": "Menu",
+  "@infoMenuLabel": { "description": "Information screen menu label" },
+  "infoAboutUs": "About us",
+  "@infoAboutUs": { "description": "About us menu item text" },
+
+  "destinationLabel": "Destination",
+  "@destinationLabel": { "description": "Destination picker label" },
+
+  "noDataMessage": "No data found",
+  "@noDataMessage": { "description": "No data found message" },
+
+  "errorRetry": "Retry",
+  "@errorRetry": { "description": "Retry button label" },
+
+  "connectionOffline": "No internet connection!",
+  "@connectionOffline": { "description": "Offline status message" },
+  "connectionOnline": "You are back online!",
+  "@connectionOnline": { "description": "Online status message" }
 }

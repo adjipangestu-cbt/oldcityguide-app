@@ -1,5 +1,5 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:go_router/go_router.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/bottom_navigation_viewmodel.dart';
 import 'package:oldcityguideapp/core/extension/widget.dart';
@@ -12,6 +12,7 @@ class MenusCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final BottomNavigationViewmodel bottomNavigationViewmodel =
         Provider.of<BottomNavigationViewmodel>(context);
 
@@ -19,49 +20,49 @@ class MenusCard extends StatelessWidget {
       MenuItem(
         backgroundColor: Color(0xFF85bbd7),
         icon: Icons.map, 
-        text: 'menu_digital_map'.tr(),
+        text: l10n.menuDigitalMap,
         onTap: () => context.pushNamed('/digital-map'),
       ),
       MenuItem(
         backgroundColor: Color(0xFF8e86d9),
         icon: Icons.pin_drop, 
-        text: 'menu_geography'.tr(),
+        text: l10n.menuGeography,
         onTap: () => context.push('/geography'),
       ),
       MenuItem(
         backgroundColor: Color(0xFFd88786),
         icon: Icons.beach_access, 
-        text: 'menu_destination'.tr(),
+        text: l10n.menuDestination,
         onTap: () => bottomNavigationViewmodel.updateNavigationIndex(1),
       ),
       MenuItem(
         backgroundColor: Color(0xFF40a99b),
         icon: Icons.view_in_ar, 
-        text: 'menu_virtual_reality'.tr(),
+        text: l10n.menuVirtualReality,
         onTap: () => bottomNavigationViewmodel.updateNavigationIndex(2),
       ),
       MenuItem(
         backgroundColor: Color(0xFFf2641a),
         icon: Icons.restaurant, 
-        text: 'menu_cafe_culinary'.tr(),
+        text: l10n.menuCafeCulinary,
         onTap: () => context.push('/culinary'),
       ),
       MenuItem(
         backgroundColor: Color(0xFFf4b028),
         icon: Icons.menu_book, 
-        text: 'menu_history'.tr(),
+        text: l10n.menuHistory,
         onTap: () => context.push('/history'),
       ),
       MenuItem(
         backgroundColor: Color(0xFF2f4758),
         icon: Icons.movie, 
-        text: 'menu_video'.tr(),
+        text: l10n.menuVideo,
         onTap: () => bottomNavigationViewmodel.updateNavigationIndex(3),
       ),
       MenuItem(
         backgroundColor: Color(0xFFf4b028),
         icon: Icons.menu_book, 
-        text: 'menu_culture'.tr(),
+        text: l10n.menuCulture,
         onTap: () => context.push('/culture'),
       ),
     ];

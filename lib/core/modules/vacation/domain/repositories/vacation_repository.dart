@@ -1,3 +1,4 @@
 abstract class VacationRepository {
-  Future<List<Map<String, Object>>> getVacationsList();
+  // Tambahkan parameter opsional languageCode
+  Future<List<Map<String, Object>>> getVacationsList({String languageCode = 'id'});
 }

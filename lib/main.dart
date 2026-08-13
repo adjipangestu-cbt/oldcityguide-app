@@ -1,8 +1,10 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:oldcityguideapp/core/common/data/destination_repository_impl.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/bottom_navigation_viewmodel.dart';
 import 'package:oldcityguideapp/core/common/viewmodels/destination_viewmodel.dart';
+import 'package:oldcityguideapp/core/common/viewmodels/locale_provider.dart';
 import 'package:oldcityguideapp/core/modules/about_us/presentation/viewmodels/about_us_viewmodel.dart';
 import 'package:oldcityguideapp/core/modules/culture/presentation/viewmodels/culture_viewmodel.dart';
 import 'package:oldcityguideapp/core/modules/digital_map/presentations/viewmodels/digital_map_viewmodel.dart';
@@ -16,18 +18,9 @@ import 'package:oldcityguideapp/core/modules/vr/presentation/viewmodels/vr_videm
 import 'package:oldcityguideapp/core/router.dart';
 import 'package:provider/provider.dart';
 
-void main() async {
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  await EasyLocalization.ensureInitialized();
-
-  runApp(
-    EasyLocalization(
-      supportedLocales: const [Locale('id'), Locale('en')],
-      path: 'assets/translations',
-      fallbackLocale: const Locale('id'),
-      child: const App(),
-    ),
-  );
+  runApp(const App());
 }
 
 class App extends StatelessWidget {
@@ -37,6 +30,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
+        ChangeNotifierProvider(create: (_) => LocaleProvider()),
         ChangeNotifierProvider(
           create: (context) => BottomNavigationViewmodel(),
         ),
@@ -56,12 +50,24 @@ class App extends StatelessWidget {
           ),
         ),
       ],
-      child: MaterialApp.router(
-        routerConfig: router,
-        debugShowCheckedModeBanner: false,
-        localizationsDelegates: context.localizationDelegates,
-        supportedLocales: context.supportedLocales,
-        locale: context.locale,
+      child: Consumer<LocaleProvider>(
+        builder: (context, localeProvider, _) {
+          return MaterialApp.router(
+            routerConfig: router,
+            debugShowCheckedModeBanner: false,
+            locale: localeProvider.locale,
+            localizationsDelegates: [
+              AppLocalizations.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+            ],
+            supportedLocales: const [
+              Locale('id'),
+              Locale('en'),
+            ],
+          );
+        },
       ),
     );
   }
