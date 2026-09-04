@@ -1,6 +1,5 @@
-import 'package:flutter/widgets.dart';
-import 'package:oldcityguideapp/core/helper/api_manager_impl.dart';
-import 'package:oldcityguideapp/core/modules/food_and_culinary/data/culinary_repository_impl.dart';
+﻿import 'package:flutter/widgets.dart';
+import 'package:oldcityguideapp/core/modules/food_and_culinary/data/culinary_repository_mock_impl.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/domain/dto/food_culinary_dto.dart';
 import 'package:oldcityguideapp/core/ui/ui_state.dart';
 
@@ -8,10 +7,10 @@ class FoodCulinaryViewmodel extends ChangeNotifier {
   ViewState<List<FoodCulinaryDto>> _state = Loading();
   ViewState<List<FoodCulinaryDto>> get state => _state;
   List<FoodCulinaryDto> _data = [];
-  final _repository = CulinaryRepositoryImpl(apiManager: ApiManagerImpl());
+  final _repository = CulinaryRepositoryMockImpl();
 
   String _keyword = "";
-  int _selectedDestinationId = 0;
+  String _selectedCity = 'Semua';
 
   Future<void> fetchData() async {
     _state = Loading();
@@ -19,11 +18,9 @@ class FoodCulinaryViewmodel extends ChangeNotifier {
     try {
       final result = await _repository.getData();
       _data = result;
-      final data = result;
-      _state = Success(data);
+      _applyFilters();
     } catch (e) {
       _state = Error(e.toString());
-    } finally {
       notifyListeners();
     }
   }
@@ -33,22 +30,24 @@ class FoodCulinaryViewmodel extends ChangeNotifier {
     _applyFilters();
   }
 
-  void filterByDestination(int destinationId) {
-    _selectedDestinationId = destinationId;
+  void filterByCity(String city) {
+    _selectedCity = city;
     _applyFilters();
+  }
+
+  void filterByDestination(int destinationId) {
+    // legacy support if needed
   }
 
   void _applyFilters() {
     List<FoodCulinaryDto> filteredData = List.from(_data);
 
-    // Filter by category
-    if (_selectedDestinationId != 0) {
+    if (_selectedCity != 'Semua') {
       filteredData = filteredData
-          .where((item) => item.destinationId == _selectedDestinationId)
+          .where((item) => item.city == _selectedCity)
           .toList();
     }
 
-    // Filter by keyword
     if (_keyword.trim().isNotEmpty) {
       filteredData = filteredData
           .where((item) =>
@@ -60,3 +59,5 @@ class FoodCulinaryViewmodel extends ChangeNotifier {
     notifyListeners();
   }
 }
+
+  String get selectedCity => _selectedCity;
