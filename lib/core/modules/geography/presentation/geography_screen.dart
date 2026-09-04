@@ -1,15 +1,11 @@
-import 'package:oldcityguideapp/l10n/app_localizations.dart';
-import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:go_router/go_router.dart';
-import 'package:link_text/link_text.dart';
-import 'package:oldcityguideapp/core/common/presentation/widgets/no_data.dart';
-import 'package:oldcityguideapp/core/extension/widget.dart';
-import 'package:oldcityguideapp/core/common/domain/dto/gegraphy_dto.dart';
+﻿import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:oldcityguideapp/core/common/presentation/widgets/map.dart';
 import 'package:oldcityguideapp/core/modules/geography/presentation/viewmodels/geography_viewmodel.dart';
 import 'package:oldcityguideapp/core/ui/colors.dart';
 import 'package:oldcityguideapp/core/ui/ui_state.dart';
-import 'package:provider/provider.dart';
+import 'package:oldcityguideapp/core/common/domain/dto/gegraphy_dto.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 
 class GeographyScreen extends StatefulWidget {
   const GeographyScreen({super.key});
@@ -23,84 +19,139 @@ class _GeographyScreenState extends State<GeographyScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      await context.read<GeographyViewmodel>().fetchDestinations();
+      final vm = context.read<GeographyViewmodel>();
+      vm.changeCity(vm.selectedCity);
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
-    final state = context.watch<GeographyViewmodel>().allDestinations;
+    final vm = context.watch<GeographyViewmodel>();
+    final state = vm.state;
 
     return Scaffold(
-      appBar:
-          AppBar(backgroundColor: Colors.white, title: Text(AppLocalizations.of(context)!.geographyAppbarTitle)),
-      body: SafeArea(
-        child: SingleChildScrollView(
-            padding:
-                const EdgeInsets.symmetric(horizontal: 20).copyWith(top: 40),
-            child: switch (state) {
-              Loading<List<GeographyDto>>() => Center(
-                  child: CircularProgressIndicator(),
-                ),
-              Success<List<GeographyDto>>(data: final dto) => Visibility(
-                  visible: dto.isNotEmpty,
-                  replacement: NoData(),
-                  child: ListView.separated(
-                      shrinkWrap: true,
-                      itemBuilder: (context, index) {
-                        return ListTile(
-                            shape: RoundedRectangleBorder(
-                                borderRadius:
-                                    BorderRadius.all(Radius.circular(12))),
-                            tileColor: Colors.white,
-                            onTap: () => context.pushNamed('/geography-detail',
-                                    queryParameters: {
-                                      'id': dto[index].id.toString()
-                                    }),
-                            title: Text(dto[index].name),
-                            trailing: FaIcon(FontAwesomeIcons.chevronRight));
-                      },
-                      separatorBuilder: (context, index) => SizedBox(
-                            height: 12,
-                          ),
-                      itemCount: dto.length),
-                ),
-              Error<List<GeographyDto>>(message: final err) => Text(err),
-            }),
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        title: Text(AppLocalizations.of(context)!.geographyAppbarTitle),
+        elevation: 0,
       ),
-    );
-  }
-}
-
-class TranportationRouteGuideItem extends StatelessWidget {
-  final List<String> guidesText;
-  final String title;
-  const TranportationRouteGuideItem(
-      {super.key, required this.guidesText, required this.title});
-
-  @override
-  Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
-    return Theme(
-      data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
-      child: ExpansionTile(
-          clipBehavior: Clip.hardEdge,
-          collapsedShape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.all(Radius.circular(8))),
-          shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.all(Radius.circular(8))),
-          backgroundColor: Colors.white,
-          collapsedBackgroundColor: Colors.white,
-          title: Text(title),
-          children: guidesText
-              .map(
-                (guide) => LinkText(
-                  guide,
-                  linkStyle: TextStyle(color: AppColors.bluePrimary),
-                ).pading(const EdgeInsets.symmetric(horizontal: 16)),
-              )
-              .toList()),
+      backgroundColor: Colors.white,
+      body: SafeArea(
+        child: Column(
+          children: [
+            const SizedBox(height: 16),
+            // Segmented Button for City Selection
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: SizedBox(
+                width: double.infinity,
+                child: SegmentedButton<String>(
+                  segments: const [
+                    ButtonSegment(
+                      value: 'Lasem',
+                      label: Text('Lasem'),
+                    ),
+                    ButtonSegment(
+                      value: 'Malang',
+                      label: Text('Malang'),
+                    ),
+                  ],
+                  selected: {vm.selectedCity},
+                  onSelectionChanged: (Set<String> newSelection) {
+                    vm.changeCity(newSelection.first);
+                  },
+                  style: ButtonStyle(
+                    backgroundColor: WidgetStateProperty.resolveWith<Color>(
+                      (Set<WidgetState> states) {
+                        if (states.contains(WidgetState.selected)) {
+                          return AppColors.bluePrimary;
+                        }
+                        return Colors.white;
+                      },
+                    ),
+                    foregroundColor: WidgetStateProperty.resolveWith<Color>(
+                      (Set<WidgetState> states) {
+                        if (states.contains(WidgetState.selected)) {
+                          return Colors.white;
+                        }
+                        return AppColors.bluePrimary;
+                      },
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 16),
+            Expanded(
+              child: switch (state) {
+                Loading<GeographyDto>() => const Center(
+                    child: CircularProgressIndicator(),
+                  ),
+                Error<GeographyDto>(message: final err) => Center(
+                    child: Text(err),
+                  ),
+                Success<GeographyDto>(data: final data) => SingleChildScrollView(
+                    padding: const EdgeInsets.symmetric(horizontal: 20).copyWith(bottom: 40),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        if (data.imageAsset.isNotEmpty)
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(12),
+                            child: Image.asset(
+                              data.imageAsset,
+                              width: double.infinity,
+                              height: 200,
+                              fit: BoxFit.cover,
+                              errorBuilder: (ctx, err, stack) => Container(
+                                width: double.infinity,
+                                height: 200,
+                                color: Colors.grey[300],
+                                child: const Icon(Icons.broken_image, color: Colors.grey),
+                              ),
+                            ),
+                          ),
+                        const SizedBox(height: 16),
+                        Text(
+                          data.title.isNotEmpty ? data.title : data.name,
+                          style: const TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          data.desc,
+                          style: const TextStyle(
+                            fontSize: 14,
+                            height: 1.5,
+                          ),
+                          textAlign: TextAlign.justify,
+                        ),
+                        const SizedBox(height: 20),
+                        const Text(
+                          'Peta Lokasi',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        const SizedBox(height: 12),
+                        MapWidget(
+                          latitude: data.latLng.latitude,
+                          longitude: data.latLng.longitude,
+                          markerTitle: data.markerTitle,
+                          showPopup: true,
+                          showOpenMapsButton: true,
+                        ),
+                      ],
+                    ),
+                  ),
+              },
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
