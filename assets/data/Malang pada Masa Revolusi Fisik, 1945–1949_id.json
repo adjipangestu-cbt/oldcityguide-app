@@ -1,0 +1,33 @@
+﻿[
+  {
+    "id": 12,
+    "destination_id": "2",
+    "title": "Malang pada Masa Revolusi Fisik, 1945–1949",
+    "content": "<div style=\"text-align: justify;\">Periode Revolusi Fisik merupakan salah satu fase paling dramatis dalam sejarah Malang. Setelah lebih dari satu abad berkembang sebagai kota kolonial, pada 1945–1949 Malang berubah menjadi kota Republik, daerah pengungsian dan pertahanan, pusat kegiatan politik nasional, medan pertempuran, hingga kota pendudukan Belanda. Dengan demikian, posisi Malang dalam Revolusi Indonesia tidak hanya dapat dibaca melalui sejarah peperangan, tetapi juga melalui perubahan pemerintahan, mobilisasi masyarakat, kehidupan para pengungsi, dan perjuangan mempertahankan legitimasi Republik.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nRevolusi kemerdekaan kemudian mengubah unsur-unsur yang sebelumnya datang melalui kolonialisme menjadi sumber perlawanan. LASWI memperlihatkan meluasnya peran perempuan dalam ruang publik. Anggotanya tidak hanya mengurus dapur umum dan korban perang, tetapi juga menjadi tenaga medis, penghubung, pengelola logistik, dan bagian dari perjuangan bersenjata. Peran tersebut menantang pembagian gender tradisional tanpa sepenuhnya meninggalkan nilai pengabdian yang telah dikenal dalam masyarakat. Pada saat yang sama, Laskar Sabilillah menyatukan identitas santri, ajaran jihad, nasionalisme, dan organisasi militer modern. Masjid Sabilillah yang kemudian dibangun bukan sekadar tempat ibadah, melainkan monumen yang menghubungkan agama, memori perang, pendidikan, pelayanan sosial, dan kebangsaan</div>",
+    "created_at": null,
+    "updated_at": "2026-09-04T00:00:00.000000Z",
+    "images": [
+            {
+                "id": 700,
+                "cultural_blend_id": "12",
+                "image_url": "assets/images/img_SB/sb_malang_21.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            },
+            {
+                "id": 701,
+                "cultural_blend_id": "12",
+                "image_url": "assets/images/img_SB/sb_malang_22.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            },
+            {
+                "id": 702,
+                "cultural_blend_id": "12",
+                "image_url": "assets/images/img_SB/sb_malang_23.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            }
+        ]
+  }
+]

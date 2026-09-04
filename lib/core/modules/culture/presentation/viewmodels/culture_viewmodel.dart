@@ -32,6 +32,11 @@ class CultureViewmodel extends ChangeNotifier {
 
   CultureItemDto? getItem(int index) {
     try {
+      // Ambil dari list yang sudah difilter (sesuai state saat ini)
+      final currentState = _state;
+      if (currentState is Success<List<CultureItemDto>>) {
+        return currentState.data.elementAt(index);
+      }
       return _data.elementAt(index);
     } catch (_) {
       return null;

@@ -1,0 +1,19 @@
+﻿[
+  {
+    "id": 14,
+    "destination_id": "2",
+    "title": "Silang Budaya dalam Bahasa: Bahasa Walikan",
+    "content": "<div style=\"text-align: justify;\">Persilangan budaya dalam bahasa Malang salah satunya terlihat pada Bahasa Walikan (Osob Kiwalan Ngalaman). Sejarahnya berkaitan dengan perjuangan Gerilya Rakyat Kota (GRK) di Malang pada masa Agresi Militer Belanda. Dalam situasi perjuangan tersebut, Belanda mengirim pasukan intelijen yang mampu berbahasa Jawa dan dialek Malangan untuk menyusup ke dalam kelompok GRK dan mencari informasi mengenai pasukan pejuang. Untuk mencegah penyusupan dan kebocoran informasi, tokoh GRK Suyudi Raharno memperkenalkan penggunaan kata-kata sandi dengan membalik susunan kata.\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nBahasa yang awalnya berfungsi sebagai sandi komunikasi perjuangan kemudian mengalami perubahan fungsi setelah masa perang. Bahasa Walikan berkembang menjadi bahasa slang dalam pergaulan dan akhirnya menjadi salah satu penanda identitas masyarakat Malang. Persilangan budaya terlihat dari kosakatanya yang tidak hanya berasal dari bahasa Jawa dan Indonesia, tetapi juga menyerap unsur Madura, Arab, dan Belanda. Karena itu, Bahasa Walikan menunjukkan bahwa identitas budaya Malang terbentuk melalui pertemuan, adaptasi, dan pengolahan berbagai pengaruh budaya menjadi ekspresi lokal yang khas</div>",
+    "created_at": null,
+    "updated_at": "2026-09-04T00:00:00.000000Z",
+    "images": [
+            {
+                "id": 900,
+                "cultural_blend_id": "14",
+                "image_url": "assets/images/img_SB/sb_malang_26.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            }
+        ]
+  }
+]

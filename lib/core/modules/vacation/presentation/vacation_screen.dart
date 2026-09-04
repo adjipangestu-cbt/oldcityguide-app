@@ -147,20 +147,29 @@ class _VacationItemState extends State<VacationItem> {
             ),
             itemCount: widget.images.length,
             itemBuilder:
-                (BuildContext context, int itemIndex, int pageViewIndex) =>
-                    Container(
-              clipBehavior: Clip.hardEdge,
-              decoration: BoxDecoration(
-                color: Colors.grey,
-                borderRadius: BorderRadius.all(Radius.circular(12)),
-              ),
-              width: fullWidth * 0.80,
-              child: Image.network(
+                (BuildContext context, int itemIndex, int pageViewIndex) {
+              final imageUrl = widget.images[itemIndex].toString();
+              final isLocalAsset = imageUrl.startsWith('assets/');
+              return Container(
+                clipBehavior: Clip.hardEdge,
+                decoration: BoxDecoration(
+                  color: Colors.grey,
+                  borderRadius: BorderRadius.all(Radius.circular(12)),
+                ),
                 width: fullWidth * 0.80,
-                fit: BoxFit.cover,
-                widget.images[itemIndex].toString(),
-              ),
-            ),
+                child: isLocalAsset
+                    ? Image.asset(
+                        imageUrl,
+                        width: fullWidth * 0.80,
+                        fit: BoxFit.cover,
+                      )
+                    : Image.network(
+                        imageUrl,
+                        width: fullWidth * 0.80,
+                        fit: BoxFit.cover,
+                      ),
+              );
+            },
           ),
         ),
         SizedBox(height: 8),

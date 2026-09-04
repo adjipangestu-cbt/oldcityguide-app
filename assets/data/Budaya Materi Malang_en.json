@@ -1,0 +1,26 @@
+﻿[
+  {
+    "id": 13,
+    "destination_id": "2",
+    "title": "Material Culture of Malang",
+    "content": "<div style=\"text-align: justify;\">The process of memory formation is also visible in the Chairil Anwar torso. The poet's connection to Malang was actually limited, but the city immortalized him as a symbol of literature and the spirit of the era. The monument demonstrates how local identity can be built through national figures. Urban space does not only preserve royal and colonial heritage but also selects certain figures to represent the modernity of Indonesian culture. The presence of literary communities, festivals, heritage walks, and ideas for using digital media shows that cultural memory continues to be reproduced according to the needs of new generations.\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nIn performing arts, the Malangan Mask Dance and Beskalan Dance show longer forms of adaptation. The Malangan Mask combines Panji stories, color and form symbols, spiritual values, social structures, and gender expression. Its function moves between ritual, moral education, entertainment, and regional identity. Beskalan also underwent changes from a dance related to village cleansing, ancestral honor, and warding off calamity to festival performances, school learning materials, and cultural icons. Changes in function do not always mean the loss of sacredness. Rather, through studios, education, festivals, documentation, and the creation of contemporary forms, tradition gains new living space. Hybridity in this context is the ability to maintain the symbolic core while changing the form of presentation.</div>",
+    "created_at": null,
+    "updated_at": "2026-09-04T00:00:00.000000Z",
+    "images": [
+            {
+                "id": 800,
+                "cultural_blend_id": "13",
+                "image_url": "assets/images/img_SB/sb_malang_24.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            },
+            {
+                "id": 801,
+                "cultural_blend_id": "13",
+                "image_url": "assets/images/img_SB/sb_malang_25.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            }
+        ]
+  }
+]

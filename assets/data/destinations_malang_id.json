@@ -1,0 +1,470 @@
+[
+    {
+        "id":  101,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Museum Singhasari",
+        "description":  "Sesuai dengan namanya, museum ini memamerkan koleksi barang-barang bersejarah yang merupakan warisan dari Kerajaan Singasari, salah satu kerajaan terbesar di Indonesia. Kerajaan ini juga dikenal sebagai Kerajaan Tumapel, memiliki kepercayaan Hindu-Buddha, dan berlokasi di Perumahan Singhasari Residence, Desa Klampok, Kecamatan Singasari, Kabupaten Malang.\nSaat berkunjung ke museum ini, kamu akan menemukan sekitar 345 artefak bersejarah yang dipajang di ruang pameran seluas 3.000 meter persegi. Beberapa artefak peninggalan dari Kerajaan Singasari yang dapat kamu saksikan di Museum Singhasari meliputi Mahisha, Mahakal, Prajna Paramita, Durga Gaya Singasari, dan Ganesha.",
+        "location":  "Perumahan Singhasari Residence, Desa Klampok, Kecamatan Singasari, Kabupaten Malang",
+        "latitude":  "-7.8879",
+        "longitude":  "112.6664",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Kota Pusaka Malang",
+                            "location":  "Malang, Jawa Timur",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  100,
+                           "tourist_destination_id":  "101",
+                           "image_url":  "assets/images/img_DW/dw_malang_1.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  101,
+                           "tourist_destination_id":  "101",
+                           "image_url":  "assets/images/img_DW/dw_malang_2.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  102,
+                           "tourist_destination_id":  "101",
+                           "image_url":  "assets/images/img_DW/dw_malang_3.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  103,
+                           "tourist_destination_id":  "101",
+                           "image_url":  "assets/images/img_DW/dw_malang_4.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  102,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Museum Panji",
+        "description":  "Museum Panji adalah sebuah museum yang menampilkan koleksi artefak yang terkait dengan legenda Panji Asmorobangun dan Dewi Sekartaji, yang merupakan putri dari Kerajaan Jenggala. Di sini, pengunjung dapat melihat diorama Perang Genter yang terjadi di Desa Genter, Kabupaten Malang, pada masa lampau yang melibatkan Kerajaan Singasari dan Kerajaan Kediri.\nSelain itu, Museum Panji juga menampilkan berbagai koleksi wayang, topeng, artefak sejarah, dan dokumentasi tentang Kota Malang di masa lalu. Untuk mengunjungi museum ini, kamu dapat menuju ke Jl. Raya Bangilan Nomor 1, Ringin Anom, Kecamatan Tumpang, Kabupaten Malang.",
+        "location":  "Jl. Raya Bangilan Nomor 1, Ringin Anom, Kecamatan Tumpang, Kabupaten Malang",
+        "latitude":  "-8.0039",
+        "longitude":  "112.7673",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Kota Pusaka Malang",
+                            "location":  "Malang, Jawa Timur",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  200,
+                           "tourist_destination_id":  "102",
+                           "image_url":  "assets/images/img_DW/dw_malang_5.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  201,
+                           "tourist_destination_id":  "102",
+                           "image_url":  "assets/images/img_DW/dw_malang_6.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  202,
+                           "tourist_destination_id":  "102",
+                           "image_url":  "assets/images/img_DW/dw_malang_7.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  203,
+                           "tourist_destination_id":  "102",
+                           "image_url":  "assets/images/img_DW/dw_malang_8.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  103,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Monumen Juang 45",
+        "description":  "Monumen Juang 45 terletak di Stasiun Kota Malang, di Jl. Kertanegara, Kota Malang. Monumen ini melambangkan perlawanan rakyat Malang dalam mempertahankan kemerdekaan pada periode 1945 hingga 1949. Bentuk monumen ini adalah sebuah patung yang menggambarkan rakyat yang berhasil mengalahkan sosok raksasa (buta) yang melambangkan penjajah. Tujuan utama dari pembangunan Monumen Juang 45 adalah untuk memastikan agar masyarakat selalu mengenang perjuangan para pahlawan yang berkorban dalam memperjuangkan kemerdekaan.",
+        "location":  "Jl. Kertanegara, Stasiun Kota Malang",
+        "latitude":  "-7.9778",
+        "longitude":  "112.6371",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Kota Pusaka Malang",
+                            "location":  "Malang, Jawa Timur",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  300,
+                           "tourist_destination_id":  "103",
+                           "image_url":  "assets/images/img_DW/dw_malang_9.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  301,
+                           "tourist_destination_id":  "103",
+                           "image_url":  "assets/images/img_DW/dw_malang_10.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  302,
+                           "tourist_destination_id":  "103",
+                           "image_url":  "assets/images/img_DW/dw_malang_11.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  104,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Kelenteng Eng An Kiong",
+        "description":  "Kelenteng Eng An Kiong adalah situs bersejarah yang terletak di Jl. R.E. Martadinata, Kotalama, Kecamatan Kedungkandang, Kota Malang. Situs bersejarah ini adalah kelenteng Tridharma, yang dipergunakan untuk ibadah dalam tiga kepercayaan, yaitu Buddha, Khonghucu, dan Taoisme.\nBangunan ini didirikan pada tahun 1825 dan telah diresmikan sebagai cagar budaya. Selain sebagai tempat ibadah, Kelenteng Eng An Kiong juga menjadi tujuan wisata religi dan sejarah di Kota Malang. Pendiri kelenteng ini adalah seorang prajurit bernama Letnan Kwee Sam Hway.",
+        "location":  "Jl. R.E. Martadinata, Kotalama, Kecamatan Kedungkandang, Kota Malang",
+        "latitude":  "-7.9852",
+        "longitude":  "112.6402",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Kota Pusaka Malang",
+                            "location":  "Malang, Jawa Timur",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  400,
+                           "tourist_destination_id":  "104",
+                           "image_url":  "assets/images/img_DW/dw_malang_12.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  401,
+                           "tourist_destination_id":  "104",
+                           "image_url":  "assets/images/img_DW/dw_malang_13.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  402,
+                           "tourist_destination_id":  "104",
+                           "image_url":  "assets/images/img_DW/dw_malang_14.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  105,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Museum Brawijaya",
+        "description":  "Museum Brawijaya telah berdiri sejak 4 Mei 1968. Museum ini terletak di depan Perpustakaan Umum Kota Malang, tepatnya di Jalan Besar Ijen Nomor 25A, Gading Kasri, Kecamatan Klojen, Kota Malang. Saat mengunjungi museum ini, kamu akan menemukan berbagai koleksi, termasuk benda-benda militer yang digunakan dalam perjuangan meraih dan mempertahankan kemerdekaan Republik Indonesia.\nSalah satu koleksi yang terkenal di museum ini adalah Gerbong Maut, sebuah gerbong besi yang menjadi bukti kekejaman penjajah Belanda. Gerbong besi ini digunakan untuk mengangkut puluhan pejuang Indonesia dari Bondowoso ke Surabaya dalam kondisi tertutup rapat tanpa jendela, yang menyebabkan banyak pejuang meninggal dalam perjalanan.",
+        "location":  "Jalan Besar Ijen Nomor 25A, Gading Kasri, Kecamatan Klojen, Kota Malang",
+        "latitude":  "-7.9724",
+        "longitude":  "112.6296",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Kota Pusaka Malang",
+                            "location":  "Malang, Jawa Timur",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  500,
+                           "tourist_destination_id":  "105",
+                           "image_url":  "assets/images/img_DW/dw_malang_15.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  501,
+                           "tourist_destination_id":  "105",
+                           "image_url":  "assets/images/img_DW/dw_malang_16.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  502,
+                           "tourist_destination_id":  "105",
+                           "image_url":  "assets/images/img_DW/dw_malang_17.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  503,
+                           "tourist_destination_id":  "105",
+                           "image_url":  "assets/images/img_DW/dw_malang_18.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  106,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Museum Mpu Purwa",
+        "description":  "Museum yang terletak di Perumahan Griya Santa, Jalan Soekarno-Hatta Nomor 210, Mojolangu, Lowokwaru, Kota Malang, adalah sebuah museum yang menampung koleksi artefak sejarah dan benda purbakala. Museum ini diberi nama Mpu Purwa, mengambil nama dari sosok Mpu Purwa yang merupakan tokoh religius dalam masyarakat Jawa kuno, terutama di Jawa Timur. Beberapa koleksi sejarah yang dapat ditemukan di museum ini meliputi candi, prasasti, arca, dan patung yang merupakan peninggalan dari berbagai kerajaan di Pulau Jawa.",
+        "location":  "Jalan Soekarno-Hatta Nomor 210, Mojolangu, Lowokwaru, Kota Malang",
+        "latitude":  "-7.9642",
+        "longitude":  "112.6145",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Kota Pusaka Malang",
+                            "location":  "Malang, Jawa Timur",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  600,
+                           "tourist_destination_id":  "106",
+                           "image_url":  "assets/images/img_DW/dw_malang_19.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  601,
+                           "tourist_destination_id":  "106",
+                           "image_url":  "assets/images/img_DW/dw_malang_21.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  107,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Kayutangan Heritage",
+        "description":  "Kayutangan Heritage, atau dikenal juga sebagai Kampoeng Heritage Kajoetangan, merupakan kawasan yang dirancang dengan baik dan dipenuhi dengan bangunan-bangunan bergaya kolonial Belanda. Di sini, kamu dapat menemukan struktur-struktur cagar budaya yang telah dibangun sejak tahun 1870 hingga 1920. Terdapat sekitar 22 bangunan warisan yang telah dipertahankan dan masih berfungsi sebagai tempat tinggal serta bisnis di kawasan ini. Untuk mengunjunginya, kamu bisa menuju ke Jalan Jenderal Basuki Rahmat Gang 4, Kauman, Kecamatan Klojen, Kota Malang.",
+        "location":  "Jalan Jenderal Basuki Rahmat Gang 4, Kauman, Kecamatan Klojen, Kota Malang",
+        "latitude":  "-7.9812",
+        "longitude":  "112.6315",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Kota Pusaka Malang",
+                            "location":  "Malang, Jawa Timur",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  700,
+                           "tourist_destination_id":  "107",
+                           "image_url":  "assets/images/img_DW/dw_malang_22.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  701,
+                           "tourist_destination_id":  "107",
+                           "image_url":  "assets/images/img_DW/dw_malang_23.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  702,
+                           "tourist_destination_id":  "107",
+                           "image_url":  "assets/images/img_DW/dw_malang_24.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  703,
+                           "tourist_destination_id":  "107",
+                           "image_url":  "assets/images/img_DW/dw_malang_25.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  704,
+                           "tourist_destination_id":  "107",
+                           "image_url":  "assets/images/img_DW/dw_malang_26.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  108,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Kawasan Ijen",
+        "description":  "Kawasan Ijen merupakan salah satu kawasan bersejarah di Kota Malang. Pada kawasan mandiri itu, terdapat beberapa bangunan peninggalan kolonial Belanda, meliputi Gereja Katedral Santa Theresia atau dikenal dengan nama Gereja Ijen dan rumah bergaya Belanda. Keunikan kawasan tersebut adalah nama jalan yang menggunakan nama gunung di Indonesia, seperti Ijen, Semeru, Bromo, dan lainnya. Kawasan itu dibangun oleh arsitek asal Belanda, Herman Thomas Karsten sejak sekitar 1935.",
+        "location":  "Kawasan Ijen, Kecamatan Klojen, Kota Malang",
+        "latitude":  "-7.9695",
+        "longitude":  "112.6285",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Kota Pusaka Malang",
+                            "location":  "Malang, Jawa Timur",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  800,
+                           "tourist_destination_id":  "108",
+                           "image_url":  "assets/images/img_DW/dw_malang_27.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  801,
+                           "tourist_destination_id":  "108",
+                           "image_url":  "assets/images/img_DW/dw_malang_28.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  802,
+                           "tourist_destination_id":  "108",
+                           "image_url":  "assets/images/img_DW/dw_malang_29.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  109,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Petirtaan Watugede",
+        "description":  "Petirtaan Watugede merupakan kolam pemandian yang sumbernya berasal dari mata air. Situs ini diperkirakan sebagai kompleks taman kerajaan pada masa Kerajaan Majapahit. Situs ini berdiri di atas lahan seluas 2.516 meter persegi. Ada mata air jernih yang memancar dari bawah pohon di tepi kolam. Selanjutnya, mata air itu mengaliri dua buah kolam yang terletak di utara dan selatan. Petirtaan Watugede yang ditemukan pada 1925 ini telah ditetapkan sebagai Situs Cagar Budaya Nasional. Lokasinya berada di Desa Watugede, Kecamatan Singosari, Kabupaten Malang.",
+        "location":  "Desa Watugede, Kecamatan Singosari, Kabupaten Malang",
+        "latitude":  "-7.8912",
+        "longitude":  "112.6698",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Kota Pusaka Malang",
+                            "location":  "Malang, Jawa Timur",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  900,
+                           "tourist_destination_id":  "109",
+                           "image_url":  "assets/images/img_DW/dw_malang_30.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  901,
+                           "tourist_destination_id":  "109",
+                           "image_url":  "assets/images/img_DW/dw_malang_31.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  902,
+                           "tourist_destination_id":  "109",
+                           "image_url":  "assets/images/img_DW/dw_malang_32.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  110,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Cafe Bunker Gedong Ijen",
+        "description":  "Cafe Bunker Gedong Ijen berada di kawasan Jalan Terusan Ijen, Kecamatan Klojen, Kota Malang. Lokasinya berada di kawasan Ijen yang dikenal memiliki karakter heritage kuat. Keberadaan bunker di bawah cafe menjadi pembeda dibandingkan tempat nongkrong pada umumnya. Pengunjung dapat menggabungkan agenda kuliner dengan pengalaman melihat salah satu ruang bawah tanah yang menjadi bagian dari sejarah kawasan tersebut. Cafe Bunker Gedong Ijen juga diarahkan untuk memiliki fungsi yang lebih luas melalui konsep Education Creative Center.",
+        "location":  "Jalan Terusan Ijen, Kecamatan Klojen, Kota Malang",
+        "latitude":  "-7.9688",
+        "longitude":  "112.6272",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Kota Pusaka Malang",
+                            "location":  "Malang, Jawa Timur",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  1000,
+                           "tourist_destination_id":  "110",
+                           "image_url":  "assets/images/img_DW/dw_malang_33.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  1001,
+                           "tourist_destination_id":  "110",
+                           "image_url":  "assets/images/img_DW/dw_malang_34.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  1002,
+                           "tourist_destination_id":  "110",
+                           "image_url":  "assets/images/img_DW/dw_malang_35.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    }
+]

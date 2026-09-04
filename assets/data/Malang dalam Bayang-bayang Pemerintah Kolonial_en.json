@@ -1,0 +1,33 @@
+[
+  {
+    "id": 10,
+    "destination_id": "2",
+    "title": "Malang in the Shadow of the Colonial Government",
+    "content": "<div style=\"text-align: justify;\">After the kingdom era, the greatest transformation occurred when Malang entered the colonial economic system. The implementation of agrarian policies, the expansion of coffee and sugar cane plantations, the growth of transportation networks, and Malang's change of status to a gemeente in 1914 accelerated urbanization. The city was designed as a center of administration, production, trade, education, and recreation. Colonial spatial planning brought European forms of modernity, but this modernity was built upon racial segregation. Settlements, schools, entertainment facilities, and public spaces were arranged according to a hierarchy that placed Europeans at the top, followed by Foreign Orientals, while the indigenous population received more limited access.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nSocieteit Concordia became the clearest illustration of this contradiction. The building presented a European lifestyle through dance parties, billiard games, dining events, music, and elite gatherings. Its architecture combined European designs with materials and spatial adjustments for the tropics. However, behind its grandeur, the building was an exclusive space that affirmed the distance between colonial rulers and local society. Indigenous residents then created counter social spaces around the town square through food stalls, coffee shops, and ludruk performances. Here, cultural crossing did not only mean imitation of the West, but also rejection, selection, and the formation of local alternatives.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nThe meaning of Societeit Concordia changed after independence. The building that once marked European privilege was renamed Gedung Rakyat (People's Building), used for national political activities, and later repurposed as Sarinah. This change constituted a process of symbolic reclamation: colonial spaces were not entirely destroyed but given new names, functions, and meanings. A similar phenomenon was seen in the renaming of hotels, cinemas, streets, and urban areas. Colonial heritage ultimately became part of Malang's identity, although it still preserved memories of segregation and oppression.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nMore tangible hybridity was visible in the architecture of De Javasche Bank. The building brought neoclassical ideas, Art Deco, symmetry, monumental pillars, and the image of European financial institution grandeur. However, this design could not be applied directly in Malang. High rainfall, humidity, and the tropical climate demanded steep roofs, clay tiles, large windows, cross ventilation, tall doors, shaded terraces, and the use of local wood such as teak. The result was tropical colonial architecture that brought together European aesthetics, local environmental knowledge, and local building materials. The building was not a European copy but an adaptation product born from Dutch East Indies conditions.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nModernization also changed the relationship between humans and animals. Cattle and horses became transport labor in the plantation economy and urban transportation, while horse racing developed as elite entertainment and gambling. Dogs and monkeys were kept as lifestyle markers or exotic animals. Colonial photographs show that animals were present in daily life but were often positioned as work tools, spectacles, or status symbols. This finding broadens the understanding of cultural crossing: global influence not only changed buildings and institutions but also brought new ways of treating nature and living creatures. Colonial modernity produced transportation advances alongside violence that was often invisible in urban development narratives.</div>",
+    "created_at": null,
+    "updated_at": "2026-09-04T00:00:00.000000Z",
+    "images": [
+      {
+        "id": 500,
+        "cultural_blend_id": "10",
+        "image_url": "assets/images/img_SB/sb_malang_14.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      },
+      {
+        "id": 501,
+        "cultural_blend_id": "10",
+        "image_url": "assets/images/img_SB/sb_malang_15.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      },
+      {
+        "id": 502,
+        "cultural_blend_id": "10",
+        "image_url": "assets/images/img_SB/sb_malang_16.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 8,
+        "destination_id": "2",
+        "title": "Cultural Exchange in Malang during the Hindu-Buddhist Kingdom Era",
+        "content": "<div style=\"text-align: justify;\">The early traces of cultural crossings in Malang became more visible when Hindu-Buddhist influences entered the region. The influence of Hindu-Buddhist kingdoms in Malang had existed since the 9th century CE. This occurred because of Malang's geographical location surrounded by mountains. Referring to the cosmological center of the Hindu-Buddhist community at that time, Malang was situated near the peak of Meru, believed to be the place where gods descended. Therefore, it is not surprising that there is a long history of Hindu-Buddhist kingdoms in Malang, including the Kanjuruhan Kingdom, Ancient Mataram, Singhasari, and Majapahit.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">Among these kingdoms, Singhasari is the most closely identified with Malang. This kingdom, centered in the Malang area, was established in a productive agrarian environment, but its power orientation extended beyond the Javanese hinterland. The Brantas River connected agricultural products from inland areas to ports on the north and east coasts of Java. From these ports, Javanese commodities entered a wider trade network encompassing Sumatra, the Strait of Malacca, Kalimantan, the Lesser Sunda Islands, Maluku, India, China, and the Middle East. Kertanegara's policy through the Pamalayu Expedition demonstrated that territorial control was not solely driven by territorial ambition. Singhasari sought to safeguard maritime navigation, control strategic ports, access Sumatran gold, and position itself as an important power in Southeast Asian maritime economy.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">Global encounters during this period also occurred in political and religious domains. Relations with Melayu, Champa, and the Yuan Dynasty showed that the power center in Malang had been involved in international diplomacy, gift exchanges, political marriages, and inter-kingdom rivalries. The Amogapasha statue sent to Dharmasraya, for instance, can be understood not merely as a religious object but also as a medium of political communication. Within the kingdom, the unification of Shiva and Buddha became an important form of hybridity. The king displayed power and authority through Shiva symbols, while simultaneously showing wisdom and tranquility through Buddhist symbols. This fusion demonstrated that foreign elements from India were not passively received. The teachings were reinterpreted according to the needs of Javanese society and politics, then developed into a distinctive Singhasari religious character.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">Entering the 14th century, the Malang Highlands came under the influence of the Majapahit Kingdom, particularly during the reign of Tribhuwanottunggadewi Jayawisnuwarddhani. She began ruling in 1328 CE and then in 1350 CE retired from governance to be succeeded by her son, Hayam Wuruk. Tribhuwanottunggadewi Jayawisnuwarddhani passed away in 1372 CE and was subsequently enshrined at Pantarapura.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">During Hayam Wuruk's reign, political developments in the Malang Highlands were marked by the establishment of the Himat Walandit Inscription in 1350 CE. This inscription was related to the confirmation of autonomy for a territory controlling mountainous and valley areas in Walandit Village. This confirmation was also related to the existence of the Tengger community inhabiting the mountainous region. Thus, the Himat Walandit Inscription can be viewed as an important source for understanding the relationship between Majapahit power, local autonomy, and mountain communities in the Malang and Tengger areas during the 14th century.</div>",
+        "created_at": null,
+        "updated_at": "2026-09-04T00:00:00.000000Z",
+        "images": [
+            {
+                "id": 300,
+                "cultural_blend_id": "8",
+                "image_url": "assets/images/img_SB/sb_malang_9.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            },
+            {
+                "id": 301,
+                "cultural_blend_id": "8",
+                "image_url": "assets/images/img_SB/sb_malang_10.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            }
+        ]
+    }
+]

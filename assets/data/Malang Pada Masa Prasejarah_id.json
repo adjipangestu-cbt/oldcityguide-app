@@ -1,0 +1,26 @@
+[
+    {
+        "id": 7,
+        "destination_id": "2",
+        "title": "Malang Pada Masa Prasejarah",
+        "content": "<div style=\"text-align: justify;\">Pada masa prasejarah, wilayah Malang Raya merupakan kawasan yang potensial sebagai tempat hunian manusia karena kondisi alamnya yang subur. Secara geologis, Malang berada pada suatu cekungan yang dikelilingi pegunungan, seperti Gunung Kawi, Arjuna, Anjasmoro, Semeru, dan Pegunungan Tengger. Pada masa Pleistosen, kawasan ini diperkirakan berupa cekungan atau danau purba yang kemudian secara bertahap berubah menjadi Dataran Tinggi Malang.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">Memasuki awal Holosen, berkembangnya hutan tropis, lapisan humus, mata air, serta Sungai Brantas menjadikan wilayah Malang semakin subur dan mendukung kehidupan manusia prasejarah. Kondisi lingkungan tersebut memungkinkan berkembangnya aktivitas permukiman, pertanian, serta kehidupan sosial dan keagamaan.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">Keberadaan masyarakat prasejarah di Malang juga ditunjukkan oleh persebaran tinggalan tradisi megalitik di berbagai wilayah Kota Malang, Kota Batu, dan Kabupaten Malang. Tinggalan tersebut meliputi menhir, punden berundak, dolmen, lumpang batu, batu dakon, batu kenong, sarkofagus, batu bergores, dan susunan batu temugelang. Temuan-temuan ini menunjukkan bahwa masyarakat prasejarah Malang telah memiliki kehidupan sosial, aktivitas pertanian, sistem penguburan, serta kepercayaan yang berkaitan dengan penghormatan dan pemujaan terhadap arwah leluhur.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">Malang pada masa prasejarah bukan sekadar wilayah hunian, tetapi telah menjadi ruang berkembangnya komunitas dengan sistem kehidupan, pertanian, ritual, dan tradisi megalitik yang cukup kompleks. Beberapa unsur tradisi tersebut bahkan berlanjut dan mengalami perubahan hingga masa Hindu-Buddha, Islam, dan masyarakat Malang masa kini.</div>",
+        "created_at": null,
+        "updated_at": "2026-09-04T00:00:00.000000Z",
+        "images": [
+            {
+                "id": 200,
+                "cultural_blend_id": "7",
+                "image_url": "assets/images/img_SB/sb_malang_7.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            },
+            {
+                "id": 201,
+                "cultural_blend_id": "7",
+                "image_url": "assets/images/img_SB/sb_malang_8.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            }
+        ]
+    }
+]

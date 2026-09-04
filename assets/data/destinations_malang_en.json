@@ -1,0 +1,470 @@
+[
+    {
+        "id":  101,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Singhasari Museum",
+        "description":  "As the name suggests, this museum exhibits a collection of historical items that are heritage from the Singasari Kingdom, one of the largest kingdoms in Indonesia. This kingdom was also known as the Tumapel Kingdom, adhered to Hindu-Buddhist beliefs, and is located at Singhasari Residence Housing, Klampok Village, Singasari District, Malang Regency.\nWhen visiting this museum, you will find approximately 345 historical artifacts displayed in an exhibition space of 3,000 square meters. Some artifacts from the Singasari Kingdom that you can see at the Singhasari Museum include Mahisha, Mahakal, Prajna Paramita, Durga Singasari Style, and Ganesha.",
+        "location":  "Singhasari Residence Housing, Klampok Village, Singasari District, Malang Regency",
+        "latitude":  "-7.8879",
+        "longitude":  "112.6664",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Malang Heritage City",
+                            "location":  "Malang, East Java",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  100,
+                           "tourist_destination_id":  "101",
+                           "image_url":  "assets/images/img_DW/dw_malang_1.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  101,
+                           "tourist_destination_id":  "101",
+                           "image_url":  "assets/images/img_DW/dw_malang_2.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  102,
+                           "tourist_destination_id":  "101",
+                           "image_url":  "assets/images/img_DW/dw_malang_3.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  103,
+                           "tourist_destination_id":  "101",
+                           "image_url":  "assets/images/img_DW/dw_malang_4.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  102,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Panji Museum",
+        "description":  "Panji Museum is a museum that displays a collection of artifacts related to the legend of Panji Asmorobangun and Dewi Sekartaji, who was a princess of the Jenggala Kingdom. Here, visitors can see a diorama of the Genter War that took place in Genter Village, Malang Regency, in ancient times involving the Singasari Kingdom and the Kediri Kingdom.\nAdditionally, Panji Museum also displays various collections of wayang puppets, masks, historical artifacts, and documentation about the City of Malang in the past. To visit this museum, you can head to Jl. Raya Bangilan Number 1, Ringin Anom, Tumpang District, Malang Regency.",
+        "location":  "Jl. Raya Bangilan Number 1, Ringin Anom, Tumpang District, Malang Regency",
+        "latitude":  "-8.0039",
+        "longitude":  "112.7673",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Malang Heritage City",
+                            "location":  "Malang, East Java",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  200,
+                           "tourist_destination_id":  "102",
+                           "image_url":  "assets/images/img_DW/dw_malang_5.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  201,
+                           "tourist_destination_id":  "102",
+                           "image_url":  "assets/images/img_DW/dw_malang_6.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  202,
+                           "tourist_destination_id":  "102",
+                           "image_url":  "assets/images/img_DW/dw_malang_7.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  203,
+                           "tourist_destination_id":  "102",
+                           "image_url":  "assets/images/img_DW/dw_malang_8.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  103,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Juang 45 Monument",
+        "description":  "The Juang 45 Monument is located at Malang City Station, on Jl. Kertanegara, Malang City. This monument symbolizes the resistance of the people of Malang in defending independence during the period from 1945 to 1949. The monument takes the form of a statue depicting the people successfully defeating a giant figure (buta) that symbolizes the colonizers. The main purpose of building the Juang 45 Monument is to ensure that the community always remembers the struggles of the heroes who sacrificed in fighting for independence.",
+        "location":  "Jl. Kertanegara, Malang City Station",
+        "latitude":  "-7.9778",
+        "longitude":  "112.6371",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Malang Heritage City",
+                            "location":  "Malang, East Java",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  300,
+                           "tourist_destination_id":  "103",
+                           "image_url":  "assets/images/img_DW/dw_malang_9.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  301,
+                           "tourist_destination_id":  "103",
+                           "image_url":  "assets/images/img_DW/dw_malang_10.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  302,
+                           "tourist_destination_id":  "103",
+                           "image_url":  "assets/images/img_DW/dw_malang_11.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  104,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Eng An Kiong Temple",
+        "description":  "Eng An Kiong Temple is a historical site located on Jl. R.E. Martadinata, Kotalama, Kedungkandang District, Malang City. This historical site is a Tridharma temple, used for worship in three faiths: Buddhism, Confucianism, and Taoism.\nThe building was established in 1825 and has been designated as a cultural heritage site. Besides serving as a place of worship, Eng An Kiong Temple has also become a destination for religious and historical tourism in Malang City. The founder of this temple was a soldier named Lieutenant Kwee Sam Hway.",
+        "location":  "Jl. R.E. Martadinata, Kotalama, Kedungkandang District, Malang City",
+        "latitude":  "-7.9852",
+        "longitude":  "112.6402",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Malang Heritage City",
+                            "location":  "Malang, East Java",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  400,
+                           "tourist_destination_id":  "104",
+                           "image_url":  "assets/images/img_DW/dw_malang_12.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  401,
+                           "tourist_destination_id":  "104",
+                           "image_url":  "assets/images/img_DW/dw_malang_13.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  402,
+                           "tourist_destination_id":  "104",
+                           "image_url":  "assets/images/img_DW/dw_malang_14.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  105,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Brawijaya Museum",
+        "description":  "Brawijaya Museum has been standing since May 4, 1968. This museum is located in front of the Malang City Public Library, precisely at Jalan Besar Ijen Number 25A, Gading Kasri, Klojen District, Malang City. When visiting this museum, you will find various collections, including military objects used in the struggle to achieve and defend the independence of the Republic of Indonesia.\nOne of the famous collections in this museum is the Death Wagon (Gerbong Maut), an iron wagon that serves as evidence of the cruelty of the Dutch colonizers. This iron wagon was used to transport dozens of Indonesian fighters from Bondowoso to Surabaya in completely sealed conditions without windows, causing many fighters to perish during the journey.",
+        "location":  "Jalan Besar Ijen Number 25A, Gading Kasri, Klojen District, Malang City",
+        "latitude":  "-7.9724",
+        "longitude":  "112.6296",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Malang Heritage City",
+                            "location":  "Malang, East Java",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  500,
+                           "tourist_destination_id":  "105",
+                           "image_url":  "assets/images/img_DW/dw_malang_15.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  501,
+                           "tourist_destination_id":  "105",
+                           "image_url":  "assets/images/img_DW/dw_malang_16.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  502,
+                           "tourist_destination_id":  "105",
+                           "image_url":  "assets/images/img_DW/dw_malang_17.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  503,
+                           "tourist_destination_id":  "105",
+                           "image_url":  "assets/images/img_DW/dw_malang_18.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  106,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Mpu Purwa Museum",
+        "description":  "Located at Griya Santa Housing, Jalan Soekarno-Hatta Number 210, Mojolangu, Lowokwaru, Malang City, this museum houses a collection of historical artifacts and ancient objects. The museum is named after Mpu Purwa, a religious figure in ancient Javanese society, especially in East Java. Some historical collections found in this museum include temples, inscriptions, statues, and sculptures that are relics from various kingdoms on the island of Java.",
+        "location":  "Jalan Soekarno-Hatta Number 210, Mojolangu, Lowokwaru, Malang City",
+        "latitude":  "-7.9642",
+        "longitude":  "112.6145",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Malang Heritage City",
+                            "location":  "Malang, East Java",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  600,
+                           "tourist_destination_id":  "106",
+                           "image_url":  "assets/images/img_DW/dw_malang_19.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  601,
+                           "tourist_destination_id":  "106",
+                           "image_url":  "assets/images/img_DW/dw_malang_21.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  107,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Kayutangan Heritage",
+        "description":  "Kayutangan Heritage, also known as Kampoeng Heritage Kajoetangan, is an area that is well-designed and filled with Dutch colonial-style buildings. Here, you can find cultural heritage structures that have been built from 1870 to 1920. There are approximately 22 heritage buildings that have been preserved and still function as residences and businesses in this area. To visit, you can head to Jalan Jenderal Basuki Rahmat Gang 4, Kauman, Klojen District, Malang City.",
+        "location":  "Jalan Jenderal Basuki Rahmat Gang 4, Kauman, Klojen District, Malang City",
+        "latitude":  "-7.9812",
+        "longitude":  "112.6315",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Malang Heritage City",
+                            "location":  "Malang, East Java",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  700,
+                           "tourist_destination_id":  "107",
+                           "image_url":  "assets/images/img_DW/dw_malang_22.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  701,
+                           "tourist_destination_id":  "107",
+                           "image_url":  "assets/images/img_DW/dw_malang_23.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  702,
+                           "tourist_destination_id":  "107",
+                           "image_url":  "assets/images/img_DW/dw_malang_24.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  703,
+                           "tourist_destination_id":  "107",
+                           "image_url":  "assets/images/img_DW/dw_malang_25.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  704,
+                           "tourist_destination_id":  "107",
+                           "image_url":  "assets/images/img_DW/dw_malang_26.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  108,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Ijen District",
+        "description":  "Ijen District is one of the historical areas in Malang City. In this self-contained area, there are several buildings left from the Dutch colonial era, including the Saint Theresa Cathedral Church, also known as Gereja Ijen, and Dutch-style houses. The uniqueness of this area is that the street names use the names of mountains in Indonesia, such as Ijen, Semeru, Bromo, and others. The area was built by Dutch architect Herman Thomas Karsten around 1935.",
+        "location":  "Ijen District, Klojen, Malang City",
+        "latitude":  "-7.9695",
+        "longitude":  "112.6285",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Malang Heritage City",
+                            "location":  "Malang, East Java",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  800,
+                           "tourist_destination_id":  "108",
+                           "image_url":  "assets/images/img_DW/dw_malang_27.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  801,
+                           "tourist_destination_id":  "108",
+                           "image_url":  "assets/images/img_DW/dw_malang_28.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  802,
+                           "tourist_destination_id":  "108",
+                           "image_url":  "assets/images/img_DW/dw_malang_29.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  109,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Watugede Bathing Site",
+        "description":  "Watugede Bathing Site is a bathing pool sourced from natural springs. This site is estimated to be a royal garden complex from the Majapahit Kingdom era. The site stands on a land area of 2,516 square meters. There is clear spring water gushing from beneath a tree at the edge of the pool. The spring water then flows into two pools located to the north and south. Watugede Bathing Site, discovered in 1925, has been designated as a National Cultural Heritage Site. It is located in Watugede Village, Singosari District, Malang Regency.",
+        "location":  "Watugede Village, Singosari District, Malang Regency",
+        "latitude":  "-7.8912",
+        "longitude":  "112.6698",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Malang Heritage City",
+                            "location":  "Malang, East Java",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  900,
+                           "tourist_destination_id":  "109",
+                           "image_url":  "assets/images/img_DW/dw_malang_30.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  901,
+                           "tourist_destination_id":  "109",
+                           "image_url":  "assets/images/img_DW/dw_malang_31.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  902,
+                           "tourist_destination_id":  "109",
+                           "image_url":  "assets/images/img_DW/dw_malang_32.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    },
+    {
+        "id":  110,
+        "destination_id":  "2",
+        "category_id":  "6",
+        "name":  "Bunker Gedong Ijen Cafe",
+        "description":  "Bunker Gedong Ijen Cafe is located in the Jalan Terusan Ijen area, Klojen District, Malang City. Its location is in the Ijen area, known for its strong heritage character. The existence of a bunker beneath the cafe sets it apart from ordinary hangout spots. Visitors can combine their culinary agenda with the experience of seeing one of the underground rooms that is part of the history of the area. Bunker Gedong Ijen Cafe is also directed to have a broader function through the Education Creative Center concept.",
+        "location":  "Jalan Terusan Ijen, Klojen District, Malang City",
+        "latitude":  "-7.9688",
+        "longitude":  "112.6272",
+        "created_at":  "2026-09-04T00:00:00.000000Z",
+        "updated_at":  "2026-09-04T00:00:00.000000Z",
+        "destination":  {
+                            "id":  2,
+                            "name":  "Malang",
+                            "description":  "Malang Heritage City",
+                            "location":  "Malang, East Java",
+                            "map_embed_url":  "",
+                            "created_at":  "2026-09-04T00:00:00.000000Z",
+                            "updated_at":  "2026-09-04T00:00:00.000000Z"
+                        },
+        "images":  [
+                       {
+                           "id":  1000,
+                           "tourist_destination_id":  "110",
+                           "image_url":  "assets/images/img_DW/dw_malang_33.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  1001,
+                           "tourist_destination_id":  "110",
+                           "image_url":  "assets/images/img_DW/dw_malang_34.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       },
+                       {
+                           "id":  1002,
+                           "tourist_destination_id":  "110",
+                           "image_url":  "assets/images/img_DW/dw_malang_35.png",
+                           "created_at":  "2026-09-04T00:00:00.000000Z",
+                           "updated_at":  "2026-09-04T00:00:00.000000Z"
+                       }
+                   ]
+    }
+]

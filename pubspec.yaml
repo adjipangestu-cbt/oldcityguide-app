@@ -82,6 +82,8 @@ flutter:
   assets:
     - assets/images/
     - assets/images/person/
+    - assets/images/img_SB/
+    - assets/images/img_DW/
     - assets/data/
   #   - images/a_dot_ham.jpeg
 

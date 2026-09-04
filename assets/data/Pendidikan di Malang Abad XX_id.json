@@ -1,0 +1,40 @@
+[
+  {
+    "id": 11,
+    "destination_id": "2",
+    "title": "Pendidikan di Malang Abad XX",
+    "content": "<div style=\"text-align: justify;\">Bidang pendidikan memperlihatkan warisan yang sama rumitnya. H.B.S. dan A.M.S. dibangun untuk memenuhi kebutuhan tenaga terdidik dalam pemerintahan dan ekonomi perkebunan. Sekolah tersebut memperkenalkan kurikulum modern, bahasa Belanda, ilmu pengetahuan, kegiatan olahraga, dan jaringan sosial yang membuka jalan menuju pendidikan tinggi. Akan tetapi, aksesnya sangat dipengaruhi oleh ras, kelas, dan kemampuan ekonomi. Anak Eropa serta kalangan bumiputra elite memiliki peluang lebih besar dibandingkan masyarakat kebanyakan. Di lingkungan sekolah yang sama sekalipun, siswa dapat mengalami perbedaan kurikulum, biaya, tujuan pendidikan, dan perlakuan sosial. Pendidikan kolonial karena itu bersifat ganda: menjadi alat reproduksi kekuasaan, tetapi sekaligus menghasilkan kelompok terdidik yang kelak mampu mengkritik kolonialisme.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nPerkembangan Ursulin memperkaya gambaran tersebut. Kongregasi Katolik dari Eropa membangun sekolah dan asrama perempuan, memperkenalkan disiplin, pendidikan karakter, bahasa asing, keterampilan, musik, olahraga, dan pelayanan sosial. Dalam prosesnya, lembaga ini menyesuaikan diri dengan masyarakat setempat melalui pembukaan sekolah bagi anak Jawa dan penggunaan bahasa Jawa dalam pembelajaran tingkat awal. Pada masa Jepang, kurikulum kembali berubah: bahasa Belanda dihapus, bahasa Jepang diajarkan, lagu Kimigayo dinyanyikan, dan seikeirei diwajibkan. Sesudah revolusi, sekolah yang terbakar dibangun kembali dengan bantuan negara dan masyarakat. Perjalanan tersebut menunjukkan bahwa lembaga pendidikan tidak memiliki identitas yang beku; ia terus dinegosiasikan oleh agama, kekuasaan kolonial, pendudukan militer, nasionalisme, dan kebutuhan lokal</div>",
+    "created_at": null,
+    "updated_at": "2026-09-04T00:00:00.000000Z",
+    "images": [
+      {
+        "id": 600,
+        "cultural_blend_id": "11",
+        "image_url": "assets/images/img_SB/sb_malang_17.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      },
+      {
+        "id": 601,
+        "cultural_blend_id": "11",
+        "image_url": "assets/images/img_SB/sb_malang_18.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      },
+      {
+        "id": 602,
+        "cultural_blend_id": "11",
+        "image_url": "assets/images/img_SB/sb_malang-19.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      },
+      {
+        "id": 603,
+        "cultural_blend_id": "11",
+        "image_url": "assets/images/img_SB/sb_malang_20.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      }
+    ]
+  }
+]

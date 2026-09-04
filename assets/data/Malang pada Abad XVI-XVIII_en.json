@@ -1,0 +1,33 @@
+[
+    {
+        "id": 9,
+        "destination_id": "2",
+        "title": "Malang in the 16th-18th Century",
+        "content": "<div style=\"text-align: justify;\">Entering the Islamic sultanate period, Malang came under the sphere of influence of the Pajang Sultanate. In 1568, the dukes and rulers of East Java were said to have recognized Pajang's authority following a meeting mediated by Sunan Prapen of Giri. However, Pajang's authority over the East Java region was neither strong nor stable. The power struggle following Sultan Hadiwijaya's death in 1582 reopened space for local rulers. The situation changed when the Mataram Sultanate developed into the main political power in Java. During Sultan Agung's reign, Mataram's expansion was directed toward the eastern territories. The year 1614 became a crucial turning point when Mataram forces led by Tumenggung Alap-Alap successfully conquered Malang and captured Rangga Tohjiwa, the ruler of Malang at that time. From that moment, Malang was positioned as an overseas territory of the Mataram Sultanate.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">Malang's incorporation into Mataram's domain indicated a shift in the region's position. While in previous periods Malang had been an important political center through Kanjuruhan and Singhasari, during the Mataram era it was largely positioned as a hinterland within the kingdom's power network centered in Central Java. Nevertheless, its location surrounded by mountains, possessing fertile agricultural land, and serving as a link between the East Java interior and Pasuruan gave Malang continued geopolitical significance. These geographical conditions became increasingly important when European colonial powers began expanding their influence into the East Java interior.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">A new chapter began in the 18th century when the Vereenigde Oost-Indische Compagnie (VOC) extended its power to Malang. This takeover did not proceed without resistance. The Malang area and its surrounding mountains served as one of the bases of power opposing the Company, including groups connected to the remnants of Surapati's forces. After military operations moving through Pasuruan, Lumajang, Lawang, and Ngantang, the anti-VOC forces were finally suppressed. In 1767, the VOC succeeded in controlling Malang. Several years later, Malang was designated as a directly governed territory and became part of the Pasuruan Residency. A fort was also established in the Claket area to maintain security while monitoring the area around the Brantas River. The Claket area subsequently became one of the starting points for the growth of the European community in Malang.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">Entering the 19th century, colonial power became increasingly institutionalized. After the Dutch East Indies government was restored in 1816, the administrative division of Java was updated. Malang was placed as part of the Pasuruan Residency. Colonial governance began to be centered around the Brantas River in 1821, and since 1824 Malang had an Assistant Resident. This arrangement made Malang not only an agricultural territory but also an increasingly integrated colonial administrative unit. Malang Regency was divided into several districts such as Kota, Karanglo, Pakis, Gondanglegi, Penanggungan, and Ngantang, which subsequently underwent changes as colonial governance evolved.</div>",
+        "created_at": null,
+        "updated_at": "2026-09-04T00:00:00.000000Z",
+        "images": [
+            {
+                "id": 400,
+                "cultural_blend_id": "9",
+                "image_url": "assets/images/img_SB/sb_malang_11.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            },
+            {
+                "id": 401,
+                "cultural_blend_id": "9",
+                "image_url": "assets/images/img_SB/sb_malang_12.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            },
+            {
+                "id": 402,
+                "cultural_blend_id": "9",
+                "image_url": "assets/images/img_SB/sb_malang_13.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            }
+        ]
+    }
+]

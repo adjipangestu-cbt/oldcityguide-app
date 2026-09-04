@@ -1,0 +1,19 @@
+﻿[
+  {
+    "id": 14,
+    "destination_id": "2",
+    "title": "Cultural Exchange in Language: Bahasa Walikan",
+    "content": "<div style=\"text-align: justify;\">Cultural crossing in Malang's language can be seen in Bahasa Walikan (Osob Kiwalan Ngalaman). Its history is related to the struggle of the City People's Guerrilla (GRK) in Malang during the Dutch Military Aggression. In this struggle situation, the Dutch sent intelligence forces capable of speaking Javanese and the Malangan dialect to infiltrate GRK groups and seek information about the freedom fighters. To prevent infiltration and information leaks, GRK leader Suyudi Raharno introduced the use of codewords by reversing the arrangement of words.\r\n</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">\r\n\r\nThe language that originally functioned as a communication code for the struggle then underwent a change in function after the war period. Bahasa Walikan developed into slang in social interactions and eventually became one of the identity markers of Malang society. Cultural crossing is visible in its vocabulary, which is derived not only from Javanese and Indonesian but also absorbs elements from Madurese, Arabic, and Dutch. Therefore, Bahasa Walikan demonstrates that Malang's cultural identity was formed through encounters, adaptation, and the processing of various cultural influences into distinctive local expressions.</div>",
+    "created_at": null,
+    "updated_at": "2026-09-04T00:00:00.000000Z",
+    "images": [
+            {
+                "id": 900,
+                "cultural_blend_id": "14",
+                "image_url": "assets/images/img_SB/sb_malang_26.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            }
+        ]
+  }
+]

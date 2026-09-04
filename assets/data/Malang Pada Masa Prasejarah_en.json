@@ -1,0 +1,27 @@
+[
+    {
+        "id": 7,
+        "destination_id": "2",
+        "title": "Malang in the Prehistoric Era",
+        "content": "<div style=\"text-align: justify;\">During the prehistoric era, the Greater Malang region was a highly potential area for human habitation due to its fertile natural conditions. Geologically, Malang is situated in a basin surrounded by mountains such as Mount Kawi, Arjuna, Anjasmoro, Semeru, and the Tengger Mountains. During the Pleistocene era, the area was estimated to be a basin or ancient lake that gradually transformed into the Malang Highlands.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">Entering the early Holocene, the development of tropical forests, humus layers, springs, and the Brantas River made the Malang area increasingly fertile and supportive of prehistoric human life. These environmental conditions enabled the development of settlement activities, agriculture, as well as social and religious life.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">The existence of prehistoric communities in Malang is also indicated by the distribution of megalithic tradition remains across various areas of Malang City, Batu City, and Malang Regency. These remains include menhirs, stepped pyramids, dolmens, stone mortars, dakon stones, kenong stones, sarcophagi, incised stones, and temugelang stone arrangements. These findings indicate that the prehistoric Malang community had developed social life, agricultural activities, burial systems, and beliefs related to the honor and worship of ancestral spirits.</div><div style=\"text-align: justify;\"><br></div><div style=\"text-align: justify;\">Malang in the prehistoric era was not merely a habitation area but had become a space for the development of communities with quite complex systems of life, agriculture, rituals, and megalithic traditions. Some elements of these traditions even continued and underwent changes through the Hindu-Buddhist, Islamic, and contemporary Malang periods.</div>",
+        "created_at": null,
+        "updated_at": "2026-09-04T00:00:00.000000Z",
+        "images": [
+            {
+                "id": 200,
+                "cultural_blend_id": "7",
+                "image_url": "assets/images/img_SB/sb_malang_7.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            },
+            {
+                "id": 201,
+                "cultural_blend_id": "7",
+                "image_url": "assets/images/img_SB/sb_malang_8.png",
+                "created_at": "2026-09-04T00:00:00.000000Z",
+                "updated_at": "2026-09-04T00:00:00.000000Z"
+            }
+ 
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 6,
+    "destination_id": "2",
+    "title": "Malang sebagai Ruang Persilangan Sejarah dan Budaya Global",
+    "content": "<div style=\"text-align: justify;\">Sejarah Malang tidak dapat dipahami sebagai perkembangan sebuah wilayah yang tumbuh secara terpisah dari dunia luar. Letaknya di dataran tinggi, kesuburan kawasan sekitar Sungai Brantas, dan hubungannya dengan jalur perdagangan antardaerah menjadikan Malang sejak awal terhubung dengan pergerakan manusia, komoditas, gagasan, agama, teknologi, dan kekuasaan. Hubungan tersebut tidak selalu berlangsung secara damai. Perdagangan berjalan beriringan dengan ekspansi politik, pendidikan dengan diskriminasi, modernisasi dengan eksploitasi, serta pelestarian budaya dengan perubahan fungsi. Karena itu, budaya Malang lebih tepat dilihat sebagai hasil perundingan panjang antara unsur lokal dan pengaruh global, bukan sebagai warisan yang murni, tunggal, atau tidak berubah</div>",
+    "created_at": null,
+    "updated_at": "2026-09-04T00:00:00.000000Z",
+    "images": [
+      {
+        "id": 100,
+        "cultural_blend_id": "6",
+        "image_url": "assets/images/img_SB/sb_malang_1.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      },
+      {
+        "id": 101,
+        "cultural_blend_id": "6",
+        "image_url": "assets/images/img_SB/sb_malang_2.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      },
+      {
+        "id": 102,
+        "cultural_blend_id": "6",
+        "image_url": "assets/images/img_SB/sb_malang_3.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      },
+      {
+        "id": 103,
+        "cultural_blend_id": "6",
+        "image_url": "assets/images/img_SB/sb_malang_4.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      },
+      {
+        "id": 104,
+        "cultural_blend_id": "6",
+        "image_url": "assets/images/img_SB/sb_malang_5.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      },
+      {
+        "id": 105,
+        "cultural_blend_id": "6",
+        "image_url": "assets/images/img_SB/sb_malang_6.png",
+        "created_at": "2026-09-04T00:00:00.000000Z",
+        "updated_at": "2026-09-04T00:00:00.000000Z"
+      }
+    ]
+  }
+]
