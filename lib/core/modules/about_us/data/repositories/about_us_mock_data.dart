@@ -95,25 +95,29 @@ final List<UserProfileDto> aboutUsMockData = [
   UserProfileDto(
     name: 'Muhammad Roman Rihardi',
     description: 'Mahasiswa Sistem Informasi Kelautan dengan pengalaman di bidang data analysis, pemetaan, dan pengembangan teknologi kelautan. Telah mempublikasikan 2 artikel ilmiah terindeks SINTA 4 pada JFMC dan JFMR, serta berkontribusi dalam PPK Ormawa 2026 sebagai Web Developer. Saya memiliki ketertarikan pada riset berbasis data, teknologi, dan pemetaan untuk menghasilkan solusi yang inovatif dan berdampak.',
-    imageAsset: 'assets/images/person/roman.png',
+    imageUrl: '',
+    imageAsset: 'assets/images/person/roman.jpg',
     isLocalAsset: true,
   ),
   UserProfileDto(
     name: 'Dr. Novi Sofia Fitriasari S. Si, M. T',
     description: 'Dosen dan peneliti pada Program Studi Sistem Informasi Kelautan, Universitas Pendidikan Indonesia Kampus Serang. Ia memperoleh gelar Sarjana Sains dari Universitas Padjadjaran pada 2002, Magister Teknik dari Institut Teknologi Bandung pada 2010, dan Doktor dari Universitas Indonesia pada 2026. Bidang keahliannya meliputi Knowledge Management, Open Innovation, sistem informasi, dan teknologi informasi untuk pendidikan. Rekam jejak akademiknya mencatat H-index 10 di Google Scholar, 4 di Scopus, dan 1 di Web of Science. Selain menghasilkan berbagai artikel ilmiah, ia juga menjadi penulis bersama buku Inovasi Digital Berbasis Teknologi Informasi: Strategi, Kolaborasi, dan Dampaknya di Era Digital yang diterbitkan Deepublish pada 2025 serta buku referensi Sistem Informasi Kelautan yang diterbitkan PT Bukuloka Literasi Bangsa pada 2026',
-    imageAsset: 'assets/images/person/novi.png',
+    imageUrl: '',
+    imageAsset: 'assets/images/person/novi.jpg',
     isLocalAsset: true,
   ),
   UserProfileDto(
     name: 'Davian Nauval Zaril',
     description: 'Mahasiswa Sistem Informasi Kelautan yang memiliki ketertarikan pada teknologi, pemrograman, data, dan pengembangan sistem berbasis digital. Saya senang mempelajari dan mengembangkan solusi teknologi yang dapat diterapkan pada berbagai permasalahan, khususnya di bidang kelautan. Saat ini, saya terus mengembangkan kemampuan dalam web development, GIS, data analysis, dan artificial intelligence, serta terbuka untuk mempelajari teknologi baru dan mengubah ide menjadi solusi yang bermanfaat.',
-    imageAsset: 'assets/images/person/nauval.png',
+    imageUrl: '',
+    imageAsset: 'assets/images/person/nauval.jpg',
     isLocalAsset: true,
   ),
   UserProfileDto(
     name: 'Muhammad Adji Pangestu',
     description: 'Mahasiswa Jurusan Sistem Informasi Kelautan di Universitas Pendidikan Indonesia (UPI) dengan ketertarikan mendalam pada integrasi antara teknologi informasi, analitik data, dan pengelolaan ekosistem kelautan.',
-    imageAsset: 'assets/images/person/adji.png',
+    imageUrl: '',
+    imageAsset: 'assets/images/person/adji.jpg',
     isLocalAsset: true,
   ),
 ];

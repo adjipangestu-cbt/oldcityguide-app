@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/map.dart';
 import 'package:oldcityguideapp/core/modules/geography/presentation/viewmodels/geography_viewmodel.dart';
@@ -32,7 +32,9 @@ class _GeographyScreenState extends State<GeographyScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: Text(AppLocalizations.of(context)!.geographyAppbarTitle),
+        title: Text(Localizations.localeOf(context).languageCode == 'id'
+            ? 'Geografi ${vm.selectedCity}'
+            : '${vm.selectedCity} Geography'),
         elevation: 0,
       ),
       backgroundColor: Colors.white,

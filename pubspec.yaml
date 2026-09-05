@@ -85,7 +85,7 @@ flutter:
     - assets/images/person/
     - assets/images/img_SB/
     - assets/images/img_DW/
-    #- assets/images/geography/
+    - assets/images/geography/
     - assets/images/culinary_extracted/
     #- assets/images/culinary_malang/
     - assets/data/
