@@ -1,4 +1,4 @@
-﻿name: oldcityguideapp
+name: oldcityguideapp
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -53,6 +53,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.20.2
+  flutter_rating_bar: ^4.0.1
 
 dev_dependencies:
   flutter_test:
@@ -84,9 +85,9 @@ flutter:
     - assets/images/person/
     - assets/images/img_SB/
     - assets/images/img_DW/
-    - assets/images/geography/
+    #- assets/images/geography/
     - assets/images/culinary_extracted/
-    - assets/images/culinary_malang/
+    #- assets/images/culinary_malang/
     - assets/data/
   #   - images/a_dot_ham.jpeg
 

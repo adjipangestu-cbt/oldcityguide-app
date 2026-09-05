@@ -1,4 +1,4 @@
-﻿import 'package:flutter/widgets.dart';
+import 'package:flutter/widgets.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/data/culinary_repository_mock_impl.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/domain/dto/food_culinary_dto.dart';
 import 'package:oldcityguideapp/core/ui/ui_state.dart';
@@ -11,6 +11,8 @@ class FoodCulinaryViewmodel extends ChangeNotifier {
 
   String _keyword = "";
   String _selectedCity = 'Semua';
+
+  String get selectedCity => _selectedCity;
 
   Future<void> fetchData() async {
     _state = Loading();
@@ -59,5 +61,3 @@ class FoodCulinaryViewmodel extends ChangeNotifier {
     notifyListeners();
   }
 }
-
-  String get selectedCity => _selectedCity;

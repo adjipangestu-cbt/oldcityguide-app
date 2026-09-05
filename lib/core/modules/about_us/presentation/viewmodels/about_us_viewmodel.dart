@@ -1,5 +1,5 @@
-﻿import 'package:flutter/material.dart';
-import 'package:oldcityguideapp/core/modules/about_us/data/about_us_repository_mock_impl.dart';
+import 'package:flutter/material.dart';
+import 'package:oldcityguideapp/core/modules/about_us/data/repositories/about_us_repository_mock_impl.dart';
 import 'package:oldcityguideapp/core/modules/about_us/domain/dto/user_profile_dto.dart';
 import 'package:oldcityguideapp/core/modules/about_us/domain/repositories/about_us_repository.dart';
 import 'package:oldcityguideapp/core/ui/ui_state.dart';
