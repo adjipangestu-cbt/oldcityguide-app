@@ -72,5 +72,7 @@
   "errorRetry": "Coba Lagi",
 
   "connectionOffline": "Tidak ada koneksi internet!",
-  "connectionOnline": "Anda kembali online!"
+  "connectionOnline": "Anda kembali online!",
+
+  "menuKampungHeritage": "Kampung Heritage"
 }

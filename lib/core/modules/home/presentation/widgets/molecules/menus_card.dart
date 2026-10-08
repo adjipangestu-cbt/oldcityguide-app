@@ -65,6 +65,12 @@ class MenusCard extends StatelessWidget {
         text: l10n.menuCulture,
         onTap: () => context.push('/culture'),
       ),
+      MenuItem(
+        backgroundColor: Color(0xFF8B4513),
+        icon: Icons.home_work, 
+        text: l10n.menuKampungHeritage,
+        onTap: () => context.push('/kayutangan-heritage'),
+      ),
     ];
 
     return Card(

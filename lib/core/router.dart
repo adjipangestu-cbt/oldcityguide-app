@@ -13,6 +13,7 @@ import 'package:oldcityguideapp/core/modules/history/presentation/history_detail
 import 'package:oldcityguideapp/core/modules/history/presentation/history_screen.dart';
 import 'package:oldcityguideapp/core/modules/home/presentation/home_screen.dart';
 import 'package:oldcityguideapp/core/modules/vr/presentation/vr_detail_screen.dart';
+import 'package:oldcityguideapp/core/modules/kayutangan_heritage/presentation/kayutangan_heritage_screen.dart';
 
 final GoRouter router = GoRouter(
   routes: <RouteBase>[
@@ -116,6 +117,12 @@ final GoRouter router = GoRouter(
             final imageUrl = state.uri.queryParameters['imageUrl']!;
             final title = state.uri.queryParameters['title']!;
             return VRDetailContent(title: title, imageUrl: imageUrl);
+          },
+        ),
+        GoRoute(
+          path: '/kayutangan-heritage',
+          builder: (BuildContext context, GoRouterState state) {
+            return const KayutanganHeritageScreen();
           },
         ),
       ],

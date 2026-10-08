@@ -87,6 +87,7 @@ flutter:
     - assets/images/img_DW/
     - assets/images/geography/
     - assets/images/culinary_extracted/
+    - assets/images/img_KHK/
     #- assets/images/culinary_malang/
     - assets/data/
   #   - images/a_dot_ham.jpeg

@@ -173,4 +173,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get connectionOnline => 'You are back online!';
+
+  @override
+  String get menuKampungHeritage => 'Heritage Village';
 }

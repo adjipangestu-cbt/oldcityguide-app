@@ -132,5 +132,8 @@
   "connectionOffline": "No internet connection!",
   "@connectionOffline": { "description": "Offline status message" },
   "connectionOnline": "You are back online!",
-  "@connectionOnline": { "description": "Online status message" }
+  "@connectionOnline": { "description": "Online status message" },
+
+  "menuKampungHeritage": "Heritage Village",
+  "@menuKampungHeritage": { "description": "Kampung Heritage Kayutangan menu label" }
 }

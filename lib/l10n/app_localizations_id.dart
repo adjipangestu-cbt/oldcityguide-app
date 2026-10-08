@@ -173,4 +173,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get connectionOnline => 'Anda kembali online!';
+
+  @override
+  String get menuKampungHeritage => 'Kampung Heritage';
 }

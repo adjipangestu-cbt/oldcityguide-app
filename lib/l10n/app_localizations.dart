@@ -421,6 +421,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'You are back online!'**
   String get connectionOnline;
+
+  /// Kampung Heritage Kayutangan menu label
+  ///
+  /// In en, this message translates to:
+  /// **'Heritage Village'**
+  String get menuKampungHeritage;
 }
 
 class _AppLocalizationsDelegate

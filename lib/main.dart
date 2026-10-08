@@ -16,6 +16,7 @@ import 'package:oldcityguideapp/core/modules/vacation/presentation/viewmodel/vac
 import 'package:oldcityguideapp/core/modules/video/presentation/viewmodel/video_viewmodel.dart';
 import 'package:oldcityguideapp/core/modules/vr/presentation/viewmodels/vr_videmodels.dart';
 import 'package:oldcityguideapp/core/router.dart';
+import 'package:oldcityguideapp/core/modules/kayutangan_heritage/presentation/viewmodels/kayutangan_heritage_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -44,6 +45,7 @@ class App extends StatelessWidget {
         ChangeNotifierProvider(create: (context) => AboutUsViewmodel()),
         ChangeNotifierProvider(create: (context) => VrViewmodel()),
         ChangeNotifierProvider(create: (context) => DigitalMapViewmodel()),
+        ChangeNotifierProvider(create: (context) => KayutanganHeritageViewmodel()),
         ChangeNotifierProvider(
           create: (context) => DestinationViewmodel(
             repository: DestinationRepositoryImpl(),
