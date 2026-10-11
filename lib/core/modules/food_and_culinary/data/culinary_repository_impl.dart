@@ -23,7 +23,6 @@ class CulinaryRepositoryImpl implements CulinaryRepository {
           destinationId: destinationId,
           address: parsedItem['address'],
           desc: parsedItem['description'],
-          ytUrls: [],
           name: parsedItem['name'],
           imageUrls: imageUrls);
     }).toList();

@@ -6,6 +6,7 @@ import 'package:oldcityguideapp/core/modules/culture/presentation/culture_screen
 import 'package:oldcityguideapp/core/modules/dashboard/presentation/dashboard_page.dart';
 import 'package:oldcityguideapp/core/modules/digital_map/presentations/digital_map_detail_screen.dart';
 import 'package:oldcityguideapp/core/modules/digital_map/presentations/digital_map_screen.dart';
+import 'package:oldcityguideapp/core/modules/food_and_culinary/presentation/culinary_detail_screen.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/presentation/food_and_culinary_screen.dart';
 import 'package:oldcityguideapp/core/modules/geography/presentation/geography_detail_screen.dart';
 import 'package:oldcityguideapp/core/modules/geography/presentation/geography_screen.dart';
@@ -73,6 +74,15 @@ final GoRouter router = GoRouter(
           path: '/culinary',
           builder: (BuildContext context, GoRouterState state) {
             return const FoodAndCulinaryScreen();
+          },
+        ),
+        GoRoute(
+          path: '/culinary/detail',
+          name: '/culinary/detail',
+          builder: (BuildContext context, GoRouterState state) {
+            final id =
+                int.tryParse(state.uri.queryParameters['id'] ?? '0') ?? 0;
+            return CulinaryDetailScreen(id: id);
           },
         ),
         GoRoute(
