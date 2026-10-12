@@ -9,8 +9,12 @@ class KayutanganHeritageRepository {
         : 'kayutangan_heritage_id.json';
 
     try {
-      final String jsonString =
+      String jsonString =
           await rootBundle.loadString('assets/data/$fileName');
+      // Strip BOM if present
+      if (jsonString.startsWith('\uFEFF')) {
+        jsonString = jsonString.substring(1);
+      }
       final List<dynamic> jsonList = json.decode(jsonString) as List<dynamic>;
       return jsonList
           .map((item) =>

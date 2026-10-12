@@ -12,19 +12,20 @@ class YtPlayerItem extends StatefulWidget {
 }
 
 class _YtPlayerItemState extends State<YtPlayerItem> {
-  final controller = YoutubePlayerController(
-    params: YoutubePlayerParams(
-      mute: false,
-      showControls: true,
-      showFullscreenButton: true,
-      color: "#121212",
-    ),
-  );
+  late final YoutubePlayerController controller;
+
   @override
   void initState() {
     super.initState();
-
-    controller.cueVideoById(videoId: widget.urlId);
+    controller = YoutubePlayerController.fromVideoId(
+      videoId: widget.urlId,
+      autoPlay: false,
+      params: const YoutubePlayerParams(
+        mute: false,
+        showControls: true,
+        showFullscreenButton: true,
+      ),
+    );
   }
 
   @override

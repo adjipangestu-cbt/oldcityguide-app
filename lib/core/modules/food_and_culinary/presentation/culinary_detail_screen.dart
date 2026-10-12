@@ -1,7 +1,7 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/data/culinary_mock_data.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/domain/dto/food_culinary_dto.dart';
-import 'package:oldcityguideapp/core/modules/food_and_culinary/presentation/widgets/culinary_image_carousel.dart';
+import 'package:oldcityguideapp/core/modules/food_and_culinary/presentation/viewmodels/widgets/culinary_image_carousel.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/map.dart';
 import 'package:oldcityguideapp/core/ui/colors.dart';
 import 'package:go_router/go_router.dart';

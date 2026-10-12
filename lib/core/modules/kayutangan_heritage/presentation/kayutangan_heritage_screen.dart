@@ -28,16 +28,6 @@ class _KayutanganHeritageScreenState extends State<KayutanganHeritageScreen> {
   }
 
   @override
-  void didChangeDependencies() {
-    super.didChangeDependencies();
-    final languageCode = Localizations.localeOf(context).languageCode;
-    final vm = context.read<KayutanganHeritageViewmodel>();
-    if (vm.state is Success<List<KayutanganHeritageDto>>) {
-      vm.fetchData(languageCode: languageCode);
-    }
-  }
-
-  @override
   Widget build(BuildContext context) {
     final vm = context.watch<KayutanganHeritageViewmodel>();
     final state = vm.state;
