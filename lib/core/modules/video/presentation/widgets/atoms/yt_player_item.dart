@@ -17,13 +17,19 @@ class _YtPlayerItemState extends State<YtPlayerItem> {
   @override
   void initState() {
     super.initState();
+    // Memastikan hanya ID video (11 karakter) yang diambil jika datanya berupa URL utuh
+    final cleanVideoId = YoutubePlayerController.convertUrlToId(widget.urlId) ?? widget.urlId.trim();
+
     controller = YoutubePlayerController.fromVideoId(
-      videoId: widget.urlId,
+      videoId: cleanVideoId,
       autoPlay: false,
       params: const YoutubePlayerParams(
         mute: false,
         showControls: true,
         showFullscreenButton: true,
+        strictRelatedVideos: true,
+        // Mengatasi Error 152-4 (blokir embed WebView Android dari YouTube)
+        origin: 'https://www.youtube-nocookie.com',
       ),
     );
   }
