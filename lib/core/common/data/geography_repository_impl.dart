@@ -10,7 +10,7 @@ class GeographyRepositoryImpl implements GeographyRepository {
   const GeographyRepositoryImpl({required this.apiManager});
 
   @override
-  Future<List<GeographyDto>> getDestinations() async {
+  Future<List<GeographyDto>> getDestinations({String locale = 'id'}) async {
     final result = await apiManager.getData(ApiConstanta.destinations());
     final data = result as List<dynamic>;
     return data.map((item) {
@@ -45,7 +45,7 @@ class GeographyRepositoryImpl implements GeographyRepository {
   }
 
   @override
-  Future<List<GeographyDto>> getGeographyGroupByDestinations() async {
+  Future<List<GeographyDto>> getGeographyGroupByDestinations({String locale = 'id'}) async {
     final futureDestination = apiManager.getData(ApiConstanta.destinations());
     final futureTransportaions =
         apiManager.getData(ApiConstanta.transportationGuide());

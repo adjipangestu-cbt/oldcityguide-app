@@ -15,26 +15,42 @@ class GeographyScreen extends StatefulWidget {
 }
 
 class _GeographyScreenState extends State<GeographyScreen> {
+  String _lastLocale = '';
+
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       final vm = context.read<GeographyViewmodel>();
+      final locale = Localizations.localeOf(context).languageCode;
+      _lastLocale = locale;
+      vm.setLocaleWithoutFetch(locale);
       vm.changeCity(vm.selectedCity);
     });
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final locale = Localizations.localeOf(context).languageCode;
+    if (_lastLocale.isNotEmpty && _lastLocale != locale) {
+      _lastLocale = locale;
+      context.read<GeographyViewmodel>().setLocale(locale);
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     final vm = context.watch<GeographyViewmodel>();
     final state = vm.state;
+    final isEn = Localizations.localeOf(context).languageCode == 'en';
 
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: Text(Localizations.localeOf(context).languageCode == 'id'
-            ? 'Geografi ${vm.selectedCity}'
-            : '${vm.selectedCity} Geography'),
+        title: Text(isEn
+            ? '${vm.selectedCity} Geography'
+            : 'Geografi ${vm.selectedCity}'),
         elevation: 0,
       ),
       backgroundColor: Colors.white,
@@ -131,9 +147,9 @@ class _GeographyScreenState extends State<GeographyScreen> {
                           textAlign: TextAlign.justify,
                         ),
                         const SizedBox(height: 20),
-                        const Text(
-                          'Peta Lokasi',
-                          style: TextStyle(
+                        Text(
+                          isEn ? 'Location Map' : 'Peta Lokasi',
+                          style: const TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
                           ),

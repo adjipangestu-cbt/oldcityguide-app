@@ -1,4 +1,4 @@
-﻿import 'package:oldcityguideapp/l10n/app_localizations.dart';
+import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/template_page.dart';
 import 'package:oldcityguideapp/core/modules/about_us/domain/dto/user_profile_dto.dart';
@@ -19,8 +19,16 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      context.read<AboutUsViewmodel>().fetch();
+      final locale = Localizations.localeOf(context).languageCode;
+      context.read<AboutUsViewmodel>().setLocaleAndFetch(locale);
     });
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final locale = Localizations.localeOf(context).languageCode;
+    context.read<AboutUsViewmodel>().setLocale(locale);
   }
 
   @override
@@ -162,14 +170,16 @@ class _PersonCard extends StatelessWidget {
                   ),
                   const SizedBox(height: 4),
                   Row(
-                    children: const [
-                      Icon(Icons.info_outline,
+                    children: [
+                      const Icon(Icons.info_outline,
                           size: 12, color: Colors.blueGrey),
-                      SizedBox(width: 4),
+                      const SizedBox(width: 4),
                       Text(
-                        'Lihat profil',
+                        Localizations.localeOf(context).languageCode == 'en'
+                            ? 'View profile'
+                            : 'Lihat profil',
                         style:
-                            TextStyle(fontSize: 11, color: Colors.blueGrey),
+                            const TextStyle(fontSize: 11, color: Colors.blueGrey),
                       ),
                     ],
                   ),

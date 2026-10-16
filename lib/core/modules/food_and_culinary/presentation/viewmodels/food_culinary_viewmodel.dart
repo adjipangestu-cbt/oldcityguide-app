@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:oldcityguideapp/core/modules/food_and_culinary/data/culinary_repository_mock_impl.dart';
+import 'package:oldcityguideapp/core/modules/food_and_culinary/data/culinary_mock_data.dart';
+import 'package:oldcityguideapp/core/modules/food_and_culinary/data/culinary_mock_data_en.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/domain/dto/food_culinary_dto.dart';
 import 'package:oldcityguideapp/core/ui/ui_state.dart';
 
@@ -9,24 +10,41 @@ class FoodCulinaryViewmodel extends ChangeNotifier {
   ViewState<List<FoodCulinaryDto>> _state = Loading();
   ViewState<List<FoodCulinaryDto>> get state => _state;
   List<FoodCulinaryDto> _data = [];
-  final _repository = CulinaryRepositoryMockImpl();
 
   String _keyword = '';
   CulinaryCulture _selectedCulture = CulinaryCulture.arab;
   CulinaryViewMode _viewMode = CulinaryViewMode.list;
+  String _locale = 'id';
 
   CulinaryCulture get selectedCulture => _selectedCulture;
   CulinaryViewMode get viewMode => _viewMode;
+  String get locale => _locale;
 
   /// Semua data (untuk peta)
   List<FoodCulinaryDto> get allData => _data;
+
+  /// Culture intro berdasarkan locale
+  Map<CulinaryCulture, ({String judul, String pengantar})> get cultureIntros =>
+      _locale == 'en' ? culinaryCultureIntroEn : culinaryCultureIntro;
+
+  void setLocale(String locale) {
+    if (_locale != locale) {
+      _locale = locale;
+      fetchData();
+    }
+  }
+
+  void setLocaleAndFetch(String locale) {
+    _locale = locale;
+    fetchData();
+  }
 
   Future<void> fetchData() async {
     _state = Loading();
     notifyListeners();
     try {
-      final result = await _repository.getData();
-      _data = result;
+      // Use locale-appropriate data
+      _data = _locale == 'en' ? culinaryMockDataEn : culinaryMockData;
       _applyFilters();
     } catch (e) {
       _state = Error(e.toString());

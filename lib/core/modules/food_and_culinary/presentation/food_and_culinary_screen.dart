@@ -4,7 +4,6 @@ import 'package:oldcityguideapp/core/common/presentation/widgets/no_data.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/search_input.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/template_page.dart';
 import 'package:oldcityguideapp/core/extension/widget.dart';
-import 'package:oldcityguideapp/core/modules/food_and_culinary/data/culinary_mock_data.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/domain/dto/food_culinary_dto.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/presentation/viewmodels/food_culinary_viewmodel.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/presentation/viewmodels/widgets/culinary_map_view.dart';
@@ -26,8 +25,17 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      await context.read<FoodCulinaryViewmodel>().fetchData();
+      final vm = context.read<FoodCulinaryViewmodel>();
+      final locale = Localizations.localeOf(context).languageCode;
+      vm.setLocaleAndFetch(locale);
     });
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final locale = Localizations.localeOf(context).languageCode;
+    context.read<FoodCulinaryViewmodel>().setLocale(locale);
   }
 
   @override
@@ -75,7 +83,7 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
                                   color: isSelected ? Colors.white : culture.color,
                                 ),
                                 const SizedBox(width: 6),
-                                Text(culture.label),
+                                Text(culture.localizedLabel(context)),
                               ],
                             ),
                             selectedColor: culture.color,
@@ -145,8 +153,8 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
     List<FoodCulinaryDto> dto,
     CulinaryCulture selectedCulture,
   ) {
-    // Get culture intro
-    final intro = culinaryCultureIntro[selectedCulture];
+    // Get culture intro based on current locale
+    final intro = context.read<FoodCulinaryViewmodel>().cultureIntros[selectedCulture];
 
     return CustomScrollView(
       slivers: [

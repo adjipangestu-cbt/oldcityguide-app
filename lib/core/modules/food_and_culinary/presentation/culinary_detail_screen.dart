@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/data/culinary_mock_data.dart';
+import 'package:oldcityguideapp/core/modules/food_and_culinary/data/culinary_mock_data_en.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/domain/dto/food_culinary_dto.dart';
 import 'package:oldcityguideapp/core/modules/food_and_culinary/presentation/viewmodels/widgets/culinary_image_carousel.dart';
 import 'package:oldcityguideapp/core/common/presentation/widgets/map.dart';
@@ -12,9 +13,11 @@ class CulinaryDetailScreen extends StatelessWidget {
 
   const CulinaryDetailScreen({super.key, required this.id});
 
-  FoodCulinaryDto? _findData() {
+  FoodCulinaryDto? _findData(BuildContext context) {
+    final locale = Localizations.localeOf(context).languageCode;
+    final data = locale == 'en' ? culinaryMockDataEn : culinaryMockData;
     try {
-      return culinaryMockData.firstWhere((d) => d.id == id);
+      return data.firstWhere((d) => d.id == id);
     } catch (_) {
       return null;
     }
@@ -40,7 +43,7 @@ class CulinaryDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final data = _findData();
+    final data = _findData(context);
 
     if (data == null) {
       return Scaffold(
@@ -122,7 +125,9 @@ class CulinaryDetailScreen extends StatelessWidget {
                                     size: 14, color: data.culture.color),
                                 const SizedBox(width: 5),
                                 Text(
-                                  'Kuliner ${data.culture.label}',
+                                  Localizations.localeOf(context).languageCode == 'en'
+                                      ? '${data.culture.labelEn} Cuisine'
+                                      : 'Kuliner ${data.culture.label}',
                                   style: TextStyle(
                                     fontSize: 12,
                                     color: data.culture.color,
@@ -149,7 +154,9 @@ class CulinaryDetailScreen extends StatelessWidget {
                                       size: 14, color: Colors.grey),
                                   const SizedBox(width: 5),
                                   Text(
-                                    'Sejak ${data.yearEstablished}',
+                                    Localizations.localeOf(context).languageCode == 'en'
+                                        ? 'Est. ${data.yearEstablished}'
+                                        : 'Sejak ${data.yearEstablished}',
                                     style: const TextStyle(
                                       fontSize: 12,
                                       color: Colors.grey,
@@ -188,7 +195,11 @@ class CulinaryDetailScreen extends StatelessWidget {
                         child: OutlinedButton.icon(
                           onPressed: () => _openMaps(data),
                           icon: const Icon(Icons.map_outlined),
-                          label: const Text('Buka di Google Maps'),
+                          label: Text(
+                            Localizations.localeOf(context).languageCode == 'en'
+                                ? 'Open in Google Maps'
+                                : 'Buka di Google Maps',
+                          ),
                           style: OutlinedButton.styleFrom(
                             foregroundColor: AppColors.bluePrimary,
                             side: BorderSide(color: AppColors.bluePrimary),
@@ -203,9 +214,11 @@ class CulinaryDetailScreen extends StatelessWidget {
                       const SizedBox(height: 24),
 
                       // Deskripsi lengkap
-                      const Text(
-                        'Deskripsi',
-                        style: TextStyle(
+                      Text(
+                        Localizations.localeOf(context).languageCode == 'en'
+                            ? 'Description'
+                            : 'Deskripsi',
+                        style: const TextStyle(
                             fontSize: 18, fontWeight: FontWeight.bold),
                       ),
                       const SizedBox(height: 10),
@@ -219,9 +232,11 @@ class CulinaryDetailScreen extends StatelessWidget {
                       if (data.latitude != 0.0 &&
                           data.longitude != 0.0) ...[
                         const SizedBox(height: 28),
-                        const Text(
-                          'Peta Lokasi',
-                          style: TextStyle(
+                        Text(
+                          Localizations.localeOf(context).languageCode == 'en'
+                              ? 'Location Map'
+                              : 'Peta Lokasi',
+                          style: const TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                         const SizedBox(height: 12),

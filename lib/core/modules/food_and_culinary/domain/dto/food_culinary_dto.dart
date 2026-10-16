@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 /// Enum kategori kultur kuliner
 enum CulinaryCulture {
@@ -18,6 +18,24 @@ enum CulinaryCulture {
       case CulinaryCulture.cina:
         return 'Cina';
     }
+  }
+
+  String get labelEn {
+    switch (this) {
+      case CulinaryCulture.arab:
+        return 'Arabic';
+      case CulinaryCulture.jawa:
+        return 'Javanese';
+      case CulinaryCulture.eropa:
+        return 'European';
+      case CulinaryCulture.cina:
+        return 'Chinese';
+    }
+  }
+
+  String localizedLabel(BuildContext context) {
+    final locale = Localizations.localeOf(context).languageCode;
+    return locale == 'en' ? labelEn : label;
   }
 
   Color get color {

@@ -8,7 +8,7 @@ class AboutUsRepositoryImpl implements AboutUsRepository {
   const AboutUsRepositoryImpl({required this.apiManager});
 
   @override
-  Future<List<UserProfileDto>> getTeamMembers() async {
+  Future<List<UserProfileDto>> getTeamMembers({String locale = 'id'}) async {
     final result = await apiManager.getData(ApiConstanta.teamMembers());
     final data = result as List<dynamic>;
     return data.map((item) {

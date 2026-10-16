@@ -22,13 +22,28 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   late HomeViewmodel homeViewmodel;
+  String _currentLocale = '';
+
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
       homeViewmodel = context.read<HomeViewmodel>();
-      homeViewmodel.fetchData();
+      final locale = Localizations.localeOf(context).languageCode;
+      _currentLocale = locale;
+      // Set locale and fetch data
+      homeViewmodel.setLocaleAndFetch(locale);
     });
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final locale = Localizations.localeOf(context).languageCode;
+    if (_currentLocale.isNotEmpty && _currentLocale != locale) {
+      _currentLocale = locale;
+      context.read<HomeViewmodel>().setLocale(locale);
+    }
   }
 
   @override

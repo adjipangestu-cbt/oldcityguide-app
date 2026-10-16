@@ -25,9 +25,11 @@ class GeographyItem extends StatelessWidget {
         Text.rich(
           TextSpan(
             children: [
-              TextSpan(text: "${geographyItem.desc.substring(0, 120)}..."),
+              TextSpan(text: "${geographyItem.desc.substring(0, geographyItem.desc.length > 120 ? 120 : geographyItem.desc.length)}..."),
               TextSpan(
-                text: " Selengkapnya",
+                text: Localizations.localeOf(context).languageCode == 'en'
+                    ? " Read more"
+                    : " Selengkapnya",
                 style: AppTypoghrapy.regular.copyWith(
                   color: AppColors.bluePrimary,
                   fontWeight: FontWeight.bold,

@@ -7,14 +7,28 @@ import 'package:oldcityguideapp/core/ui/ui_state.dart';
 class AboutUsViewmodel extends ChangeNotifier {
   ViewState<List<UserProfileDto>> _users = Loading();
   ViewState<List<UserProfileDto>> get users => _users;
-  
+
   final AboutUsRepository _repository = AboutUsMockRepositoryImpl();
+  String _locale = 'id';
+  String get locale => _locale;
+
+  void setLocale(String locale) {
+    if (_locale != locale) {
+      _locale = locale;
+      fetch();
+    }
+  }
+
+  void setLocaleAndFetch(String locale) {
+    _locale = locale;
+    fetch();
+  }
 
   Future<void> fetch() async {
     try {
       _users = Loading();
       notifyListeners();
-      final data = await _repository.getTeamMembers();
+      final data = await _repository.getTeamMembers(locale: _locale);
       _users = Success(data);
       notifyListeners();
     } catch (e) {

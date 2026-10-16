@@ -21,8 +21,10 @@ class _GeographyDetailScreenState extends State<GeographyDetailScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      print(widget.destinationid);
-      await context.read<GeographyViewmodel>().fetchData(widget.destinationid);
+      final vm = context.read<GeographyViewmodel>();
+      final locale = Localizations.localeOf(context).languageCode;
+      vm.setLocaleWithoutFetch(locale);
+      await vm.fetchData(widget.destinationid);
     });
   }
 
