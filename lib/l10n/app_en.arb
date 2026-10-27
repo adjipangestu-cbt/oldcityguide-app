@@ -49,9 +49,9 @@
   "@cardDestinationTitle": { "description": "Destination card title" },
   "cardDestinationDesc": "Explore a variety of tourist destinations",
   "@cardDestinationDesc": { "description": "Destination card description" },
-  "cardCulinaryTitle": "Culinary & Cafe",
+  "cardCulinaryTitle": "Cafe & Culinary",
   "@cardCulinaryTitle": { "description": "Culinary card title" },
-  "cardCulinaryDesc": "Take a break and enjoy culinary and cafe recommendations",
+  "cardCulinaryDesc": "Take a break and enjoy cafe and culinary recommendations",
   "@cardCulinaryDesc": { "description": "Culinary card description" },
 
   "vrImmersiveTitle": "Immersive Experience",
@@ -93,9 +93,9 @@
   "digitalMapTitle": "Digital Map",
   "@digitalMapTitle": { "description": "Digital map screen title" },
 
-  "culinaryTitle": "Culinary & Cafe",
+  "culinaryTitle": "Cafe & Culinary",
   "@culinaryTitle": { "description": "Culinary screen title" },
-  "culinarySearchHint": "Culinary & Cafe",
+  "culinarySearchHint": "Search cafe & culinary",
   "@culinarySearchHint": { "description": "Culinary search placeholder" },
   "culinaryImageFailed": "Image failed to load!",
   "@culinaryImageFailed": { "description": "Image loading error message" },

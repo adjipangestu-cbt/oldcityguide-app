@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/foundation.dart';
 import 'package:oldcityguideapp/core/helper/api_manager_impl.dart';
 import 'package:oldcityguideapp/core/modules/digital_map/data/repositories/digital_map_repository_impl.dart';
@@ -22,8 +24,11 @@ class DigitalMapViewmodel extends ChangeNotifier {
       _allDigitalMapState = Success(result);
       _initialData = result;
       notifyListeners();
+    } on SocketException {
+      _allDigitalMapState = Error("Tidak ada koneksi internet. Periksa koneksi Anda dan coba lagi.");
+      notifyListeners();
     } catch (e) {
-      _allDigitalMapState = Error(e.toString());
+      _allDigitalMapState = Error("Terjadi kesalahan. Periksa koneksi internet Anda dan coba lagi.");
       notifyListeners();
     }
   }
@@ -52,8 +57,11 @@ class DigitalMapViewmodel extends ChangeNotifier {
       print(result.points.first.location);
       _detailPointsRouteState = Success(result);
       notifyListeners();
+    } on SocketException {
+      _detailPointsRouteState = Error("Tidak ada koneksi internet. Periksa koneksi Anda dan coba lagi.");
+      notifyListeners();
     } catch (e) {
-      _detailPointsRouteState = Error(e.toString());
+      _detailPointsRouteState = Error("Terjadi kesalahan. Periksa koneksi internet Anda dan coba lagi.");
       notifyListeners();
     }
   }

@@ -69,14 +69,18 @@ class FoodCulinaryViewmodel extends ChangeNotifier {
   }
 
   void _applyFilters() {
-    List<FoodCulinaryDto> filtered = _data
-        .where((item) => item.culture == _selectedCulture)
-        .toList();
+    List<FoodCulinaryDto> filtered;
 
     if (_keyword.trim().isNotEmpty) {
-      filtered = filtered
+      // When searching, search across ALL cultures
+      filtered = _data
           .where((item) =>
               item.name.toLowerCase().contains(_keyword.toLowerCase()))
+          .toList();
+    } else {
+      // When not searching, filter by selected culture
+      filtered = _data
+          .where((item) => item.culture == _selectedCulture)
           .toList();
     }
 

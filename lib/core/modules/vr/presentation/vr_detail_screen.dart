@@ -87,7 +87,7 @@ class _VRDetailContentState extends State<VRDetailContent> {
                       ),
                       child: PanoramaViewer(
                         panoramaController: leftController,
-                        sensorControl: SensorControl.none,
+                        sensorControl: SensorControl.orientation,
                         onViewChanged: (longitude, latitude, zoom) {
                           _syncView(
                             source: leftController,
@@ -108,7 +108,7 @@ class _VRDetailContentState extends State<VRDetailContent> {
                       ),
                       child: PanoramaViewer(
                         panoramaController: rightController,
-                        sensorControl: SensorControl.none,
+                        sensorControl: SensorControl.orientation,
                         onViewChanged: (longitude, latitude, zoom) {
                           _syncView(
                             source: rightController,

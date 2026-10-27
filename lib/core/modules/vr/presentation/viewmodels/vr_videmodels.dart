@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/widgets.dart';
 import 'package:oldcityguideapp/core/helper/api_manager_impl.dart';
 import 'package:oldcityguideapp/core/modules/vr/data/repositories/vr_repository_impl.dart';
@@ -21,8 +23,11 @@ class VrViewmodel extends ChangeNotifier {
       _state = Success(data);
       _initialData = data;
       notifyListeners();
+    } on SocketException {
+      _state = Error("Tidak ada koneksi internet. Periksa koneksi Anda dan coba lagi.");
+      notifyListeners();
     } catch (e) {
-      _state = Error("Unexpected error!");
+      _state = Error("Terjadi kesalahan. Periksa koneksi internet Anda dan coba lagi.");
       notifyListeners();
     }
   }

@@ -26,8 +26,8 @@
   "cardHistoryDesc": "Pelajari sejarah dari kota-kota di sekitarmu",
   "cardDestinationTitle": "Destinasi Wisata",
   "cardDestinationDesc": "Jelajahi macam-macam destinasi wisata",
-  "cardCulinaryTitle": "Kuliner dan Kafe",
-  "cardCulinaryDesc": "Rehat sejenak dan nikmati saran tempat kuliner dan kafe",
+  "cardCulinaryTitle": "Kafe dan Kuliner",
+  "cardCulinaryDesc": "Rehat sejenak dan nikmati saran tempat kafe dan kuliner",
 
   "vrImmersiveTitle": "Immersive Experience",
   "vrImmersiveDesc": "Jelajahi tempat bersejarah dalam dunia virtual, untuk pengalaman tak terlupakan",
@@ -49,8 +49,8 @@
 
   "digitalMapTitle": "Peta Digital",
 
-  "culinaryTitle": "Kuliner dan Kafe",
-  "culinarySearchHint": "Kuliner dan Kafe",
+  "culinaryTitle": "Kafe dan Kuliner",
+  "culinarySearchHint": "Cari kafe dan kuliner",
   "culinaryImageFailed": "Gambar gagal dimuat!",
 
   "historyTitle": "Sejarah",

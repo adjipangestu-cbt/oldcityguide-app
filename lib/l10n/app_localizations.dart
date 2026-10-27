@@ -233,13 +233,13 @@ abstract class AppLocalizations {
   /// Culinary card title
   ///
   /// In en, this message translates to:
-  /// **'Culinary & Cafe'**
+  /// **'Cafe & Culinary'**
   String get cardCulinaryTitle;
 
   /// Culinary card description
   ///
   /// In en, this message translates to:
-  /// **'Take a break and enjoy culinary and cafe recommendations'**
+  /// **'Take a break and enjoy cafe and culinary recommendations'**
   String get cardCulinaryDesc;
 
   /// VR banner title
@@ -329,13 +329,13 @@ abstract class AppLocalizations {
   /// Culinary screen title
   ///
   /// In en, this message translates to:
-  /// **'Culinary & Cafe'**
+  /// **'Cafe & Culinary'**
   String get culinaryTitle;
 
   /// Culinary search placeholder
   ///
   /// In en, this message translates to:
-  /// **'Culinary & Cafe'**
+  /// **'Search cafe & culinary'**
   String get culinarySearchHint;
 
   /// Image loading error message

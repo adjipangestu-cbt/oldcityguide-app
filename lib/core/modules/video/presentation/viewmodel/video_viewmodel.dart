@@ -25,10 +25,10 @@ class VideoViewmodel extends ChangeNotifier {
       _originalList = data;
       _applyFilters();
     } on SocketException {
-      _state = Error("Error, no Internet connection!");
+      _state = Error("Tidak ada koneksi internet. Periksa koneksi Anda dan coba lagi.");
       notifyListeners();
     } catch (e) {
-      _state = Error("Unexpected Error: $e");
+      _state = Error("Terjadi kesalahan. Periksa koneksi internet Anda dan coba lagi.");
       notifyListeners();
     }
   }

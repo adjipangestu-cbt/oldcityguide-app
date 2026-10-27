@@ -162,11 +162,20 @@ class _VacationItemState extends State<VacationItem> {
                         imageUrl,
                         width: fullWidth * 0.80,
                         fit: BoxFit.cover,
+                        gaplessPlayback: true,
                       )
                     : Image.network(
                         imageUrl,
                         width: fullWidth * 0.80,
                         fit: BoxFit.cover,
+                        gaplessPlayback: true,
+                        errorBuilder: (context, error, stackTrace) => Container(
+                          width: fullWidth * 0.80,
+                          color: Colors.grey[300],
+                          child: const Center(
+                            child: Icon(Icons.broken_image, size: 50, color: Colors.grey),
+                          ),
+                        ),
                       ),
               );
             },

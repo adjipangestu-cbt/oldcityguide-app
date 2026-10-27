@@ -75,11 +75,11 @@ class AppLocalizationsEn extends AppLocalizations {
   String get cardDestinationDesc => 'Explore a variety of tourist destinations';
 
   @override
-  String get cardCulinaryTitle => 'Culinary & Cafe';
+  String get cardCulinaryTitle => 'Cafe & Culinary';
 
   @override
   String get cardCulinaryDesc =>
-      'Take a break and enjoy culinary and cafe recommendations';
+      'Take a break and enjoy cafe and culinary recommendations';
 
   @override
   String get vrImmersiveTitle => 'Immersive Experience';
@@ -127,10 +127,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get digitalMapTitle => 'Digital Map';
 
   @override
-  String get culinaryTitle => 'Culinary & Cafe';
+  String get culinaryTitle => 'Cafe & Culinary';
 
   @override
-  String get culinarySearchHint => 'Culinary & Cafe';
+  String get culinarySearchHint => 'Search cafe & culinary';
 
   @override
   String get culinaryImageFailed => 'Image failed to load!';

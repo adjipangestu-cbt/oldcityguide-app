@@ -21,6 +21,8 @@ class FoodAndCulinaryScreen extends StatefulWidget {
 }
 
 class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
+  final TextEditingController _searchController = TextEditingController();
+
   @override
   void initState() {
     super.initState();
@@ -39,6 +41,12 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
   }
 
   @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final viewModel = context.read<FoodCulinaryViewmodel>();
     final state = context.watch<FoodCulinaryViewmodel>().state;
@@ -52,6 +60,7 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
         children: [
           // Search bar
           SearchInput(
+            externalController: _searchController,
             onSearch: (keyword) {
               viewModel.search(keyword);
             },
@@ -95,6 +104,7 @@ class _FoodAndCulinaryScreenState extends State<FoodAndCulinaryScreen> {
                             ),
                             checkmarkColor: Colors.white,
                             onSelected: (_) {
+                              _searchController.clear();
                               viewModel.selectCulture(culture);
                             },
                           ),

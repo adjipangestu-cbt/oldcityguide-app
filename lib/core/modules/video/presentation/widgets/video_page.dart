@@ -40,10 +40,11 @@ class _VideoPageState extends State<VideoPage> {
           padding: const EdgeInsets.all(20),
           child: ErrorHandler(message: err, onRetry: () => viewmodel.fetch()),
         ),
-      Success<List<YtVideoDto>>(data: final dto) => Column(
+      Success<List<YtVideoDto>>(data: final dto) => SafeArea(
+          child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(height: 60),
+            const SizedBox(height: 8),
             SearchInput(
               onSearch: (keyword) {
                 viewmodel.searchVideo(keyword);
@@ -71,7 +72,8 @@ class _VideoPageState extends State<VideoPage> {
               ),
             ),
           ],
-        )
+        ),
+      )
     };
   }
 }

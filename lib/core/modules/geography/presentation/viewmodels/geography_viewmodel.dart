@@ -10,7 +10,7 @@ class GeographyViewmodel extends ChangeNotifier {
   ViewState<List<GeographyDto>> _allDestinations = Loading();
   ViewState<List<GeographyDto>> get allDestinations => _allDestinations;
 
-  String _selectedCity = 'Malang';
+  String _selectedCity = 'Lasem';
   String get selectedCity => _selectedCity;
 
   String _locale = 'id';

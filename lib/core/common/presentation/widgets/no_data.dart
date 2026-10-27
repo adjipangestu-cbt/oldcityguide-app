@@ -8,16 +8,21 @@ class NoData extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Image.asset('assets/images/no_data_image.png'),
-        Text(
-          AppLocalizations.of(context)!.noDataMessage,
-          style: AppTypoghrapy.subTitle,
-        ),
-      ],
+    return Center(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Image.asset('assets/images/no_data_image.png'),
+          const SizedBox(height: 8),
+          Text(
+            AppLocalizations.of(context)!.noDataMessage,
+            style: AppTypoghrapy.subTitle,
+            textAlign: TextAlign.center,
+          ),
+        ],
+      ),
     );
   }
 }

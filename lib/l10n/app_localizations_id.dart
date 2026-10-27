@@ -75,11 +75,11 @@ class AppLocalizationsId extends AppLocalizations {
   String get cardDestinationDesc => 'Jelajahi macam-macam destinasi wisata';
 
   @override
-  String get cardCulinaryTitle => 'Kuliner dan Kafe';
+  String get cardCulinaryTitle => 'Kafe dan Kuliner';
 
   @override
   String get cardCulinaryDesc =>
-      'Rehat sejenak dan nikmati saran tempat kuliner dan kafe';
+      'Rehat sejenak dan nikmati saran tempat kafe dan kuliner';
 
   @override
   String get vrImmersiveTitle => 'Immersive Experience';
@@ -127,10 +127,10 @@ class AppLocalizationsId extends AppLocalizations {
   String get digitalMapTitle => 'Peta Digital';
 
   @override
-  String get culinaryTitle => 'Kuliner dan Kafe';
+  String get culinaryTitle => 'Kafe dan Kuliner';
 
   @override
-  String get culinarySearchHint => 'Kuliner dan Kafe';
+  String get culinarySearchHint => 'Cari kafe dan kuliner';
 
   @override
   String get culinaryImageFailed => 'Gambar gagal dimuat!';

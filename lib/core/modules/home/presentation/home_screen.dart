@@ -53,8 +53,16 @@ class _HomeScreenState extends State<HomeScreen> {
     final padding = const EdgeInsets.symmetric(horizontal: 20);
     return Stack(
       children: [
-        Image.asset('assets/images/home_bg.png'),
+        Positioned.fill(
+          child: Image.asset(
+            'assets/images/home_bg.png',
+            fit: BoxFit.cover,
+            width: double.infinity,
+            height: double.infinity,
+          ),
+        ),
         SingleChildScrollView(
+          physics: const ClampingScrollPhysics(),
           child: SafeArea(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -102,7 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       },
                     ).pading(padding),
                   Success<List<GeographyDto>>(data: final dto) => SizedBox(
-                      height: 400,
+                      height: 300,
                       child: ListView.separated(
                         shrinkWrap: true,
                         separatorBuilder: (context, index) => const SizedBox(
@@ -120,7 +128,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         },
                       ),
                     )
-                }
+                },
+                const SizedBox(height: 20),
               ],
             ),
           ),
