@@ -110,7 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       },
                     ).pading(padding),
                   Success<List<GeographyDto>>(data: final dto) => SizedBox(
-                      height: 300,
+                      height: 380,
                       child: ListView.separated(
                         shrinkWrap: true,
                         separatorBuilder: (context, index) => const SizedBox(

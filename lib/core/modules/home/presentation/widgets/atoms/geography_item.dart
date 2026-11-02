@@ -41,12 +41,15 @@ class GeographyItem extends StatelessWidget {
             ],
           ),
         ).pading(padding),
-        SizedBox(height: 18),
-        MapWidget(
-          useMarker: true,
-          latitude: geographyItem.latLng.latitude,
-          longitude: geographyItem.latLng.longitude,
-        ).pading(padding),
+        SizedBox(height: 8),
+        Padding(
+          padding: padding,
+          child: MapWidget(
+            useMarker: true,
+            latitude: geographyItem.latLng.latitude,
+            longitude: geographyItem.latLng.longitude,
+          ),
+        ),
       ],
     );
   }

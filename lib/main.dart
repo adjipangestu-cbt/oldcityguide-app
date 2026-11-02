@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:oldcityguideapp/l10n/app_localizations.dart';
 import 'package:oldcityguideapp/core/common/data/destination_repository_impl.dart';
@@ -19,8 +20,12 @@ import 'package:oldcityguideapp/core/router.dart';
 import 'package:oldcityguideapp/core/modules/kayutangan_heritage/presentation/viewmodels/kayutangan_heritage_viewmodel.dart';
 import 'package:provider/provider.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
   runApp(const App());
 }
 
