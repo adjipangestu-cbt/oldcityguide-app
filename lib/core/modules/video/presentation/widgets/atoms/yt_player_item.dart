@@ -14,14 +14,31 @@ class YtPlayerItem extends StatefulWidget {
 class _YtPlayerItemState extends State<YtPlayerItem> {
   late final YoutubePlayerController controller;
 
+  /// Mengekstrak 11 karakter YouTube Video ID dari berbagai format URL/Shorts
+  static String _cleanVideoId(String raw) {
+    final trimmed = raw.trim();
+    // Sudah berupa ID langsung (11 karakter)
+    if (RegExp(r'^[0-9A-Za-z_-]{11}$').hasMatch(trimmed)) {
+      return trimmed;
+    }
+    // Coba pakai bawaan library
+    final fromLib = YoutubePlayerController.convertUrlToId(trimmed);
+    if (fromLib != null && fromLib.isNotEmpty) return fromLib;
+    // Fallback regex untuk shorts, embed, watch, youtu.be
+    final regex = RegExp(
+      r'(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([0-9A-Za-z_-]{11})',
+    );
+    final match = regex.firstMatch(trimmed);
+    return match?.group(1) ?? trimmed;
+  }
+
   @override
   void initState() {
     super.initState();
-    // Memastikan hanya ID video (11 karakter) yang diambil jika datanya berupa URL utuh
-    final cleanVideoId = YoutubePlayerController.convertUrlToId(widget.urlId) ?? widget.urlId.trim();
+    final cleanId = _cleanVideoId(widget.urlId);
 
     controller = YoutubePlayerController.fromVideoId(
-      videoId: cleanVideoId,
+      videoId: cleanId,
       autoPlay: false,
       params: const YoutubePlayerParams(
         mute: false,
@@ -53,10 +70,13 @@ class _YtPlayerItemState extends State<YtPlayerItem> {
                 Text(widget.title, style: AppTypoghrapy.title, softWrap: true),
           ),
         Flexible(
-          child: YoutubePlayer(
-            controller: controller,
-            aspectRatio: 16 / 9,
-            backgroundColor: Colors.grey,
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(8),
+            child: YoutubePlayer(
+              controller: controller,
+              aspectRatio: 16 / 9,
+              backgroundColor: Colors.black,
+            ),
           ),
         ),
       ],

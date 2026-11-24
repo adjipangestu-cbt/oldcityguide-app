@@ -4,8 +4,8 @@ import 'package:oldcityguideapp/core/common/domain/repositories/destination_repo
 class DestinationRepositoryImpl implements DestinationRepository {
   @override
   Future<List<DestinationsDto>> getDestinations({String languageCode = 'id'}) async {
-    // Kita buat daftar kota statis khusus untuk dropdown (Lasem & Malang)
-    // ID 1 untuk Lasem, ID 2 untuk Malang.
+    // Daftar kota statis untuk dropdown — ID harus sesuai dengan API server
+    // API: Lasem = 1, Malang = 6
     return [
       DestinationsDto(
         id: 1,
@@ -18,7 +18,7 @@ class DestinationRepositoryImpl implements DestinationRepository {
         images: [],
       ),
       DestinationsDto(
-        id: 2,
+        id: 6,
         name: "Malang",
         description: languageCode == 'en' ? "Malang Heritage City" : "Kota Pusaka Malang",
         location: "Malang, Jawa Timur",

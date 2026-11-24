@@ -36,9 +36,13 @@ class _VideoPageState extends State<VideoPage> {
       Loading<List<YtVideoDto>>() => Center(
           child: CircularProgressIndicator(),
         ),
-      Error<List<YtVideoDto>>(message: final err) => Padding(
-          padding: const EdgeInsets.all(20),
-          child: ErrorHandler(message: err, onRetry: () => viewmodel.fetch()),
+      Error<List<YtVideoDto>>(message: final err) => SafeArea(
+          child: Center(
+            child: Padding(
+              padding: const EdgeInsets.all(20),
+              child: ErrorHandler(message: err, onRetry: () => viewmodel.fetch()),
+            ),
+          ),
         ),
       Success<List<YtVideoDto>>(data: final dto) => SafeArea(
           child: Column(
